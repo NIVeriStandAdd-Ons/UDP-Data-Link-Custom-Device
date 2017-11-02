@@ -104,7 +104,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Load Help File.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
+			<Item Name="Load Help File.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2015/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

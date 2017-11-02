@@ -7,7 +7,7 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Action VIs" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Action VIs/ActionVIOnCompile.vi"/>
-				<Item Name="UDP Data Link - Action VIs - ActionVIOnDelete.vi" Type="VI" URL="../Action VIs/UDP Data Link - Action VIs - ActionVIOnDelete.vi"/>
+				<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../Action VIs/ActionVIOnDelete.vi"/>
 				<Item Name="UDP Data Link - Action VIs - ActionVIOnSave.vi" Type="VI" URL="../Action VIs/UDP Data Link - Action VIs - ActionVIOnSave.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
