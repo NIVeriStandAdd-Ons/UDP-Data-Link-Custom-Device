@@ -12,6 +12,7 @@
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Extra Pages" Type="Folder">
+					<Item Name="New Rx Section Page.vi" Type="VI" URL="../Pages/New Rx Section Page.vi"/>
 					<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
 					<Item Name="Rx Section Page.vi" Type="VI" URL="../Pages/Rx Section Page.vi"/>
 					<Item Name="Status Section Page.vi" Type="VI" URL="../Pages/Status Section Page.vi"/>
