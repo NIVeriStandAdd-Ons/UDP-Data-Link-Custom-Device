@@ -12,16 +12,19 @@
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Extra Pages" Type="Folder">
-					<Item Name="New Rx Section Page.vi" Type="VI" URL="../Pages/New Rx Section Page.vi"/>
 					<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
+					<Item Name="Rx Packet Page.vi" Type="VI" URL="../Pages/Rx Packet Page.vi"/>
 					<Item Name="Rx Section Page.vi" Type="VI" URL="../Pages/Rx Section Page.vi"/>
 					<Item Name="Status Section Page.vi" Type="VI" URL="../Pages/Status Section Page.vi"/>
+					<Item Name="Tx Packet Page.vi" Type="VI" URL="../Pages/Tx Packet Page.vi"/>
 					<Item Name="Tx Section Page.vi" Type="VI" URL="../Pages/Tx Section Page.vi"/>
 				</Item>
 				<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../RTMs/Export Configuration RTM.vi"/>
+				<Item Name="RTM - Add Packet.vi" Type="VI" URL="../RTMs/RTM - Add Packet.vi"/>
+				<Item Name="RTM - Remove Packet.vi" Type="VI" URL="../RTMs/RTM - Remove Packet.vi"/>
 				<Item Name="UDP Data Link - RTMs - Add Channels Updated.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels Updated.vi"/>
 				<Item Name="UDP Data Link - RTMs - Add Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels.vi"/>
 				<Item Name="UDP Data Link - RTMs - Export to XML.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Export to XML.vi"/>
@@ -33,6 +36,8 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Configuration Utilities" Type="Folder">
+				<Item Name="ConfigUtilities - Initialize Rx Packet Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Rx Packet Page Panel.vi"/>
+				<Item Name="ConfigUtilities - Initialize Rx Section Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Rx Section Page Panel.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Add Channel.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Add Channel.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Add System Mapping.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Add System Mapping.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Clear Listbox Delete Indices.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Clear Listbox Delete Indices.vi"/>
@@ -76,10 +81,12 @@
 			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="TypeDef - Rx Packets Page References.ctl" Type="VI" URL="../Types/TypeDef - Rx Packets Page References.ctl"/>
+			<Item Name="TypeDef - Rx Section Page References.ctl" Type="VI" URL="../Types/TypeDef - Rx Section Page References.ctl"/>
+			<Item Name="TypeDef - Tx Packets Page References.ctl" Type="VI" URL="../Types/TypeDef - Tx Packets Page References.ctl"/>
+			<Item Name="TypeDef - Tx Section Page References.ctl" Type="VI" URL="../Types/TypeDef - Tx Section Page References.ctl"/>
 			<Item Name="UDP Data Link - TypeDefs - Main Page References.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - Main Page References.ctl"/>
-			<Item Name="UDP Data Link - TypeDefs - Rx Channels Section Page References.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - Rx Channels Section Page References.ctl"/>
 			<Item Name="UDP Data Link - TypeDefs - Section Info.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - Section Info.ctl"/>
-			<Item Name="UDP Data Link - TypeDefs - Tx Channels Section Page References.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - Tx Channels Section Page References.ctl"/>
 			<Item Name="UDP Data Link - TypeDefs - XML Channel.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - XML Channel.ctl"/>
 			<Item Name="UDP Data Link - TypeDefs - XML Group.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - XML Group.ctl"/>
 			<Item Name="UDP Data Link - TypeDefs - XML Header Data.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - XML Header Data.ctl"/>

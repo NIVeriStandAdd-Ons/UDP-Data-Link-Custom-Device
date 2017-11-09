@@ -144,7 +144,103 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\New Rx Section Page.vi</Path>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Rx Section Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>ad083296-77ea-41da-91a5-64268916105a</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Packet</eng>
+						<loc>Add Packet</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Packet.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>346940a9-1048-4c20-9562-af4bba16e636</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_UDP_Rx_AddPacket</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Procedures.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>ad083296-77ea-41da-91a5-64268916105a</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Packet(s)</eng>
+						<loc>Add Packet(s)</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Packet(s)</eng>
+						<loc>Add Packet(s)</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Packet(s)</eng>
+						<loc>Add Packet(s)</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_UDP_Rx_RemovePackets</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\EditDelete.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>346940a9-1048-4c20-9562-af4bba16e636</ReferencedGUID>
+					<ButtonText>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Rx Packet Page</eng>
+				<loc>Rx Packet Page</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>fe00aa1c-0d2c-4749-801e-e5de1d827245</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ai.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Rx Packet Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -156,7 +252,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Add Channels Updated.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Add Channels Updated.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -168,11 +264,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Remove Channels.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels.vi</Path>
 					</Item2Launch>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
@@ -229,7 +325,7 @@
 					</Documentation>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</Button>
@@ -271,6 +367,102 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
+					<GUID>92cecc98-59fe-421e-b292-1ac1a1e86434</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Packet(s)</eng>
+						<loc>Add Packet(s)</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Packet.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>d100fb3b-4693-4e75-a071-1f9383acb0bd</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_UDP_Tx_AddPackets</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Add Procedures.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>92cecc98-59fe-421e-b292-1ac1a1e86434</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Packet(s)</eng>
+						<loc>Add Packet(s)</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Packet(s)</eng>
+						<loc>Add Packet(s)</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Packet(s)</eng>
+						<loc>Add Packet(s)</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>NIVS_UDP_Tx_RemovePackets</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\EditDelete.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>d100fb3b-4693-4e75-a071-1f9383acb0bd</ReferencedGUID>
+					<ButtonText>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Remove Packet(s)</eng>
+						<loc>Remove Packet(s)</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Tx Packet Page</eng>
+				<loc>Tx Packet Page</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>af86c4de-d36a-4f1e-b637-4db21d1b2000</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ao.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Tx Packet Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
 					<GUID>732b2ce8-ea88-4905-a0f6-eb0c1c207d7c</GUID>
 					<Type>Action</Type>
 					<Name>
@@ -279,7 +471,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Add Channels Updated.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Add Channels Updated.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -291,11 +483,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Remove Channels.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels.vi</Path>
 					</Item2Launch>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
@@ -352,7 +544,7 @@
 					</Documentation>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP Data Link\UDP Data Link Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</Button>
