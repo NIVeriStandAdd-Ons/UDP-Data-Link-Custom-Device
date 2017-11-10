@@ -36,6 +36,8 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Configuration Utilities" Type="Folder">
+				<Item Name="ConfigUtilities - Get Rx Packet Information.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Rx Packet Information.vi"/>
+				<Item Name="ConfigUtilities - Get Tx Packet Information.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Tx Packet Information.vi"/>
 				<Item Name="ConfigUtilities - Initialize Rx Packet Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Rx Packet Page Panel.vi"/>
 				<Item Name="ConfigUtilities - Initialize Rx Section Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Rx Section Page Panel.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Add Channel.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Add Channel.vi"/>
@@ -59,7 +61,6 @@
 				<Item Name="UDP Data Link - Configuration Utilities - Initialize Device Properties.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Initialize Device Properties.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Initialize Device Sections and Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Initialize Device Sections and Channels.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Initialize Main Page Panel.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Initialize Main Page Panel.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Initialize Rx Channels Section Page Panel.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Initialize Rx Channels Section Page Panel.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Read from XML.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Read from XML.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Remove Old Rx Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Remove Old Rx Channels.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Remove Old Tx Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Remove Old Tx Channels.vi"/>
