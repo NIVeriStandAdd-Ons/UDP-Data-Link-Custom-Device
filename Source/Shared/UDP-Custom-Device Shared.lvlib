@@ -6,6 +6,7 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
+			<Item Name="DataTypes.ctl" Type="VI" URL="../DataTypes.ctl"/>
 			<Item Name="Rx.PacketInfo.ctl" Type="VI" URL="../Rx.PacketInfo.ctl"/>
 			<Item Name="Tx.PacketInfo.ctl" Type="VI" URL="../Tx.PacketInfo.ctl"/>
 		</Item>

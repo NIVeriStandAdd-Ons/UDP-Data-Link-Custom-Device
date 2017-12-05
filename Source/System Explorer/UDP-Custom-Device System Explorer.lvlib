@@ -35,46 +35,67 @@
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="API" Type="Folder">
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="API - Add Rx Channels.vi" Type="VI" URL="../API/API - Add Rx Channels.vi"/>
+					<Item Name="API - Add Rx Packet.vi" Type="VI" URL="../API/API - Add Rx Packet.vi"/>
+					<Item Name="API - Add System Mappings.vi" Type="VI" URL="../API/API - Add System Mappings.vi"/>
+					<Item Name="API - Add Tx Packet.vi" Type="VI" URL="../API/API - Add Tx Packet.vi"/>
+					<Item Name="API - Delete Conflicting Mappings.vi" Type="VI" URL="../API/API - Delete Conflicting Mappings.vi"/>
+					<Item Name="API - Set Rx Packet Properties.vi" Type="VI" URL="../API/API - Set Rx Packet Properties.vi"/>
+				</Item>
+				<Item Name="API - Create Rx Section.vi" Type="VI" URL="../API/API - Create Rx Section.vi"/>
+				<Item Name="API - Create Tx Section.vi" Type="VI" URL="../API/API - Create Tx Section.vi"/>
+			</Item>
 			<Item Name="Configuration Utilities" Type="Folder">
+				<Item Name="CSV" Type="Folder"/>
+				<Item Name="Init" Type="Folder">
+					<Item Name="ConfigUtilities - Init Rx Packet Page.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Init Rx Packet Page.vi"/>
+					<Item Name="ConfigUtilities - Init Tx Packet Page.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Init Tx Packet Page.vi"/>
+					<Item Name="ConfigUtilities - Initialize Device Properties.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Device Properties.vi"/>
+					<Item Name="ConfigUtilities - Initialize Device Sections and Channels.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Device Sections and Channels.vi"/>
+					<Item Name="ConfigUtilities - Initialize Main Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Main Page Panel.vi"/>
+					<Item Name="ConfigUtilities - Initialize Packet Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Packet Page Panel.vi"/>
+					<Item Name="ConfigUtilities - Initialize Section Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Section Page Panel.vi"/>
+				</Item>
+				<Item Name="Poss Delete" Type="Folder">
+					<Item Name="Del - ConfigUtilities - Remove Old Rx Channels.vi" Type="VI" URL="../Configuration Utilities/Del - ConfigUtilities - Remove Old Rx Channels.vi"/>
+					<Item Name="Del - UDP Data Link - Configuration Utilities - Evaluate Rx Imported Channels.vi" Type="VI" URL="../Configuration Utilities/Del - UDP Data Link - Configuration Utilities - Evaluate Rx Imported Channels.vi"/>
+					<Item Name="Del - UDP Data Link - Configuration Utilities - Get Channels Groups Information.vi" Type="VI" URL="../Configuration Utilities/Del - UDP Data Link - Configuration Utilities - Get Channels Groups Information.vi"/>
+					<Item Name="Del - UDP Data Link - Configuration Utilities - Remove Old Tx Channels.vi" Type="VI" URL="../Configuration Utilities/Del - UDP Data Link - Configuration Utilities - Remove Old Tx Channels.vi"/>
+					<Item Name="Del - UDP Data Link - Configuration Utilities - Set Tx Remove Channel Button.vi" Type="VI" URL="../Configuration Utilities/Del - UDP Data Link - Configuration Utilities - Set Tx Remove Channel Button.vi"/>
+				</Item>
+				<Item Name="XML" Type="Folder">
+					<Item Name="UDP Data Link - Configuration Utilities - Get Channel Info from XML.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Channel Info from XML.vi"/>
+					<Item Name="UDP Data Link - Configuration Utilities - Get Channel XML String.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Channel XML String.vi"/>
+					<Item Name="UDP Data Link - Configuration Utilities - Read from XML.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Read from XML.vi"/>
+					<Item Name="UDP Data Link - Configuration Utilities - Save to XML.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Save to XML.vi"/>
+				</Item>
+				<Item Name="ConfigUtilities - Add Channel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Add Channel.vi"/>
+				<Item Name="ConfigUtilities - Add System Mapping.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Add System Mapping.vi"/>
+				<Item Name="ConfigUtilities - Clear Listbox Delete Indices.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Clear Listbox Delete Indices.vi"/>
+				<Item Name="ConfigUtilities - Get Disable and Symbols.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Disable and Symbols.vi"/>
+				<Item Name="ConfigUtilities - Get Items Names.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Items Names.vi"/>
+				<Item Name="ConfigUtilities - Get Local IP Address State.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Local IP Address State.vi"/>
 				<Item Name="ConfigUtilities - Get Rx Packet Information.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Rx Packet Information.vi"/>
+				<Item Name="ConfigUtilities - Get Symbols.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Symbols.vi"/>
+				<Item Name="ConfigUtilities - Get System Mappings.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get System Mappings.vi"/>
+				<Item Name="ConfigUtilities - Get Target IP.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Target IP.vi"/>
 				<Item Name="ConfigUtilities - Get Tx Packet Information.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Tx Packet Information.vi"/>
-				<Item Name="ConfigUtilities - Initialize Rx Packet Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Rx Packet Page Panel.vi"/>
-				<Item Name="ConfigUtilities - Initialize Rx Section Page Panel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Initialize Rx Section Page Panel.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Add Channel.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Add Channel.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Add System Mapping.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Add System Mapping.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Clear Listbox Delete Indices.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Clear Listbox Delete Indices.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Evaluate Rx Imported Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Evaluate Rx Imported Channels.vi"/>
+				<Item Name="ConfigUtilities - Remove System Mapping.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Remove System Mapping.vi"/>
+				<Item Name="ConfigUtilities - Set Rx Channels.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Set Rx Channels.vi"/>
+				<Item Name="ConfigUtilities - Set Time Stamp.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Set Time Stamp.vi"/>
+				<Item Name="ConfigUtilities - Tx or Rx.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Tx or Rx.vi"/>
+				<Item Name="ConfigUtilities - Update Mappings.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Update Mappings.vi"/>
+				<Item Name="ConfigUtilities - Update Properties.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Update Properties.vi"/>
+				<Item Name="ConfigUtilities - Update Selected Channels.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Update Selected Channels.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Evaluate Tx Imported Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Evaluate Tx Imported Channels.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Channel Info from XML.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Channel Info from XML.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Channel XML String.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Channel XML String.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Channels Groups Information.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Channels Groups Information.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Disable and Symbols.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Disable and Symbols.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Get General Settings.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get General Settings.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Get Groups Content.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Groups Content.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Items Names.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Items Names.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Local IP Address State.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Local IP Address State.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Get Rx Channels Groups Information.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Rx Channels Groups Information.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Symbols.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Symbols.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get System Mappings.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get System Mappings.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Get Target IP.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Target IP.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Get Tx Channels Groups Information.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Get Tx Channels Groups Information.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Initialize Device Properties.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Initialize Device Properties.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Initialize Device Sections and Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Initialize Device Sections and Channels.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Initialize Main Page Panel.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Initialize Main Page Panel.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Read from XML.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Read from XML.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Remove Old Rx Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Remove Old Rx Channels.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Remove Old Tx Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Remove Old Tx Channels.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Remove System Mapping.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Remove System Mapping.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Save to XML.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Save to XML.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Set Configuration File.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Set Configuration File.vi"/>
 				<Item Name="UDP Data Link - Configuration Utilities - Set Local IP Address State.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Set Local IP Address State.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Set Rx Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Set Rx Channels.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Set Time Stamp.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Set Time Stamp.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Set Tx Remove Channel Button.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Set Tx Remove Channel Button.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Tx or Rx.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Tx or Rx.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Update Mappings.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Update Mappings.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Update Properties.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Update Properties.vi"/>
-				<Item Name="UDP Data Link - Configuration Utilities - Update Selected Channels.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Update Selected Channels.vi"/>
 			</Item>
 			<Item Name="Dialogs" Type="Folder">
 				<Item Name="UDP Data Link - Dialogs - Import Channel Paths Invalid.vi" Type="VI" URL="../Dialogs/UDP Data Link - Dialogs - Import Channel Paths Invalid.vi"/>
@@ -82,8 +103,11 @@
 			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="TypeDef - Channel Data.ctl" Type="VI" URL="../TypeDef - Channel Data.ctl"/>
+			<Item Name="TypeDef - Rx Packet Data.ctl" Type="VI" URL="../Types/TypeDef - Rx Packet Data.ctl"/>
 			<Item Name="TypeDef - Rx Packets Page References.ctl" Type="VI" URL="../Types/TypeDef - Rx Packets Page References.ctl"/>
 			<Item Name="TypeDef - Rx Section Page References.ctl" Type="VI" URL="../Types/TypeDef - Rx Section Page References.ctl"/>
+			<Item Name="TypeDef - Tx Packet Data.ctl" Type="VI" URL="../Types/TypeDef - Tx Packet Data.ctl"/>
 			<Item Name="TypeDef - Tx Packets Page References.ctl" Type="VI" URL="../Types/TypeDef - Tx Packets Page References.ctl"/>
 			<Item Name="TypeDef - Tx Section Page References.ctl" Type="VI" URL="../Types/TypeDef - Tx Section Page References.ctl"/>
 			<Item Name="UDP Data Link - TypeDefs - Main Page References.ctl" Type="VI" URL="../Types/UDP Data Link - TypeDefs - Main Page References.ctl"/>

@@ -140,7 +140,7 @@
 			<GUID>e4cf9946-87d0-45cb-83bc-815ce28b6d77</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ai.png</Path>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -170,6 +170,11 @@
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet.vi</Path>
 					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTMs - Remove Packets Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
 				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
@@ -272,6 +277,52 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
+				<MenuItem>
+					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>1b57c108-f479-4b27-8f09-b6973f8fda11</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Diagnostic Channels</eng>
+						<loc>Add Diagnostic Channels</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Diagnostic Channels.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Diagnostic Channels Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
+				<MenuItem>
+					<GUID>17b44a1d-3464-4965-a1fe-9adf9b251083</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Remove Diagnostic Channels</eng>
+						<loc>Remove Diagnostic Channels</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Diagnostic Channels.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Diagnostic Channels Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
@@ -359,7 +410,7 @@
 			<GUID>83990986-7c5f-4a4f-9521-e5ef95a941a7</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\ao.png</Path>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -389,6 +440,11 @@
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet.vi</Path>
 					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packets Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
 				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
@@ -491,6 +547,52 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
+				<MenuItem>
+					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>1b57c108-f479-4b27-8f09-b6973f8fda11</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Diagnostic Channels</eng>
+						<loc>Add Diagnostic Channels</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Diagnostic Channels.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Diagnostic Channels Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
+				<MenuItem>
+					<GUID>17b44a1d-3464-4965-a1fe-9adf9b251083</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Remove Diagnostic Channels</eng>
+						<loc>Remove Diagnostic Channels</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Diagnostic Channels.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Diagnostic Channels Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
@@ -552,8 +654,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Status Section Page</eng>
-				<loc>Status Section Page</loc>
+				<eng>Diagnostics Section Page</eng>
+				<loc>Diagnostics Section Page</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
@@ -561,7 +663,7 @@
 			<GUID>4fe98813-0d2f-43b7-911c-1a5a6e2d5286</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\system variable.png</Path>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -570,8 +672,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Status Channel Page</eng>
-				<loc>Status Channel Page</loc>
+				<eng>Diagnostics Channel Page</eng>
+				<loc>Diagnostics Channel Page</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
