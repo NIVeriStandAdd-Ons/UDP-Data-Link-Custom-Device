@@ -23,7 +23,12 @@
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../RTMs/Export Configuration RTM.vi"/>
+				<Item Name="RTM - Add Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels Dependency.vi"/>
+				<Item Name="RTM - Add Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels.vi"/>
 				<Item Name="RTM - Add Packet.vi" Type="VI" URL="../RTMs/RTM - Add Packet.vi"/>
+				<Item Name="RTM - Remove Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels Dependency.vi"/>
+				<Item Name="RTM - Remove Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels.vi"/>
+				<Item Name="RTM - Remove Packet Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Packet Dependency.vi"/>
 				<Item Name="RTM - Remove Packet.vi" Type="VI" URL="../RTMs/RTM - Remove Packet.vi"/>
 				<Item Name="UDP Data Link - RTMs - Add Channels Updated.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels Updated.vi"/>
 				<Item Name="UDP Data Link - RTMs - Add Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels.vi"/>
@@ -74,6 +79,7 @@
 				<Item Name="ConfigUtilities - Add Channel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Add Channel.vi"/>
 				<Item Name="ConfigUtilities - Add System Mapping.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Add System Mapping.vi"/>
 				<Item Name="ConfigUtilities - Clear Listbox Delete Indices.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Clear Listbox Delete Indices.vi"/>
+				<Item Name="ConfigUtilities - Configure Packet Header.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Configure Packet Header.vi"/>
 				<Item Name="ConfigUtilities - Get Disable and Symbols.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Disable and Symbols.vi"/>
 				<Item Name="ConfigUtilities - Get Items Names.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Items Names.vi"/>
 				<Item Name="ConfigUtilities - Get Local IP Address State.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Local IP Address State.vi"/>
@@ -82,6 +88,7 @@
 				<Item Name="ConfigUtilities - Get System Mappings.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get System Mappings.vi"/>
 				<Item Name="ConfigUtilities - Get Target IP.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Target IP.vi"/>
 				<Item Name="ConfigUtilities - Get Tx Packet Information.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Tx Packet Information.vi"/>
+				<Item Name="ConfigUtilities - Header Array to Strings.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Header Array to Strings.vi"/>
 				<Item Name="ConfigUtilities - Remove System Mapping.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Remove System Mapping.vi"/>
 				<Item Name="ConfigUtilities - Set Rx Channels.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Set Rx Channels.vi"/>
 				<Item Name="ConfigUtilities - Set Time Stamp.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Set Time Stamp.vi"/>
@@ -101,6 +108,7 @@
 				<Item Name="UDP Data Link - Dialogs - Import Channel Paths Invalid.vi" Type="VI" URL="../Dialogs/UDP Data Link - Dialogs - Import Channel Paths Invalid.vi"/>
 				<Item Name="UDP Data Link - Dialogs - Select Channel Dialog.vi" Type="VI" URL="../Dialogs/UDP Data Link - Dialogs - Select Channel Dialog.vi"/>
 			</Item>
+			<Item Name="Debug - Show CompiledData.vi" Type="VI" URL="../Configuration Utilities/Debug - Show CompiledData.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="TypeDef - Channel Data.ctl" Type="VI" URL="../TypeDef - Channel Data.ctl"/>

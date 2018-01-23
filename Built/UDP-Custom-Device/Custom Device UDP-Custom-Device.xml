@@ -172,7 +172,7 @@
 					</Item2Launch>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTMs - Remove Packets Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
@@ -227,6 +227,11 @@
 						<eng />
 						<loc />
 					</Documentation>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
 				</Button>
 			</ButtonList>
 		</Page>
@@ -442,7 +447,7 @@
 					</Item2Launch>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packets Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
@@ -497,6 +502,11 @@
 						<eng />
 						<loc />
 					</Documentation>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Packet Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
 				</Button>
 			</ButtonList>
 		</Page>
