@@ -108,6 +108,7 @@
 				<Item Name="UDP Data Link - Dialogs - Import Channel Paths Invalid.vi" Type="VI" URL="../Dialogs/UDP Data Link - Dialogs - Import Channel Paths Invalid.vi"/>
 				<Item Name="UDP Data Link - Dialogs - Select Channel Dialog.vi" Type="VI" URL="../Dialogs/UDP Data Link - Dialogs - Select Channel Dialog.vi"/>
 			</Item>
+			<Item Name="ConfigUtilities - Lookup CMH Path.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Lookup CMH Path.vi"/>
 			<Item Name="Debug - Show CompiledData.vi" Type="VI" URL="../Configuration Utilities/Debug - Show CompiledData.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
