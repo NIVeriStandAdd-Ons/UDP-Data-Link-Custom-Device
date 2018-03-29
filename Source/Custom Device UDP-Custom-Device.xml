@@ -274,13 +274,8 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Unbound Channels.vi</Path>
 					</Item2Launch>
-					<Dependency>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
-						<Behavior>Dynamic</Behavior>
-					</Dependency>
 				</MenuItem>
 				<MenuItem>
 					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
@@ -379,11 +374,6 @@
 						<eng />
 						<loc />
 					</Documentation>
-					<Dependency>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
-						<Behavior>Dynamic</Behavior>
-					</Dependency>
 				</Button>
 			</ButtonList>
 		</Page>
