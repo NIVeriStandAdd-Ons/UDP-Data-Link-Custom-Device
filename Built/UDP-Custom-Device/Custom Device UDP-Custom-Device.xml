@@ -262,7 +262,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Add Channels Updated.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Add Unbound Channels.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
