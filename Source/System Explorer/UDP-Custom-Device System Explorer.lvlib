@@ -54,6 +54,7 @@
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Rx Local Channel Update" Type="Folder">
 					<Item Name="UDP Data Link - RTMs - Add Unbound Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Unbound Channels.vi"/>
+					<Item Name="UDP Data Link - RTMs - Remove Unbound Channels Dependency.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Unbound Channels Dependency.vi"/>
 					<Item Name="UDP Data Link - RTMs - Remove Unbound Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Unbound Channels.vi"/>
 				</Item>
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../RTMs/Export Configuration RTM.vi"/>
@@ -72,6 +73,25 @@
 				<Item Name="UDP Data Link - RTMs - Remove Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
+		</Item>
+		<Item Name="Property Accessors" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Rx Channel" Type="Folder">
+				<Item Name="Data Type" Type="Folder">
+					<Item Name="Read Data Type.vi" Type="VI" URL="../Property Accessors/Rx Channel/Read Data Type.vi"/>
+					<Item Name="Write Data Type.vi" Type="VI" URL="../Property Accessors/Rx Channel/Write Data Type.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Rx Packet" Type="Folder">
+				<Item Name="Selected Channels" Type="Folder">
+					<Item Name="Read Selected Channels.vi" Type="VI" URL="../Property Accessors/Rx Packet/Read Selected Channels.vi"/>
+					<Item Name="Write Selected Channels.vi" Type="VI" URL="../Property Accessors/Rx Packet/Write Selected Channels.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Template" Type="Folder">
+				<Item Name="Write Property.vi" Type="VI" URL="../Property Accessors/Template/Write Property.vi"/>
+				<Item Name="Read Property.vi" Type="VI" URL="../Property Accessors/Template/Read Property.vi"/>
+			</Item>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="API" Type="Folder">
