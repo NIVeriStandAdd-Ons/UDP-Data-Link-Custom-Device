@@ -702,6 +702,75 @@
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Status Section Page.vi</Path>
 			</Item2Launch>
 		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Configuration</eng>
+				<loc>Channel Configuration</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>d07b28d3-a93a-42af-82ec-413131de3387</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\file.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Channel Config Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>c6628006-2c41-4618-9061-c84e9f8f3bb9</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Rx Configuration.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Rx Configuration Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_UDPDataLink_Rx_ApplyConfig</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Refresh.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>c6628006-2c41-4618-9061-c84e9f8f3bb9</ReferencedGUID>
+					<ButtonText>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Rx Configuration Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</Button>
+			</ButtonList>
+		</Page>
 	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>
