@@ -38,7 +38,7 @@
 			<Item Name="Action VIs" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Action VIs/ActionVIOnCompile.vi"/>
 				<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../Action VIs/ActionVIOnDelete.vi"/>
-				<Item Name="UDP Data Link - Action VIs - ActionVIOnSave.vi" Type="VI" URL="../Action VIs/UDP Data Link - Action VIs - ActionVIOnSave.vi"/>
+				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Action VIs/ActionVIOnSave.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Extra Pages" Type="Folder">
@@ -52,25 +52,33 @@
 				<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="Rx Local Channel Update" Type="Folder">
-					<Item Name="UDP Data Link - RTMs - Add Unbound Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Unbound Channels.vi"/>
-					<Item Name="UDP Data Link - RTMs - Remove Unbound Channels Dependency.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Unbound Channels Dependency.vi"/>
-					<Item Name="UDP Data Link - RTMs - Remove Unbound Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Unbound Channels.vi"/>
+				<Item Name="Channels" Type="Folder">
+					<Item Name="Rx Local Channel Update" Type="Folder">
+						<Item Name="RTM - Add Unbound Channels.vi" Type="VI" URL="../RTMs/RTM - Add Unbound Channels.vi"/>
+						<Item Name="RTM - Remove Unbound Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Unbound Channels Dependency.vi"/>
+						<Item Name="RTM - Remove Unbound Channels.vi" Type="VI" URL="../RTMs/RTM - Remove Unbound Channels.vi"/>
+					</Item>
+					<Item Name="UDP Data Link - RTMs - Add Channels Updated.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels Updated.vi"/>
+					<Item Name="UDP Data Link - RTMs - Add Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels.vi"/>
+					<Item Name="UDP Data Link - RTMs - Remove Channels Dependency.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels Dependency.vi"/>
+					<Item Name="UDP Data Link - RTMs - Remove Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels.vi"/>
+				</Item>
+				<Item Name="Diagnostics" Type="Folder">
+					<Item Name="RTM - Add Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels Dependency.vi"/>
+					<Item Name="RTM - Add Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels.vi"/>
+					<Item Name="RTM - Remove Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels Dependency.vi"/>
+					<Item Name="RTM - Remove Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels.vi"/>
+				</Item>
+				<Item Name="Main" Type="Folder">
+					<Item Name="UDP Data Link - RTMs - Export to XML.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Export to XML.vi"/>
+					<Item Name="UDP Data Link - RTMs - Import from XML.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Import from XML.vi"/>
+				</Item>
+				<Item Name="Packets" Type="Folder">
+					<Item Name="RTM - Add Packet.vi" Type="VI" URL="../RTMs/RTM - Add Packet.vi"/>
+					<Item Name="RTM - Remove Packet Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Packet Dependency.vi"/>
+					<Item Name="RTM - Remove Packet.vi" Type="VI" URL="../RTMs/RTM - Remove Packet.vi"/>
 				</Item>
 				<Item Name="Export Configuration RTM.vi" Type="VI" URL="../RTMs/Export Configuration RTM.vi"/>
-				<Item Name="RTM - Add Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels Dependency.vi"/>
-				<Item Name="RTM - Add Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels.vi"/>
-				<Item Name="RTM - Add Packet.vi" Type="VI" URL="../RTMs/RTM - Add Packet.vi"/>
-				<Item Name="RTM - Remove Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels Dependency.vi"/>
-				<Item Name="RTM - Remove Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels.vi"/>
-				<Item Name="RTM - Remove Packet Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Packet Dependency.vi"/>
-				<Item Name="RTM - Remove Packet.vi" Type="VI" URL="../RTMs/RTM - Remove Packet.vi"/>
-				<Item Name="UDP Data Link - RTMs - Add Channels Updated.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels Updated.vi"/>
-				<Item Name="UDP Data Link - RTMs - Add Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels.vi"/>
-				<Item Name="UDP Data Link - RTMs - Export to XML.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Export to XML.vi"/>
-				<Item Name="UDP Data Link - RTMs - Import from XML.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Import from XML.vi"/>
-				<Item Name="UDP Data Link - RTMs - Remove Channels Dependency.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels Dependency.vi"/>
-				<Item Name="UDP Data Link - RTMs - Remove Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 		</Item>
