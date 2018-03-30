@@ -240,7 +240,7 @@
 				<eng>Rx Packet Page</eng>
 				<loc>Rx Packet Page</loc>
 			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
+			<DisallowRenaming>false</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>fe00aa1c-0d2c-4749-801e-e5de1d827245</GUID>
@@ -262,11 +262,12 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Add Unbound Channels.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Unbound Channels.vi</Path>
 					</Item2Launch>
 				</MenuItem>
+<!--
 				<MenuItem>
-					<GUID>f884f9c2-65b4-4369-9a44-6e89521d65dc</GUID>
+					<GUID>dec96e15-7a09-4d9c-9a7c-4429dad53fd3</GUID>
 					<Type>Action</Type>
 					<Name>
 						<eng>Remove Channel(s)</eng>
@@ -274,7 +275,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Unbound Channels.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Unbound Channels.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -323,6 +324,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
+-->
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
@@ -350,6 +352,7 @@
 						<loc />
 					</Documentation>
 				</Button>
+<!--
 				<Button>
 					<ID>NIVS_UDPDataLink_Rx_RemoveChannels</ID>
 					<Glyph>
@@ -357,7 +360,7 @@
 						<Path>System Explorer\Glyphs\EditDelete.png</Path>
 					</Glyph>
 					<Type>Action</Type>
-					<ReferencedGUID>f884f9c2-65b4-4369-9a44-6e89521d65dc</ReferencedGUID>
+					<ReferencedGUID>dec96e15-7a09-4d9c-9a7c-4429dad53fd3</ReferencedGUID>
 					<ButtonText>
 						<eng>Remove Channel(s)</eng>
 						<loc>Remove Channel(s)</loc>
@@ -375,6 +378,7 @@
 						<loc />
 					</Documentation>
 				</Button>
+-->
 			</ButtonList>
 		</Page>
 		<Page>
@@ -382,7 +386,7 @@
 				<eng>Rx Channel Page</eng>
 				<loc>Rx Channel Page</loc>
 			</Name>
-			<DeleteProtection>true</DeleteProtection>
+			<DeleteProtection>false</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>8ede79f1-e06f-41dd-88ab-5074f11d4bb7</GUID>
 			<Glyph>
@@ -505,8 +509,8 @@
 				<eng>Tx Packet Page</eng>
 				<loc>Tx Packet Page</loc>
 			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
+			<DisallowRenaming>false</DisallowRenaming>
+			<DeleteProtection>false</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>af86c4de-d36a-4f1e-b637-4db21d1b2000</GUID>
 			<Glyph>
@@ -547,6 +551,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
+<!--
 				<MenuItem>
 					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
 					<Type>Separator</Type>
@@ -593,6 +598,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
+-->
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
