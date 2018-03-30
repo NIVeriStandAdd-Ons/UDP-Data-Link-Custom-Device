@@ -106,6 +106,7 @@
 				<Item Name="SubVIs" Type="Folder">
 					<Item Name="Rx Local Channel Update" Type="Folder">
 						<Item Name="API - Get Rx Channels.vi" Type="VI" URL="../API/API - Get Rx Channels.vi"/>
+						<Item Name="API - Remove Rx Channels.vi" Type="VI" URL="../API/API - Remove Rx Channels.vi"/>
 					</Item>
 					<Item Name="API - Add Rx Channels.vi" Type="VI" URL="../API/API - Add Rx Channels.vi"/>
 					<Item Name="API - Add Rx Packet.vi" Type="VI" URL="../API/API - Add Rx Packet.vi"/>

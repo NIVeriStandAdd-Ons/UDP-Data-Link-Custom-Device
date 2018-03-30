@@ -241,7 +241,7 @@
 				<loc>Rx Packet Page</loc>
 			</Name>
 			<DisallowRenaming>false</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
+			<DeleteProtection>false</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>fe00aa1c-0d2c-4749-801e-e5de1d827245</GUID>
 			<Glyph>
@@ -265,7 +265,6 @@
 						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Unbound Channels.vi</Path>
 					</Item2Launch>
 				</MenuItem>
-<!--
 				<MenuItem>
 					<GUID>dec96e15-7a09-4d9c-9a7c-4429dad53fd3</GUID>
 					<Type>Action</Type>
@@ -277,7 +276,13 @@
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Unbound Channels.vi</Path>
 					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Unbound Channels Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
 				</MenuItem>
+<!--
 				<MenuItem>
 					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
 					<Type>Separator</Type>
@@ -352,7 +357,6 @@
 						<loc />
 					</Documentation>
 				</Button>
-<!--
 				<Button>
 					<ID>NIVS_UDPDataLink_Rx_RemoveChannels</ID>
 					<Glyph>
@@ -377,8 +381,12 @@
 						<eng />
 						<loc />
 					</Documentation>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Unbound Channels Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
 				</Button>
--->
 			</ButtonList>
 		</Page>
 		<Page>
