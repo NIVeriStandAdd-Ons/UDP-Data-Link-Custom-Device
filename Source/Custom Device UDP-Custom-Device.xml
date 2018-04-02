@@ -408,6 +408,24 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Rx Channel Section</eng>
+				<loc>Rx Channel Section</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>b8f54c24-25be-4871-8286-2c037e7fae7b</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Rx Channel Section.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Tx Section Page</eng>
 				<loc>Tx Section Page</loc>
 			</Name>

@@ -42,8 +42,10 @@
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Extra Pages" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
 					<Item Name="Channel Config Page.vi" Type="VI" URL="../Pages/Channel Config Page.vi"/>
 					<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
+					<Item Name="Rx Channel Section.vi" Type="VI" URL="../Pages/Rx Channel Section.vi"/>
 					<Item Name="Rx Packet Page.vi" Type="VI" URL="../Pages/Rx Packet Page.vi"/>
 					<Item Name="Rx Section Page.vi" Type="VI" URL="../Pages/Rx Section Page.vi"/>
 					<Item Name="Status Section Page.vi" Type="VI" URL="../Pages/Status Section Page.vi"/>
