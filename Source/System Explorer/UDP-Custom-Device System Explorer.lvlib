@@ -42,7 +42,10 @@
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Extra Pages" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">3</Property>
+					<Item Name="Channel Config Page.vi" Type="VI" URL="../Pages/Channel Config Page.vi"/>
 					<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
+					<Item Name="Rx Channel Section.vi" Type="VI" URL="../Pages/Rx Channel Section.vi"/>
 					<Item Name="Rx Packet Page.vi" Type="VI" URL="../Pages/Rx Packet Page.vi"/>
 					<Item Name="Rx Section Page.vi" Type="VI" URL="../Pages/Rx Section Page.vi"/>
 					<Item Name="Status Section Page.vi" Type="VI" URL="../Pages/Status Section Page.vi"/>
@@ -62,6 +65,10 @@
 					<Item Name="UDP Data Link - RTMs - Add Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels.vi"/>
 					<Item Name="UDP Data Link - RTMs - Remove Channels Dependency.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels Dependency.vi"/>
 					<Item Name="UDP Data Link - RTMs - Remove Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels.vi"/>
+				</Item>
+				<Item Name="Configuration" Type="Folder">
+					<Item Name="RTM - Apply Rx Configuration Dependency.vi" Type="VI" URL="../RTMs/RTM - Apply Rx Configuration Dependency.vi"/>
+					<Item Name="RTM - Apply Rx Configuration.vi" Type="VI" URL="../RTMs/RTM - Apply Rx Configuration.vi"/>
 				</Item>
 				<Item Name="Diagnostics" Type="Folder">
 					<Item Name="RTM - Add Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels Dependency.vi"/>
@@ -100,10 +107,19 @@
 				<Item Name="Write Property.vi" Type="VI" URL="../Property Accessors/Template/Write Property.vi"/>
 				<Item Name="Read Property.vi" Type="VI" URL="../Property Accessors/Template/Read Property.vi"/>
 			</Item>
+			<Item Name="Channel Config" Type="Folder">
+				<Item Name="Config File" Type="Folder">
+					<Item Name="Read Config File.vi" Type="VI" URL="../Property Accessors/Channel Config/Read Config File.vi"/>
+					<Item Name="Write Config File.vi" Type="VI" URL="../Property Accessors/Channel Config/Write Config File.vi"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="API" Type="Folder">
 				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Channel Config" Type="Folder">
+						<Item Name="API - Parse Config File.vi" Type="VI" URL="../API/API - Parse Config File.vi"/>
+					</Item>
 					<Item Name="Rx Local Channel Update" Type="Folder">
 						<Item Name="API - Get Rx Channels.vi" Type="VI" URL="../API/API - Get Rx Channels.vi"/>
 						<Item Name="API - Remove Rx Channels.vi" Type="VI" URL="../API/API - Remove Rx Channels.vi"/>
@@ -113,6 +129,7 @@
 					<Item Name="API - Add System Mappings.vi" Type="VI" URL="../API/API - Add System Mappings.vi"/>
 					<Item Name="API - Add Tx Packet.vi" Type="VI" URL="../API/API - Add Tx Packet.vi"/>
 					<Item Name="API - Check Packet ID Conflict.vi" Type="VI" URL="../API/API - Check Packet ID Conflict.vi"/>
+					<Item Name="API - Create Channel Configuration.vi" Type="VI" URL="../API/API - Create Channel Configuration.vi"/>
 					<Item Name="API - Delete Conflicting Mappings.vi" Type="VI" URL="../API/API - Delete Conflicting Mappings.vi"/>
 					<Item Name="API - Set Rx Packet Properties.vi" Type="VI" URL="../API/API - Set Rx Packet Properties.vi"/>
 				</Item>
