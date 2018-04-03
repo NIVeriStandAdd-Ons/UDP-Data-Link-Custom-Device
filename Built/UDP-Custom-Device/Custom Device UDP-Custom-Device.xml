@@ -808,7 +808,7 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>c6628006-2c41-4618-9061-c84e9f8f3bb9</GUID>
+					<GUID>4e2a141b-9661-4348-be05-fbd002a512fc</GUID>
 					<Type>Action</Type>
 					<Name>
 						<eng>Apply Config</eng>
@@ -833,7 +833,7 @@
 						<Path>System Explorer\Glyphs\Refresh.png</Path>
 					</Glyph>
 					<Type>Action</Type>
-					<ReferencedGUID>7134e672-8954-4c1e-90f9-b2ce44aa937f</ReferencedGUID>
+					<ReferencedGUID>4e2a141b-9661-4348-be05-fbd002a512fc</ReferencedGUID>
 					<ButtonText>
 						<eng>Apply Config</eng>
 						<loc>Apply Config</loc>
@@ -852,7 +852,7 @@
 					</Documentation>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Rx Configuration Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Tx Configuration Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</Button>
