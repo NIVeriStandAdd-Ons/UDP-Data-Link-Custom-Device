@@ -57,15 +57,17 @@
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Channels" Type="Folder">
-					<Item Name="Rx Local Channel Update" Type="Folder">
+					<Item Name="Rx Channels" Type="Folder">
 						<Item Name="RTM - Add Unbound Channels.vi" Type="VI" URL="../RTMs/RTM - Add Unbound Channels.vi"/>
 						<Item Name="RTM - Remove Unbound Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Unbound Channels Dependency.vi"/>
 						<Item Name="RTM - Remove Unbound Channels.vi" Type="VI" URL="../RTMs/RTM - Remove Unbound Channels.vi"/>
 					</Item>
+					<Item Name="Tx Channels" Type="Folder">
+						<Item Name="UDP Data Link - RTMs - Remove Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels.vi"/>
+					</Item>
 					<Item Name="UDP Data Link - RTMs - Add Channels Updated.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels Updated.vi"/>
 					<Item Name="UDP Data Link - RTMs - Add Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Add Channels.vi"/>
 					<Item Name="UDP Data Link - RTMs - Remove Channels Dependency.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels Dependency.vi"/>
-					<Item Name="UDP Data Link - RTMs - Remove Channels.vi" Type="VI" URL="../RTMs/UDP Data Link - RTMs - Remove Channels.vi"/>
 				</Item>
 				<Item Name="Configuration" Type="Folder">
 					<Item Name="RTM - Apply Rx Configuration Dependency.vi" Type="VI" URL="../RTMs/RTM - Apply Rx Configuration Dependency.vi"/>
