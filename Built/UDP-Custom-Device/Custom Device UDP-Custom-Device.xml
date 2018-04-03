@@ -241,7 +241,7 @@
 				<loc>Rx Packet Page</loc>
 			</Name>
 			<DisallowRenaming>false</DisallowRenaming>
-			<DeleteProtection>false</DeleteProtection>
+			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>fe00aa1c-0d2c-4749-801e-e5de1d827245</GUID>
 			<Glyph>
@@ -394,7 +394,7 @@
 				<eng>Rx Channel Page</eng>
 				<loc>Rx Channel Page</loc>
 			</Name>
-			<DeleteProtection>false</DeleteProtection>
+			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>8ede79f1-e06f-41dd-88ab-5074f11d4bb7</GUID>
 			<Glyph>
@@ -536,7 +536,7 @@
 				<loc>Tx Packet Page</loc>
 			</Name>
 			<DisallowRenaming>false</DisallowRenaming>
-			<DeleteProtection>false</DeleteProtection>
+			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>af86c4de-d36a-4f1e-b637-4db21d1b2000</GUID>
 			<Glyph>
@@ -735,7 +735,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Channel Config Page.vi</Path>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Rx Channel Config Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -784,6 +784,75 @@
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
 						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Rx Configuration Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Configuration</eng>
+				<loc>Channel Configuration</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>7134e672-8954-4c1e-90f9-b2ce44aa937f</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\file.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Tx Channel Config Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>4e2a141b-9661-4348-be05-fbd002a512fc</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Tx Configuration.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Tx Configuration Dependency.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>NIVS_UDPDataLink_Tx_ApplyConfig</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Refresh.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>4e2a141b-9661-4348-be05-fbd002a512fc</ReferencedGUID>
+					<ButtonText>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Apply Config</eng>
+						<loc>Apply Config</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Apply Tx Configuration Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</Button>
