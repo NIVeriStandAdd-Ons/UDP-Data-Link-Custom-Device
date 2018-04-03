@@ -43,15 +43,19 @@
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Extra Pages" Type="Folder">
 					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="Rx Channel Config Page.vi" Type="VI" URL="../Pages/Rx Channel Config Page.vi"/>
-					<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
-					<Item Name="Rx Channel Section.vi" Type="VI" URL="../Pages/Rx Channel Section.vi"/>
-					<Item Name="Rx Packet Page.vi" Type="VI" URL="../Pages/Rx Packet Page.vi"/>
-					<Item Name="Rx Section Page.vi" Type="VI" URL="../Pages/Rx Section Page.vi"/>
+					<Item Name="Receive" Type="Folder">
+						<Item Name="Rx Section Page.vi" Type="VI" URL="../Pages/Rx Section Page.vi"/>
+						<Item Name="Rx Packet Page.vi" Type="VI" URL="../Pages/Rx Packet Page.vi"/>
+						<Item Name="Rx Channel Section.vi" Type="VI" URL="../Pages/Rx Channel Section.vi"/>
+						<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
+						<Item Name="Rx Channel Config Page.vi" Type="VI" URL="../Pages/Rx Channel Config Page.vi"/>
+					</Item>
+					<Item Name="Transmit" Type="Folder">
+						<Item Name="Tx Section Page.vi" Type="VI" URL="../Pages/Tx Section Page.vi"/>
+						<Item Name="Tx Packet Page.vi" Type="VI" URL="../Pages/Tx Packet Page.vi"/>
+						<Item Name="Tx Channel Config Page.vi" Type="VI" URL="../Pages/Tx Channel Config Page.vi"/>
+					</Item>
 					<Item Name="Status Section Page.vi" Type="VI" URL="../Pages/Status Section Page.vi"/>
-					<Item Name="Tx Channel Config Page.vi" Type="VI" URL="../Pages/Tx Channel Config Page.vi"/>
-					<Item Name="Tx Packet Page.vi" Type="VI" URL="../Pages/Tx Packet Page.vi"/>
-					<Item Name="Tx Section Page.vi" Type="VI" URL="../Pages/Tx Section Page.vi"/>
 				</Item>
 				<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
 			</Item>
