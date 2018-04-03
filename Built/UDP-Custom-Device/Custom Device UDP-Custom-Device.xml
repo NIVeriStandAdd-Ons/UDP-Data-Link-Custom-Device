@@ -241,7 +241,7 @@
 				<loc>Rx Packet Page</loc>
 			</Name>
 			<DisallowRenaming>false</DisallowRenaming>
-			<DeleteProtection>false</DeleteProtection>
+			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>fe00aa1c-0d2c-4749-801e-e5de1d827245</GUID>
 			<Glyph>
@@ -394,7 +394,7 @@
 				<eng>Rx Channel Page</eng>
 				<loc>Rx Channel Page</loc>
 			</Name>
-			<DeleteProtection>false</DeleteProtection>
+			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>8ede79f1-e06f-41dd-88ab-5074f11d4bb7</GUID>
 			<Glyph>
@@ -536,7 +536,7 @@
 				<loc>Tx Packet Page</loc>
 			</Name>
 			<DisallowRenaming>false</DisallowRenaming>
-			<DeleteProtection>false</DeleteProtection>
+			<DeleteProtection>true</DeleteProtection>
 			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
 			<GUID>af86c4de-d36a-4f1e-b637-4db21d1b2000</GUID>
 			<Glyph>
