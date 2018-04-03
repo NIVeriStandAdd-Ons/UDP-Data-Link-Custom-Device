@@ -98,8 +98,8 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Rx Channel" Type="Folder">
 				<Item Name="Data Type" Type="Folder">
-					<Item Name="Read Data Type.vi" Type="VI" URL="../Property Accessors/Rx Channel/Read Data Type.vi"/>
-					<Item Name="Write Data Type.vi" Type="VI" URL="../Property Accessors/Rx Channel/Write Data Type.vi"/>
+					<Item Name="Read Rx Data Type.vi" Type="VI" URL="../Property Accessors/Rx Channel/Read Rx Data Type.vi"/>
+					<Item Name="Write Rx Data Type.vi" Type="VI" URL="../Property Accessors/Rx Channel/Write Rx Data Type.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Rx Packet" Type="Folder">
@@ -120,8 +120,8 @@
 			</Item>
 			<Item Name="Tx Packet" Type="Folder">
 				<Item Name="Channel Data Types" Type="Folder">
-					<Item Name="Read Data Types.vi" Type="VI" URL="../Property Accessors/Tx Packet/Read Data Types.vi"/>
-					<Item Name="Write Data Types.vi" Type="VI" URL="../Property Accessors/Tx Packet/Write Data Types.vi"/>
+					<Item Name="Read Tx Data Types.vi" Type="VI" URL="../Property Accessors/Tx Packet/Read Tx Data Types.vi"/>
+					<Item Name="Write Tx Data Types.vi" Type="VI" URL="../Property Accessors/Tx Packet/Write Tx Data Types.vi"/>
 				</Item>
 				<Item Name="Dependent Channel Names" Type="Folder">
 					<Item Name="Write Channel Names.vi" Type="VI" URL="../Property Accessors/Tx Packet/Write Channel Names.vi"/>
