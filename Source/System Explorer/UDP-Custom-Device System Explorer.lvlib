@@ -130,6 +130,7 @@
 					<Item Name="Write Channel Paths.vi" Type="VI" URL="../Property Accessors/Tx Packet/Write Channel Paths.vi"/>
 				</Item>
 			</Item>
+			<Item Name="Tx Section" Type="Folder"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="API" Type="Folder">
