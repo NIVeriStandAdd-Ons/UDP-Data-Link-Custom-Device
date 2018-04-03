@@ -141,6 +141,7 @@
 					<Item Name="Rx Local Channel Update" Type="Folder">
 						<Item Name="API - Get Rx Channels.vi" Type="VI" URL="../API/API - Get Rx Channels.vi"/>
 						<Item Name="API - Remove Rx Channels.vi" Type="VI" URL="../API/API - Remove Rx Channels.vi"/>
+						<Item Name="API - Update Rx Channel Order.vi" Type="VI" URL="../API/API - Update Rx Channel Order.vi"/>
 					</Item>
 					<Item Name="API - Add Rx Channels.vi" Type="VI" URL="../API/API - Add Rx Channels.vi"/>
 					<Item Name="API - Add Rx Packet.vi" Type="VI" URL="../API/API - Add Rx Packet.vi"/>
@@ -151,6 +152,8 @@
 					<Item Name="API - Create Tx Channel Configuration.vi" Type="VI" URL="../API/API - Create Tx Channel Configuration.vi"/>
 					<Item Name="API - Delete Conflicting Mappings.vi" Type="VI" URL="../API/API - Delete Conflicting Mappings.vi"/>
 					<Item Name="API - Set Rx Packet Properties.vi" Type="VI" URL="../API/API - Set Rx Packet Properties.vi"/>
+					<Item Name="API - Update Rx Packet Order.vi" Type="VI" URL="../API/API - Update Rx Packet Order.vi"/>
+					<Item Name="API - Update Tx Packet Order.vi" Type="VI" URL="../API/API - Update Tx Packet Order.vi"/>
 				</Item>
 				<Item Name="API - Create Rx Section.vi" Type="VI" URL="../API/API - Create Rx Section.vi"/>
 				<Item Name="API - Create Tx Section.vi" Type="VI" URL="../API/API - Create Tx Section.vi"/>
