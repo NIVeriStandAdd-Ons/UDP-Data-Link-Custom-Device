@@ -35,6 +35,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Receive" Type="Folder">
 				<Item Name="Init Rx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Rx Conversion Resources.vi"/>
 				<Item Name="Init Rx Data.vi" Type="VI" URL="../SubVIs/Init Rx Data.vi"/>
@@ -45,6 +46,7 @@
 				<Item Name="Init Tx Data.vi" Type="VI" URL="../SubVIs/Init Tx Data.vi"/>
 				<Item Name="Init Tx Header.vi" Type="VI" URL="../SubVIs/Init Tx Header.vi"/>
 				<Item Name="Init Tx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Tx UDP Connection.vi"/>
+				<Item Name="Init Tx Packet Size.vi" Type="VI" URL="../SubVIs/Init Tx Packet Size.vi"/>
 			</Item>
 			<Item Name="Init Data.vi" Type="VI" URL="../SubVIs/Init Data.vi"/>
 		</Item>
