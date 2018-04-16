@@ -43,15 +43,18 @@
 			<Item Name="Transmit" Type="Folder">
 				<Item Name="Init Tx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Tx Conversion Resources.vi"/>
 				<Item Name="Init Tx Data.vi" Type="VI" URL="../SubVIs/Init Tx Data.vi"/>
+				<Item Name="Init Tx Header.vi" Type="VI" URL="../SubVIs/Init Tx Header.vi"/>
 				<Item Name="Init Tx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Tx UDP Connection.vi"/>
 			</Item>
 			<Item Name="Init Data.vi" Type="VI" URL="../SubVIs/Init Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="Build RT Data Cluster.vi" Type="VI" URL="../SubVIs/Build RT Data Cluster.vi"/>
-				<Item Name="Tx to UDP.vi" Type="VI" URL="../SubVIs/Tx to UDP.vi"/>
+			<Item Name="Receive" Type="Folder">
 				<Item Name="UDP to Rx.vi" Type="VI" URL="../SubVIs/UDP to Rx.vi"/>
+			</Item>
+			<Item Name="Transmit" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Tx to UDP.vi" Type="VI" URL="../SubVIs/Tx to UDP.vi"/>
 			</Item>
 			<Item Name="UDP Rx Process.vi" Type="VI" URL="../UDP Rx Process.vi"/>
 			<Item Name="UDP Tx Process.vi" Type="VI" URL="../UDP Tx Process.vi"/>
