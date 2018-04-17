@@ -686,6 +686,23 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Timestamp Channel</eng>
+				<loc>Timestamp Channel</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>110650c2-dfee-41b8-9f4d-56262735f1a2</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\periodic.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Tx Timestamp Channel Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Diagnostics Section Page</eng>
 				<loc>Diagnostics Section Page</loc>
 			</Name>
