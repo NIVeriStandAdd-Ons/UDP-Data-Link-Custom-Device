@@ -47,6 +47,7 @@
 				<Item Name="Init Tx Header.vi" Type="VI" URL="../SubVIs/Init Tx Header.vi"/>
 				<Item Name="Init Tx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Tx UDP Connection.vi"/>
 				<Item Name="Init Tx Packet Size.vi" Type="VI" URL="../SubVIs/Init Tx Packet Size.vi"/>
+				<Item Name="Apply Static Header.vi" Type="VI" URL="../SubVIs/Apply Static Header.vi"/>
 			</Item>
 			<Item Name="Init Data.vi" Type="VI" URL="../SubVIs/Init Data.vi"/>
 		</Item>
