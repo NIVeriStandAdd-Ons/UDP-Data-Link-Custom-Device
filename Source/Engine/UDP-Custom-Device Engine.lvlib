@@ -40,6 +40,7 @@
 				<Item Name="Init Rx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Rx Conversion Resources.vi"/>
 				<Item Name="Init Rx Data.vi" Type="VI" URL="../SubVIs/Init Rx Data.vi"/>
 				<Item Name="Init Rx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Rx UDP Connection.vi"/>
+				<Item Name="Init Rx Packet Size.vi" Type="VI" URL="../SubVIs/Init Rx Packet Size.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
 				<Item Name="Init Tx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Tx Conversion Resources.vi"/>
@@ -48,6 +49,7 @@
 				<Item Name="Init Tx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Tx UDP Connection.vi"/>
 				<Item Name="Init Tx Packet Size.vi" Type="VI" URL="../SubVIs/Init Tx Packet Size.vi"/>
 				<Item Name="Apply Static Header.vi" Type="VI" URL="../SubVIs/Apply Static Header.vi"/>
+				<Item Name="Init Tx Dynamic Header.vi" Type="VI" URL="../SubVIs/Init Tx Dynamic Header.vi"/>
 			</Item>
 			<Item Name="Init Data.vi" Type="VI" URL="../SubVIs/Init Data.vi"/>
 		</Item>
