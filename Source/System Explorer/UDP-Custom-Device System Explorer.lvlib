@@ -159,10 +159,13 @@
 					<Item Name="API - Add System Mappings.vi" Type="VI" URL="../API/API - Add System Mappings.vi"/>
 					<Item Name="API - Add Tx Packet.vi" Type="VI" URL="../API/API - Add Tx Packet.vi"/>
 					<Item Name="API - Check Packet ID Conflict.vi" Type="VI" URL="../API/API - Check Packet ID Conflict.vi"/>
+					<Item Name="API - Compile Tx Channel Refs.vi" Type="VI" URL="../API/API - Compile Tx Channel Refs.vi"/>
 					<Item Name="API - Create Rx Channel Configuration.vi" Type="VI" URL="../API/API - Create Rx Channel Configuration.vi"/>
 					<Item Name="API - Create Tx Channel Configuration.vi" Type="VI" URL="../API/API - Create Tx Channel Configuration.vi"/>
 					<Item Name="API - Delete Conflicting Mappings.vi" Type="VI" URL="../API/API - Delete Conflicting Mappings.vi"/>
 					<Item Name="API - Generate Tx Timestamp Channel.vi" Type="VI" URL="../API/API - Generate Tx Timestamp Channel.vi"/>
+					<Item Name="API - Get Controller Name.vi" Type="VI" URL="../API/API - Get Controller Name.vi"/>
+					<Item Name="API - Get SysDef Version.vi" Type="VI" URL="../API/API - Get SysDef Version.vi"/>
 					<Item Name="API - Set Rx Packet Properties.vi" Type="VI" URL="../API/API - Set Rx Packet Properties.vi"/>
 					<Item Name="API - Update Rx Packet Order.vi" Type="VI" URL="../API/API - Update Rx Packet Order.vi"/>
 					<Item Name="API - Update Tx Packet Order.vi" Type="VI" URL="../API/API - Update Tx Packet Order.vi"/>
