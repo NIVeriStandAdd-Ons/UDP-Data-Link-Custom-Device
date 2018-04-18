@@ -54,6 +54,7 @@
 						<Item Name="Tx Section Page.vi" Type="VI" URL="../Pages/Tx Section Page.vi"/>
 						<Item Name="Tx Packet Page.vi" Type="VI" URL="../Pages/Tx Packet Page.vi"/>
 						<Item Name="Tx Channel Config Page.vi" Type="VI" URL="../Pages/Tx Channel Config Page.vi"/>
+						<Item Name="Tx Timestamp Channel Page.vi" Type="VI" URL="../Pages/Tx Timestamp Channel Page.vi"/>
 					</Item>
 					<Item Name="Status Section Page.vi" Type="VI" URL="../Pages/Status Section Page.vi"/>
 				</Item>
@@ -135,6 +136,10 @@
 					<Item Name="Read Channel Paths.vi" Type="VI" URL="../Property Accessors/Tx Packet/Read Channel Paths.vi"/>
 					<Item Name="Write Channel Paths.vi" Type="VI" URL="../Property Accessors/Tx Packet/Write Channel Paths.vi"/>
 				</Item>
+				<Item Name="Timestamp Channel Ref" Type="Folder">
+					<Item Name="Read Timestamp Ref.vi" Type="VI" URL="../Property Accessors/Tx Packet/Read Timestamp Ref.vi"/>
+					<Item Name="Write Timestamp Ref.vi" Type="VI" URL="../Property Accessors/Tx Packet/Write Timestamp Ref.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Tx Section" Type="Folder"/>
 		</Item>
@@ -154,9 +159,13 @@
 					<Item Name="API - Add System Mappings.vi" Type="VI" URL="../API/API - Add System Mappings.vi"/>
 					<Item Name="API - Add Tx Packet.vi" Type="VI" URL="../API/API - Add Tx Packet.vi"/>
 					<Item Name="API - Check Packet ID Conflict.vi" Type="VI" URL="../API/API - Check Packet ID Conflict.vi"/>
+					<Item Name="API - Compile Tx Channel Refs.vi" Type="VI" URL="../API/API - Compile Tx Channel Refs.vi"/>
 					<Item Name="API - Create Rx Channel Configuration.vi" Type="VI" URL="../API/API - Create Rx Channel Configuration.vi"/>
 					<Item Name="API - Create Tx Channel Configuration.vi" Type="VI" URL="../API/API - Create Tx Channel Configuration.vi"/>
 					<Item Name="API - Delete Conflicting Mappings.vi" Type="VI" URL="../API/API - Delete Conflicting Mappings.vi"/>
+					<Item Name="API - Generate Tx Timestamp Channel.vi" Type="VI" URL="../API/API - Generate Tx Timestamp Channel.vi"/>
+					<Item Name="API - Get Controller Name.vi" Type="VI" URL="../API/API - Get Controller Name.vi"/>
+					<Item Name="API - Get SysDef Version.vi" Type="VI" URL="../API/API - Get SysDef Version.vi"/>
 					<Item Name="API - Set Rx Packet Properties.vi" Type="VI" URL="../API/API - Set Rx Packet Properties.vi"/>
 					<Item Name="API - Update Rx Packet Order.vi" Type="VI" URL="../API/API - Update Rx Packet Order.vi"/>
 					<Item Name="API - Update Tx Packet Order.vi" Type="VI" URL="../API/API - Update Tx Packet Order.vi"/>
@@ -191,7 +200,6 @@
 				<Item Name="ConfigUtilities - Add Channel.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Add Channel.vi"/>
 				<Item Name="ConfigUtilities - Add System Mapping.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Add System Mapping.vi"/>
 				<Item Name="ConfigUtilities - Clear Listbox Delete Indices.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Clear Listbox Delete Indices.vi"/>
-				<Item Name="ConfigUtilities - Configure Packet Header.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Configure Packet Header.vi"/>
 				<Item Name="ConfigUtilities - Get Disable and Symbols.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Disable and Symbols.vi"/>
 				<Item Name="ConfigUtilities - Get Items Names.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Items Names.vi"/>
 				<Item Name="ConfigUtilities - Get Local IP Address State.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Get Local IP Address State.vi"/>
@@ -217,6 +225,7 @@
 				<Item Name="UDP Data Link - Configuration Utilities - Set Local IP Address State.vi" Type="VI" URL="../Configuration Utilities/UDP Data Link - Configuration Utilities - Set Local IP Address State.vi"/>
 			</Item>
 			<Item Name="Dialogs" Type="Folder">
+				<Item Name="ConfigUtilities - Configure Packet Header.vi" Type="VI" URL="../Configuration Utilities/ConfigUtilities - Configure Packet Header.vi"/>
 				<Item Name="UDP Data Link - Dialogs - Import Channel Paths Invalid.vi" Type="VI" URL="../Dialogs/UDP Data Link - Dialogs - Import Channel Paths Invalid.vi"/>
 				<Item Name="UDP Data Link - Dialogs - Select Channel Dialog.vi" Type="VI" URL="../Dialogs/UDP Data Link - Dialogs - Select Channel Dialog.vi"/>
 			</Item>

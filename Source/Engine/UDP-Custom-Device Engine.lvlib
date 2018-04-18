@@ -35,23 +35,31 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Receive" Type="Folder">
 				<Item Name="Init Rx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Rx Conversion Resources.vi"/>
 				<Item Name="Init Rx Data.vi" Type="VI" URL="../SubVIs/Init Rx Data.vi"/>
 				<Item Name="Init Rx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Rx UDP Connection.vi"/>
+				<Item Name="Init Rx Packet Size.vi" Type="VI" URL="../SubVIs/Init Rx Packet Size.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
 				<Item Name="Init Tx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Tx Conversion Resources.vi"/>
 				<Item Name="Init Tx Data.vi" Type="VI" URL="../SubVIs/Init Tx Data.vi"/>
+				<Item Name="Init Tx Header.vi" Type="VI" URL="../SubVIs/Init Tx Header.vi"/>
 				<Item Name="Init Tx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Tx UDP Connection.vi"/>
+				<Item Name="Init Tx Packet Size.vi" Type="VI" URL="../SubVIs/Init Tx Packet Size.vi"/>
+				<Item Name="Apply Static Header.vi" Type="VI" URL="../SubVIs/Apply Static Header.vi"/>
+				<Item Name="Init Tx Dynamic Header.vi" Type="VI" URL="../SubVIs/Init Tx Dynamic Header.vi"/>
 			</Item>
 			<Item Name="Init Data.vi" Type="VI" URL="../SubVIs/Init Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="SubVIs" Type="Folder">
-				<Item Name="Build RT Data Cluster.vi" Type="VI" URL="../SubVIs/Build RT Data Cluster.vi"/>
-				<Item Name="Tx to UDP.vi" Type="VI" URL="../SubVIs/Tx to UDP.vi"/>
+			<Item Name="Receive" Type="Folder">
 				<Item Name="UDP to Rx.vi" Type="VI" URL="../SubVIs/UDP to Rx.vi"/>
+			</Item>
+			<Item Name="Transmit" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Tx to UDP.vi" Type="VI" URL="../SubVIs/Tx to UDP.vi"/>
 			</Item>
 			<Item Name="UDP Rx Process.vi" Type="VI" URL="../UDP Rx Process.vi"/>
 			<Item Name="UDP Tx Process.vi" Type="VI" URL="../UDP Tx Process.vi"/>
