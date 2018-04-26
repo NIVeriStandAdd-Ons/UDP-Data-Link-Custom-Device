@@ -18,6 +18,12 @@ type = 'lvBuildSpecAllTargets'
 project = '{cd}'
 build_spec = 'Engine Release'
 
+[[test.steps]]
+name = 'Integration Test'
+type = 'Test'
+sequence_path = 'Tests\Sequences\Main.seq'
+teststand_version = '2014'
+
 [package]
 type = 'nipkg'
 name = 'udp-custom-device-{veristand_version}'
