@@ -1,0 +1,25 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\udp_custom_device'
+
+[projects.cd]
+path = 'Source\UDP-Custom-Device Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Library'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+[package]
+type = 'nipkg'
+name = 'udp-custom-device-{veristand_version}'
+dev_xml_path = 'Source\Custom Device UDP-Custom-Device.xml'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
