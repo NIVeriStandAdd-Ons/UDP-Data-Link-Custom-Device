@@ -22,7 +22,7 @@ build_spec = 'Engine Release'
 name = 'Integration Test'
 type = 'Test'
 sequence_path = 'Tests\Sequences\Main.seq'
-teststand_version = '2014'
+teststand_version = '2017'
 
 [package]
 type = 'nipkg'
