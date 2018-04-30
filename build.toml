@@ -24,6 +24,11 @@ type = 'Test'
 sequence_path = 'Tests\Sequences\Main.seq'
 teststand_version = '2017'
 
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+release_branches = ["master"]
+
 [package]
 type = 'nipkg'
 name = 'udp-custom-device-{veristand_version}'
