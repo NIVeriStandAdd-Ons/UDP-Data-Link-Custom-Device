@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StimulusProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Description>This example demonstrates how to use multi-tasking in a real-time sequence.
+
+The real-time sequence simulates two engine warmup phases. The first warmup phase sets the desired RPM to 2500 and waits for 25 seconds. 
+The second warmup phase sets the desired RPM to 8000 and it also waits for 25 seconds before the engine turns off.
+
+During both warmup phases, a parallel task monitors the engine temperature so that the engine does not overheat. As soon as the engine temperature rises above a certain value, the currently-active warmup phase stops and the engine shuts down.
+
+In addition to the Engine Demo Advanced example, this real-time sequence updates the return value depending on the outcome of the warmup phases. If the engine shuts down due to an over-temperature problem, the return value is false.
+
+Practice using the 'Stop Execution on Fail' option. If this parameter is not checked, the execution of the project will not stop even if a return value does not meet the configured conditions. If this parameter is checked, the execution of the project stops immediately.</Description>
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="0" />
+	<Setup Name="Setup">
+		<Step xsi:type="OpenWorkspaceStep" />
+	</Setup>
+	<Main Name="Main">
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="ActualRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/ActualRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="EngineTemperature">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EngineTemp" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Engine Demo Advanced &amp; Return Value.nivsseq</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="BooleanEvaluation">
+				<Invert>false</Invert>
+			</OutputEvaluation>
+		</Step>
+		<Step xsi:type="MessageBoxStep">
+			<Description>This message box will be displayed depending on the setting of the parameter 'Stop Execution on Fail'.</Description>
+			<Message>Since the parameter 'Stop Execution on Fail' is unchecked, I get executed although the previous step failed.</Message>
+			<Title>Checked/Unchecked - Stop Execution on Fail</Title>
+			<DefaultText>OK</DefaultText>
+		</Step>
+	</Main>
+	<CleanUp Name="Clean Up" />
+	<ResultsDirectory>Test Results</ResultsDirectory>
+</StimulusProfile>

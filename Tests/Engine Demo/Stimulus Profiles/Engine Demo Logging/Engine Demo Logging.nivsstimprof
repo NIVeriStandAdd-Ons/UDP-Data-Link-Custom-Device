@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StimulusProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Description>This example demonstrates how to use the logging feature.
+
+You can specify one or more logging configurations at a time. Each logging configuration contains one ore more channel groups. Each channel group should contain one or more channels that are logged to disk. At some point you must stop the logging configuration in order to finalize the file.</Description>
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="0" />
+	<Setup Name="Setup">
+		<Step xsi:type="OpenWorkspaceStep" />
+	</Setup>
+	<Main Name="Main">
+		<Step xsi:type="StartLoggingStep">
+			<ConfigurationName>Logging Configuration Demo</ConfigurationName>
+			<FilePath>Log File.tdms</FilePath>
+			<Rate>100</Rate>
+			<TriggerChannel Path="" />
+			<TriggerCondition>none</TriggerCondition>
+			<HighLimit>100</HighLimit>
+			<LowLimit>0</LowLimit>
+			<ReplaceFile>true</ReplaceFile>
+			<TimestampFile>false</TimestampFile>
+			<ChannelGroups>
+				<ChannelGroup Name="RPM">
+					<Description>The group 'RPM' logs the actual as well as the desired RPM</Description>
+					<Channel Path="Aliases/ActualRPM" />
+					<Channel Path="Aliases/DesiredRPM" />
+				</ChannelGroup>
+				<ChannelGroup Name="Temperature">
+					<Description>The group 'Temperature' logs the current engine temperature</Description>
+					<Channel Path="Aliases/EngineTemp" />
+				</ChannelGroup>
+			</ChannelGroups>
+			<PreTriggerDuration>0</PreTriggerDuration>
+			<PostTriggerDuration>0</PostTriggerDuration>
+			<LogFileSegmentingOptions>DoNotSegment</LogFileSegmentingOptions>
+			<Size>10000000</Size>
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Engine Demo Logging.nivsseq</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+	</Main>
+	<CleanUp Name="Clean Up">
+		<Step xsi:type="StopLoggingStep">
+			<Description>The actual 'Configuration Name' has to match the name that has been chosen for the 'Start Logging Configuration' step.</Description>
+			<ConfigurationName>Logging Configuration Demo</ConfigurationName>
+		</Step>
+	</CleanUp>
+	<ResultsDirectory>Test Results</ResultsDirectory>
+</StimulusProfile>

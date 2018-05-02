@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StimulusProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="0" />
+	<Setup Name="Setup">
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<Description>Turns the engine on</Description>
+			<ParameterAssignments>
+				<ParameterAssignment Name="OnOff">
+					<Value xsi:type="BooleanValue">
+						<Value>true</Value>
+					</Value>
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Set Engine Power.nivsseq</SequencePath>
+			<Target />
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+	</Setup>
+	<Main Name="Main">
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="Setpoint">
+					<Value xsi:type="DoubleValue" Units="rpm">
+						<Value>2500</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="Timeout">
+					<Value xsi:type="DoubleValue" Units="s">
+						<Value>60</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="Tolerance">
+					<Value xsi:type="DoubleValue" Units="rpm">
+						<Value>100</Value>
+					</Value>
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Measure Set Point Response.nivsseq</SequencePath>
+			<Target />
+			<OutputEvaluation xsi:type="NumericBoundsEvaluation" Condition="Inbounds">
+				<HighLimit xsi:type="DoubleValue">
+					<Value>60</Value>
+				</HighLimit>
+				<LowLimit xsi:type="DoubleValue">
+					<Value>0</Value>
+				</LowLimit>
+			</OutputEvaluation>
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="Setpoint">
+					<Value xsi:type="DoubleValue" Units="rpm">
+						<Value>6000</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="Timeout">
+					<Value xsi:type="DoubleValue" Units="s">
+						<Value>60</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="Tolerance">
+					<Value xsi:type="DoubleValue" Units="rpm">
+						<Value>100</Value>
+					</Value>
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Measure Set Point Response.nivsseq</SequencePath>
+			<Target />
+			<OutputEvaluation xsi:type="NumericBoundsEvaluation" Condition="Inbounds">
+				<HighLimit xsi:type="DoubleValue">
+					<Value>60</Value>
+				</HighLimit>
+				<LowLimit xsi:type="DoubleValue">
+					<Value>0</Value>
+				</LowLimit>
+			</OutputEvaluation>
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="Setpoint">
+					<Value xsi:type="DoubleValue" Units="rpm">
+						<Value>3000</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="Timeout">
+					<Value xsi:type="DoubleValue" Units="s">
+						<Value>60</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="Tolerance">
+					<Value xsi:type="DoubleValue" Units="rpm">
+						<Value>100</Value>
+					</Value>
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Measure Set Point Response.nivsseq</SequencePath>
+			<Target />
+			<OutputEvaluation xsi:type="NumericBoundsEvaluation" Condition="Inbounds">
+				<HighLimit xsi:type="DoubleValue">
+					<Value>60</Value>
+				</HighLimit>
+				<LowLimit xsi:type="DoubleValue">
+					<Value>0</Value>
+				</LowLimit>
+			</OutputEvaluation>
+		</Step>
+	</Main>
+	<CleanUp Name="Clean Up">
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<Description>Turns the engine off</Description>
+			<ParameterAssignments>
+				<ParameterAssignment Name="OnOff">
+					<Value xsi:type="BooleanValue">
+						<Value>false</Value>
+					</Value>
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Set Engine Power.nivsseq</SequencePath>
+			<Target />
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+	</CleanUp>
+	<ResultsDirectory>Test Results</ResultsDirectory>
+</StimulusProfile>
