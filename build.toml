@@ -28,7 +28,7 @@ teststand_version = '2017'
 [[release.steps]]
 name = 'Master Release'
 type = 'githubRelease'
-release_branches = ["master",]
+2017_release_branches = ["master",]
 
 [package]
 type = 'nipkg'
