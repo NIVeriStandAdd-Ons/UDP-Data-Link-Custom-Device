@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StimulusProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Description>This example demonstrates how to use multi-tasking in a real-time sequence.
+
+The real-time sequence simulates two engine warmup phases. The first warmup phase sets the desired RPM to 2500 and waits for 25 seconds. 
+The second warmup phase sets the desired RPM to 8000 and it also waits for 25 seconds before the engine turns off.
+
+During both warmup phases, a parallel task monitors the engine temperature so that the engine does not overheat. As soon as the engine temperature rises above a certain value, the currently-active warmup phase stops and the engine shuts down.</Description>
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="0" />
+	<Setup Name="Setup">
+		<Step xsi:type="OpenWorkspaceStep" />
+	</Setup>
+	<Main Name="Main">
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="ActualRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/ActualRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="EngineTemperature">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EngineTemp" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Engine Demo Advanced.nivsseq</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="ActualRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/ActualRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="EngineTemperature">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EngineTemp" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Engine Demo Advanced.nivsseq</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="ActualRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/ActualRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="EngineTemperature">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EngineTemp" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Engine Demo Advanced.nivsseq</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="ActualRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/ActualRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="EngineTemperature">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EngineTemp" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Engine Demo Advanced.nivsseq</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+	</Main>
+	<CleanUp Name="Clean Up" />
+	<ResultsDirectory>Test Results</ResultsDirectory>
+</StimulusProfile>
