@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\temp\custom devices\udp_custom_device'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\udp_custom_device'
 
 [projects.cd]
 path = 'Source\UDP-Custom-Device Custom Device.lvproj'
