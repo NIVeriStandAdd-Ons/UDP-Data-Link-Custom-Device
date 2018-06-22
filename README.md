@@ -17,6 +17,7 @@ It currently does not meet all of the specifications defined within the Document
 ### Dependencies ###
 
 OpenG Toolkit
+VeriStand Addon System Definition Utilities
 
 ### License ###
 
