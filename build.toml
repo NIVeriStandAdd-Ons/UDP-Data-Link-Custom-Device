@@ -24,6 +24,7 @@ name = 'Integration Test'
 type = 'Test'
 sequence_path = 'Tests\Sequences\Main.seq'
 teststand_version = '2017'
+teststand_bitness = '32'
 
 [[release.steps]]
 name = 'Master Release'
