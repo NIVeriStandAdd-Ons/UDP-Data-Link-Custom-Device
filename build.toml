@@ -13,10 +13,9 @@ target = 'My Computer'
 build_spec = 'Configuration Release'
 
 [[build.steps]]
-name = 'Engine Library'
-type = 'lvBuildSpec'
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
 project = '{cd}'
-target = 'My Computer'
 build_spec = 'Engine Release'
 
 [[test.steps]]
