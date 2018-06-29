@@ -1,0 +1,29 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\lru-architecture\custom devices\udp'
+
+[projects.cd]
+path = 'Source\UDP-Custom-Device Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+[package]
+type = 'nipkg'
+name = 'udp-custom-device-{version}'
+release_version = '1.0'
+install_destination = 'documents\National Instruments\NI VeriStand {version}\Custom Devices
+
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'

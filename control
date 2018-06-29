@@ -1,0 +1,15 @@
+Package: udp-custom-device-{version}
+Version: 1.0
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description:  This package provides a plugin to utilize UDP communication in NI VeriStand.
+XB-Eula:  
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: 1.0
+XB-DisplayName: UDP Custom Device for VeriStand {version}
+Depends: 
