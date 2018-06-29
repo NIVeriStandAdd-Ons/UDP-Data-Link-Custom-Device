@@ -4,7 +4,7 @@
 
 ### LabVIEW Version ###
 
-LabVIEW 2015
+LabVIEW 2016
 
 ### Built Availability ###
 
@@ -16,8 +16,8 @@ It currently does not meet all of the specifications defined within the Document
 
 ### Dependencies ###
 
-OpenG Toolkit
-VeriStand Addon System Definition Utilities
+OpenG Toolkit  
+VeriStand Data Library (https://github.com/NIVeriStandAdd-Ons/VeriStand-Data-Library)
 
 ### License ###
 
