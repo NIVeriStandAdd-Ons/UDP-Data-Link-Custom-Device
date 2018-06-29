@@ -1,0 +1,5 @@
+Signal Name,Alias,Data Type,Description
+TEST1,Compiler Error,Boolean,Designates error on channel 10.
+TEST2,Absolute Time,Single,Designates error on channel 11.
+TEST3,Analysis State,Boolean,Designates error on channel 12.
+TEST4,System Time - Microseconds,Single,Bitfield for FADEC 01 on channel 0.

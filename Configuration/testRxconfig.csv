@@ -1,0 +1,5 @@
+Signal Name,Alias,Data Type,Description
+TEST1,Compiler Error,Boolean,Compler had an error?
+TEST2,Absolute Time,Single,Absolute system time.
+TEST3,Analysis State,Boolean,What state is the analysis in?
+TEST4,System Time - Microseconds,Single,The system time in Microcseconds.
