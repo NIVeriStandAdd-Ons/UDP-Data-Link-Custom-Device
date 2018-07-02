@@ -110,7 +110,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="VeriStand Data.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/VeriStand Data.lvlib"/>
+				<Item Name="VeriStand Data.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/VeriStand Data.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -337,6 +337,42 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Byte Buffer.Create.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Create.vi"/>
+				<Item Name="Byte Buffer.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.lvclass/Byte Buffer.ctl"/>
+				<Item Name="Byte Buffer.Get Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Get Buffer.vi"/>
+				<Item Name="Byte Buffer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.lvclass"/>
+				<Item Name="Byte Buffer.Mapping.Create (Channel Pointer).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Create (Channel Pointer).vi"/>
+				<Item Name="Byte Buffer.Mapping.Create.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Create.vi"/>
+				<Item Name="Byte Buffer.Mapping.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.ctl"/>
+				<Item Name="Byte Buffer.Mapping.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Read.vi"/>
+				<Item Name="Byte Buffer.Mapping.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Write.vi"/>
+				<Item Name="Byte Buffer.Read (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D Boolean).vi"/>
+				<Item Name="Byte Buffer.Read (1D DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D DBL).vi"/>
+				<Item Name="Byte Buffer.Read (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I8).vi"/>
+				<Item Name="Byte Buffer.Read (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I16).vi"/>
+				<Item Name="Byte Buffer.Read (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I32).vi"/>
+				<Item Name="Byte Buffer.Read (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I64).vi"/>
+				<Item Name="Byte Buffer.Read (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D SGL).vi"/>
+				<Item Name="Byte Buffer.Read (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U8).vi"/>
+				<Item Name="Byte Buffer.Read (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U16).vi"/>
+				<Item Name="Byte Buffer.Read (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U32).vi"/>
+				<Item Name="Byte Buffer.Read (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U64).vi"/>
+				<Item Name="Byte Buffer.Read.Typed Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read.Typed Array.vi"/>
+				<Item Name="Byte Buffer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read.vi"/>
+				<Item Name="Byte Buffer.Set Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Set Buffer.vi"/>
+				<Item Name="Byte Buffer.Write (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D Boolean).vi"/>
+				<Item Name="Byte Buffer.Write (1D DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D DBL).vi"/>
+				<Item Name="Byte Buffer.Write (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I8).vi"/>
+				<Item Name="Byte Buffer.Write (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I16).vi"/>
+				<Item Name="Byte Buffer.Write (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I32).vi"/>
+				<Item Name="Byte Buffer.Write (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I64).vi"/>
+				<Item Name="Byte Buffer.Write (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D SGL).vi"/>
+				<Item Name="Byte Buffer.Write (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U8).vi"/>
+				<Item Name="Byte Buffer.Write (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U16).vi"/>
+				<Item Name="Byte Buffer.Write (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U32).vi"/>
+				<Item Name="Byte Buffer.Write (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U64).vi"/>
+				<Item Name="Byte Buffer.Write.Typed Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write.Typed Array.vi"/>
+				<Item Name="Byte Buffer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -359,9 +395,19 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Memory Management.Handle Return.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.Handle Return.vi"/>
+				<Item Name="Memory Management.MoveDblBlock.Read (Double).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.MoveDblBlock.Read (Double).vi"/>
+				<Item Name="Memory Management.MoveDblBlock.Write (Double).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.MoveDblBlock.Write (Double).vi"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Pointer.Dispose.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Dispose.vi"/>
+				<Item Name="Pointer.In-Place Read (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (DBL).vi"/>
+				<Item Name="Pointer.New.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.New.vi"/>
+				<Item Name="Pointer.Read (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (DBL).vi"/>
+				<Item Name="Pointer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read.vi"/>
+				<Item Name="Pointer.Write (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (DBL).vi"/>
+				<Item Name="Pointer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -370,7 +416,54 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VeriStand Data.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/VeriStand Data.lvlib"/>
+				<Item Name="Type Conversion.From Double (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D Boolean).vi"/>
+				<Item Name="Type Conversion.From Double (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I8).vi"/>
+				<Item Name="Type Conversion.From Double (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I16).vi"/>
+				<Item Name="Type Conversion.From Double (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I32).vi"/>
+				<Item Name="Type Conversion.From Double (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I64).vi"/>
+				<Item Name="Type Conversion.From Double (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D SGL).vi"/>
+				<Item Name="Type Conversion.From Double (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U8).vi"/>
+				<Item Name="Type Conversion.From Double (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U16).vi"/>
+				<Item Name="Type Conversion.From Double (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U32).vi"/>
+				<Item Name="Type Conversion.From Double (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D Boolean).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I8).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I16).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I32).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D SGL).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U8).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U16).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U32).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset.vi"/>
+				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
+				<Item Name="Type Conversion.To Double (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D Boolean).vi"/>
+				<Item Name="Type Conversion.To Double (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I8).vi"/>
+				<Item Name="Type Conversion.To Double (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I16).vi"/>
+				<Item Name="Type Conversion.To Double (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I32).vi"/>
+				<Item Name="Type Conversion.To Double (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I64).vi"/>
+				<Item Name="Type Conversion.To Double (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D SGL).vi"/>
+				<Item Name="Type Conversion.To Double (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U8).vi"/>
+				<Item Name="Type Conversion.To Double (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U16).vi"/>
+				<Item Name="Type Conversion.To Double (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U32).vi"/>
+				<Item Name="Type Conversion.To Double (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D Boolean).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I8).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I16).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I32).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D SGL).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U8).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U16).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U32).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset.vi"/>
+				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
+				<Item Name="Utilities.Buffer.Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Buffer.Double.vi"/>
+				<Item Name="Utilities.Sizeof.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Sizeof.Array.vi"/>
+				<Item Name="Utilities.Sizeof.Scalar.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Sizeof.Scalar.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -578,6 +671,8 @@ DirectoryIndex index.htm
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Byte Buffer.Get Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Get Buffer.vi"/>
+				<Item Name="Byte Buffer.Set Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Set Buffer.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -611,7 +706,7 @@ DirectoryIndex index.htm
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VeriStand Data.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/VeriStand Data.lvlib"/>
+				<Item Name="VeriStand Data.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/VeriStand Data.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -786,6 +881,42 @@ DirectoryIndex index.htm
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Byte Buffer.Create.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Create.vi"/>
+				<Item Name="Byte Buffer.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.lvclass/Byte Buffer.ctl"/>
+				<Item Name="Byte Buffer.Get Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Get Buffer.vi"/>
+				<Item Name="Byte Buffer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.lvclass"/>
+				<Item Name="Byte Buffer.Mapping.Create (Channel Pointer).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Create (Channel Pointer).vi"/>
+				<Item Name="Byte Buffer.Mapping.Create.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Create.vi"/>
+				<Item Name="Byte Buffer.Mapping.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.ctl"/>
+				<Item Name="Byte Buffer.Mapping.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Read.vi"/>
+				<Item Name="Byte Buffer.Mapping.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Write.vi"/>
+				<Item Name="Byte Buffer.Read (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D Boolean).vi"/>
+				<Item Name="Byte Buffer.Read (1D DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D DBL).vi"/>
+				<Item Name="Byte Buffer.Read (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I8).vi"/>
+				<Item Name="Byte Buffer.Read (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I16).vi"/>
+				<Item Name="Byte Buffer.Read (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I32).vi"/>
+				<Item Name="Byte Buffer.Read (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I64).vi"/>
+				<Item Name="Byte Buffer.Read (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D SGL).vi"/>
+				<Item Name="Byte Buffer.Read (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U8).vi"/>
+				<Item Name="Byte Buffer.Read (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U16).vi"/>
+				<Item Name="Byte Buffer.Read (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U32).vi"/>
+				<Item Name="Byte Buffer.Read (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U64).vi"/>
+				<Item Name="Byte Buffer.Read.Typed Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read.Typed Array.vi"/>
+				<Item Name="Byte Buffer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read.vi"/>
+				<Item Name="Byte Buffer.Set Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Set Buffer.vi"/>
+				<Item Name="Byte Buffer.Write (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D Boolean).vi"/>
+				<Item Name="Byte Buffer.Write (1D DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D DBL).vi"/>
+				<Item Name="Byte Buffer.Write (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I8).vi"/>
+				<Item Name="Byte Buffer.Write (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I16).vi"/>
+				<Item Name="Byte Buffer.Write (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I32).vi"/>
+				<Item Name="Byte Buffer.Write (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I64).vi"/>
+				<Item Name="Byte Buffer.Write (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D SGL).vi"/>
+				<Item Name="Byte Buffer.Write (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U8).vi"/>
+				<Item Name="Byte Buffer.Write (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U16).vi"/>
+				<Item Name="Byte Buffer.Write (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U32).vi"/>
+				<Item Name="Byte Buffer.Write (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U64).vi"/>
+				<Item Name="Byte Buffer.Write.Typed Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write.Typed Array.vi"/>
+				<Item Name="Byte Buffer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -809,9 +940,19 @@ DirectoryIndex index.htm
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Memory Management.Handle Return.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.Handle Return.vi"/>
+				<Item Name="Memory Management.MoveDblBlock.Read (Double).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.MoveDblBlock.Read (Double).vi"/>
+				<Item Name="Memory Management.MoveDblBlock.Write (Double).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.MoveDblBlock.Write (Double).vi"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Pointer.Dispose.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Dispose.vi"/>
+				<Item Name="Pointer.In-Place Read (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (DBL).vi"/>
+				<Item Name="Pointer.New.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.New.vi"/>
+				<Item Name="Pointer.Read (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (DBL).vi"/>
+				<Item Name="Pointer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read.vi"/>
+				<Item Name="Pointer.Write (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (DBL).vi"/>
+				<Item Name="Pointer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -820,7 +961,54 @@ DirectoryIndex index.htm
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VeriStand Data.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/VeriStand Data.lvlib"/>
+				<Item Name="Type Conversion.From Double (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D Boolean).vi"/>
+				<Item Name="Type Conversion.From Double (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I8).vi"/>
+				<Item Name="Type Conversion.From Double (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I16).vi"/>
+				<Item Name="Type Conversion.From Double (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I32).vi"/>
+				<Item Name="Type Conversion.From Double (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I64).vi"/>
+				<Item Name="Type Conversion.From Double (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D SGL).vi"/>
+				<Item Name="Type Conversion.From Double (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U8).vi"/>
+				<Item Name="Type Conversion.From Double (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U16).vi"/>
+				<Item Name="Type Conversion.From Double (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U32).vi"/>
+				<Item Name="Type Conversion.From Double (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D Boolean).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I8).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I16).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I32).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D SGL).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U8).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U16).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U32).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset.vi"/>
+				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
+				<Item Name="Type Conversion.To Double (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D Boolean).vi"/>
+				<Item Name="Type Conversion.To Double (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I8).vi"/>
+				<Item Name="Type Conversion.To Double (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I16).vi"/>
+				<Item Name="Type Conversion.To Double (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I32).vi"/>
+				<Item Name="Type Conversion.To Double (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I64).vi"/>
+				<Item Name="Type Conversion.To Double (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D SGL).vi"/>
+				<Item Name="Type Conversion.To Double (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U8).vi"/>
+				<Item Name="Type Conversion.To Double (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U16).vi"/>
+				<Item Name="Type Conversion.To Double (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U32).vi"/>
+				<Item Name="Type Conversion.To Double (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D Boolean).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I8).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I16).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I32).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D SGL).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U8).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U16).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U32).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset.vi"/>
+				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
+				<Item Name="Utilities.Buffer.Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Buffer.Double.vi"/>
+				<Item Name="Utilities.Sizeof.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Sizeof.Array.vi"/>
+				<Item Name="Utilities.Sizeof.Scalar.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Sizeof.Scalar.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -996,6 +1184,42 @@ DirectoryIndex index.htm
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Byte Buffer.Create.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Create.vi"/>
+				<Item Name="Byte Buffer.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.lvclass/Byte Buffer.ctl"/>
+				<Item Name="Byte Buffer.Get Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Get Buffer.vi"/>
+				<Item Name="Byte Buffer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.lvclass"/>
+				<Item Name="Byte Buffer.Mapping.Create (Channel Pointer).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Create (Channel Pointer).vi"/>
+				<Item Name="Byte Buffer.Mapping.Create.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Create.vi"/>
+				<Item Name="Byte Buffer.Mapping.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.ctl"/>
+				<Item Name="Byte Buffer.Mapping.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Read.vi"/>
+				<Item Name="Byte Buffer.Mapping.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Mapping.Write.vi"/>
+				<Item Name="Byte Buffer.Read (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D Boolean).vi"/>
+				<Item Name="Byte Buffer.Read (1D DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D DBL).vi"/>
+				<Item Name="Byte Buffer.Read (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I8).vi"/>
+				<Item Name="Byte Buffer.Read (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I16).vi"/>
+				<Item Name="Byte Buffer.Read (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I32).vi"/>
+				<Item Name="Byte Buffer.Read (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D I64).vi"/>
+				<Item Name="Byte Buffer.Read (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D SGL).vi"/>
+				<Item Name="Byte Buffer.Read (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U8).vi"/>
+				<Item Name="Byte Buffer.Read (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U16).vi"/>
+				<Item Name="Byte Buffer.Read (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U32).vi"/>
+				<Item Name="Byte Buffer.Read (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read (1D U64).vi"/>
+				<Item Name="Byte Buffer.Read.Typed Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read.Typed Array.vi"/>
+				<Item Name="Byte Buffer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Read.vi"/>
+				<Item Name="Byte Buffer.Set Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Set Buffer.vi"/>
+				<Item Name="Byte Buffer.Write (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D Boolean).vi"/>
+				<Item Name="Byte Buffer.Write (1D DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D DBL).vi"/>
+				<Item Name="Byte Buffer.Write (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I8).vi"/>
+				<Item Name="Byte Buffer.Write (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I16).vi"/>
+				<Item Name="Byte Buffer.Write (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I32).vi"/>
+				<Item Name="Byte Buffer.Write (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D I64).vi"/>
+				<Item Name="Byte Buffer.Write (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D SGL).vi"/>
+				<Item Name="Byte Buffer.Write (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U8).vi"/>
+				<Item Name="Byte Buffer.Write (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U16).vi"/>
+				<Item Name="Byte Buffer.Write (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U32).vi"/>
+				<Item Name="Byte Buffer.Write (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write (1D U64).vi"/>
+				<Item Name="Byte Buffer.Write.Typed Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write.Typed Array.vi"/>
+				<Item Name="Byte Buffer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Byte Buffer/Byte Buffer.Write.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -1019,9 +1243,19 @@ DirectoryIndex index.htm
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Memory Management.Handle Return.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.Handle Return.vi"/>
+				<Item Name="Memory Management.MoveDblBlock.Read (Double).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.MoveDblBlock.Read (Double).vi"/>
+				<Item Name="Memory Management.MoveDblBlock.Write (Double).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Memory Management/Memory Management.MoveDblBlock.Write (Double).vi"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Pointer.Dispose.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Dispose.vi"/>
+				<Item Name="Pointer.In-Place Read (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (DBL).vi"/>
+				<Item Name="Pointer.New.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.New.vi"/>
+				<Item Name="Pointer.Read (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (DBL).vi"/>
+				<Item Name="Pointer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read.vi"/>
+				<Item Name="Pointer.Write (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (DBL).vi"/>
+				<Item Name="Pointer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -1030,7 +1264,54 @@ DirectoryIndex index.htm
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VeriStand Data.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/VeriStand Data.lvlib"/>
+				<Item Name="Type Conversion.From Double (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D Boolean).vi"/>
+				<Item Name="Type Conversion.From Double (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I8).vi"/>
+				<Item Name="Type Conversion.From Double (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I16).vi"/>
+				<Item Name="Type Conversion.From Double (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I32).vi"/>
+				<Item Name="Type Conversion.From Double (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D I64).vi"/>
+				<Item Name="Type Conversion.From Double (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D SGL).vi"/>
+				<Item Name="Type Conversion.From Double (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U8).vi"/>
+				<Item Name="Type Conversion.From Double (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U16).vi"/>
+				<Item Name="Type Conversion.From Double (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U32).vi"/>
+				<Item Name="Type Conversion.From Double (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (1D U64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D Boolean).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I8).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I16).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I32).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D I64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D SGL).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U8).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U16).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U32).vi"/>
+				<Item Name="Type Conversion.From Double.Subset (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset (1D U64).vi"/>
+				<Item Name="Type Conversion.From Double.Subset.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.Subset.vi"/>
+				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
+				<Item Name="Type Conversion.To Double (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D Boolean).vi"/>
+				<Item Name="Type Conversion.To Double (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I8).vi"/>
+				<Item Name="Type Conversion.To Double (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I16).vi"/>
+				<Item Name="Type Conversion.To Double (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I32).vi"/>
+				<Item Name="Type Conversion.To Double (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D I64).vi"/>
+				<Item Name="Type Conversion.To Double (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D SGL).vi"/>
+				<Item Name="Type Conversion.To Double (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U8).vi"/>
+				<Item Name="Type Conversion.To Double (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U16).vi"/>
+				<Item Name="Type Conversion.To Double (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U32).vi"/>
+				<Item Name="Type Conversion.To Double (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (1D U64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D Boolean).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D Boolean).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I8).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I16).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I32).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D I64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D I64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D SGL).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D SGL).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U8).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U16).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U32).vi"/>
+				<Item Name="Type Conversion.To Double.Subset (1D U64).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset (1D U64).vi"/>
+				<Item Name="Type Conversion.To Double.Subset.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.Subset.vi"/>
+				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
+				<Item Name="Utilities.Buffer.Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Buffer.Double.vi"/>
+				<Item Name="Utilities.Sizeof.Array.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Sizeof.Array.vi"/>
+				<Item Name="Utilities.Sizeof.Scalar.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Utilities/Utilities.Sizeof.Scalar.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
