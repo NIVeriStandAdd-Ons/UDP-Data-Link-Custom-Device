@@ -1,15 +1,15 @@
-Package: udp-custom-device-{veristand_version}
-Version: {nipkg_version}
+Package: udp-custom-device-{version}
+Version: 1.0
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  UDP Data Link Custom Device was built to extend VeriStand's communication abilities by providing the user with the ability to transmit and receive UDP packets.
+Description:  This package provides a plugin to utilize UDP communication in NI VeriStand.
 XB-Eula:  
 Priority: standard
-Homepage: https://github.com/NIVeriStandAdd-Ons/UDP-Data-Link-Custom-Device
+Homepage: http://www.ni.com
 XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
-XB-DisplayVersion: {nipkg_version}
-XB-DisplayName: UDP Custom Device for VeriStand {veristand_version}
+XB-DisplayVersion: 1.0
+XB-DisplayName: UDP Custom Device for VeriStand {version}
 Depends: 
