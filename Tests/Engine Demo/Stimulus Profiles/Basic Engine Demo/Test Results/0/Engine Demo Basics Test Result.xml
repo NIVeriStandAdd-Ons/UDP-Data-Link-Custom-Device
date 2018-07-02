@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="TRML.xsl"?>
+<TestResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="ca0d1d08-79ed-496b-be46-7491a86abd39" xmlns="urn:IEEE-1636.1:2013:TestResults">
+	<Personnel>
+		<SystemOperator ID="VS-STEPS-BUILD-\admin" />
+	</Personnel>
+	<References>
+		<Reference uuid="0a9bae90-148a-4a51-a6dd-81b9f57bbc3d" name="Engine Demo Basics">
+			<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Basic Engine Demo\Engine Demo Basics.nivsstimprof</Text>
+		</Reference>
+	</References>
+	<ResultSet endDateTime="2018-02-11T16:30:38.7792288-06:00" startDateTime="2018-02-11T16:30:28.7142286-06:00" name="C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Basic Engine Demo\Test Results\0\Engine Demo Basics Test Result.xml" ID="Test Result">
+		<Outcome value="Aborted" />
+		<TestGroup endDateTime="2018-02-11T16:30:28.7142286-06:00" startDateTime="2018-02-11T16:30:28.7142286-06:00" name="Setup" ID="Setup">
+			<Outcome value="Passed" />
+			<Test endDateTime="2018-02-11T16:30:28.7342287-06:00" startDateTime="2018-02-11T16:30:28.7142286-06:00" name="Open Workspace" ID="Setup/Open Workspace">
+				<Outcome value="Passed" />
+			</Test>
+		</TestGroup>
+		<TestGroup endDateTime="2018-02-11T16:30:28.7342287-06:00" startDateTime="2018-02-11T16:30:28.7342287-06:00" name="Main" ID="Main">
+			<Outcome value="Aborted" />
+			<Test endDateTime="2018-02-11T16:30:38.7722386-06:00" startDateTime="2018-02-11T16:30:28.7342287-06:00" name="Engine Demo Basic" ID="Main/Call RealTimeSequence: Engine Demo Basic.nivsseq">
+				<Parameters>
+					<Parameter ID="EnginePower">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EnginePower</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="DesiredRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/DesiredRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="Main/Call RealTimeSequence: Engine Demo Basic.nivsseq.SequenceFile" name="Engine Demo Basic">
+						<Reference uuid="356acf0c-3f8a-47f4-bf25-85a4de410a41" name="Engine Demo Basic">
+							<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Basic Engine Demo\Engine Demo Basic.nivsseq</Text>
+						</Reference>
+					</Parameter>
+				</Parameters>
+				<Outcome value="Aborted" />
+				<TestResult ID="ID_a65cce96-37d5-475e-b24b-ee1bf114a5e7" name="Output">
+					<TestData>
+						<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+							<Value>&lt;Void&gt;</Value>
+						</Datum>
+					</TestData>
+				</TestResult>
+			</Test>
+		</TestGroup>
+	</ResultSet>
+	<TestDescription>
+		<Definition version="1_0_0_0" xmlns="urn:IEEE-1671:2010:Common">
+			<Description>This example demonstrates a basic introduction to the new Stimulus Profile Editor.
+
+The real-time sequence simulates two engine warmup phases. The first warmup phase sets the desired RPM to 2500 and waits for 25 seconds. 
+The second warmup phase sets the desired RPM to 8000 and it also waits for 25 seconds before the engine turns off.</Description>
+			<Identification>
+				<ModelName>_</ModelName>
+			</Identification>
+		</Definition>
+	</TestDescription>
+	<UUT>
+		<SerialNumber xmlns="urn:IEEE-1671:2010:Common">0</SerialNumber>
+	</UUT>
+</TestResults>

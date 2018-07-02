@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="TRML.xsl"?>
+<TestResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="ecb72e98-6874-4b15-83dc-b563099bec9c" xmlns="urn:IEEE-1636.1:2013:TestResults">
+	<Personnel>
+		<SystemOperator ID="VS-STEPS-BUILD-\admin" />
+	</Personnel>
+	<References>
+		<Reference uuid="15739547-a534-4215-9109-4a88234c13db" name="Engine Demo Advanced">
+			<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced\Engine Demo Advanced.nivsstimprof</Text>
+		</Reference>
+	</References>
+	<ResultSet endDateTime="2017-12-05T08:15:02.2946225-08:00" startDateTime="2017-12-05T08:13:28.6522097-08:00" name="C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced\Test Results\0\Engine Demo Advanced Test Result.xml" ID="Test Result">
+		<Outcome value="Passed" />
+		<TestGroup endDateTime="2017-12-05T08:13:28.6522097-08:00" startDateTime="2017-12-05T08:13:28.6522097-08:00" name="Setup" ID="Setup">
+			<Outcome value="Passed" />
+			<Test endDateTime="2017-12-05T08:13:29.1212099-08:00" startDateTime="2017-12-05T08:13:28.6522097-08:00" name="Open Workspace" ID="Setup/Open Workspace">
+				<Outcome value="Passed" />
+			</Test>
+		</TestGroup>
+		<TestGroup endDateTime="2017-12-05T08:13:29.1212099-08:00" startDateTime="2017-12-05T08:13:29.1212099-08:00" name="Main" ID="Main">
+			<Outcome value="Passed" />
+			<Test endDateTime="2017-12-05T08:14:12.7783953-08:00" startDateTime="2017-12-05T08:13:29.1212099-08:00" name="Engine Demo Advanced" ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq">
+				<Parameters>
+					<Parameter ID="EnginePower">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EnginePower</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="DesiredRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/DesiredRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="ActualRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/ActualRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="EngineTemperature">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EngineTemp</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq.SequenceFile" name="Engine Demo Advanced">
+						<Reference uuid="4616466d-27fe-4010-91af-334bb10a77f4" name="Engine Demo Advanced">
+							<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced\Engine Demo Advanced.nivsseq</Text>
+						</Reference>
+					</Parameter>
+				</Parameters>
+				<Outcome value="Passed" />
+				<TestResult ID="ID_c25c5248-9776-42a4-8e09-963dda5b2f87" name="Output">
+					<TestData>
+						<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+							<Value>&lt;Void&gt;</Value>
+						</Datum>
+					</TestData>
+				</TestResult>
+			</Test>
+			<Test endDateTime="2017-12-05T08:14:13.6203948-08:00" startDateTime="2017-12-05T08:14:12.7933962-08:00" name="Engine Demo Advanced" ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq">
+				<Parameters>
+					<Parameter ID="EnginePower">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EnginePower</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="DesiredRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/DesiredRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="ActualRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/ActualRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="EngineTemperature">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EngineTemp</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq.SequenceFile" name="Engine Demo Advanced">
+						<Reference uuid="2fe1913f-e483-4c56-a5d3-b2bb18af1c19" name="Engine Demo Advanced">
+							<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced\Engine Demo Advanced.nivsseq</Text>
+						</Reference>
+					</Parameter>
+				</Parameters>
+				<Outcome value="Passed" />
+				<TestResult ID="ID_2b50e568-847e-4071-80bd-fb1f074402f2" name="Output">
+					<TestData>
+						<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+							<Value>&lt;Void&gt;</Value>
+						</Datum>
+					</TestData>
+				</TestResult>
+			</Test>
+			<Test endDateTime="2017-12-05T08:15:01.4066234-08:00" startDateTime="2017-12-05T08:14:13.6353973-08:00" name="Engine Demo Advanced" ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq">
+				<Parameters>
+					<Parameter ID="EnginePower">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EnginePower</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="DesiredRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/DesiredRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="ActualRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/ActualRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="EngineTemperature">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EngineTemp</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq.SequenceFile" name="Engine Demo Advanced">
+						<Reference uuid="3adba1c9-3efb-4e5c-aac6-adb821a8b710" name="Engine Demo Advanced">
+							<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced\Engine Demo Advanced.nivsseq</Text>
+						</Reference>
+					</Parameter>
+				</Parameters>
+				<Outcome value="Passed" />
+				<TestResult ID="ID_b8888634-4fe0-4aae-a7b6-0f070c359ccc" name="Output">
+					<TestData>
+						<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+							<Value>&lt;Void&gt;</Value>
+						</Datum>
+					</TestData>
+				</TestResult>
+			</Test>
+			<Test endDateTime="2017-12-05T08:15:02.2526793-08:00" startDateTime="2017-12-05T08:15:01.4276209-08:00" name="Engine Demo Advanced" ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq">
+				<Parameters>
+					<Parameter ID="EnginePower">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EnginePower</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="DesiredRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/DesiredRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="ActualRPM">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/ActualRPM</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="EngineTemperature">
+						<Data>
+							<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+								<Value>Aliases/EngineTemp</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="Main/Call RealTimeSequence: Engine Demo Advanced.nivsseq.SequenceFile" name="Engine Demo Advanced">
+						<Reference uuid="71fb7645-6cc0-4c8c-ac3a-0c5c189011a1" name="Engine Demo Advanced">
+							<Text xmlns="urn:IEEE-1671:2010:Common">C:\Users\Public\Documents\National Instruments\NI VeriStand 2015\Examples\Stimulus Profile\Engine Demo\Stimulus Profiles\Engine Demo Advanced\Engine Demo Advanced.nivsseq</Text>
+						</Reference>
+					</Parameter>
+				</Parameters>
+				<Outcome value="Passed" />
+				<TestResult ID="ID_ec15569d-418d-4863-b1f8-96282a32744f" name="Output">
+					<TestData>
+						<Datum xsi:type="string" xmlns="urn:IEEE-1671:2010:Common">
+							<Value>&lt;Void&gt;</Value>
+						</Datum>
+					</TestData>
+				</TestResult>
+			</Test>
+		</TestGroup>
+		<Test endDateTime="2017-12-05T08:15:02.2946225-08:00" startDateTime="2017-12-05T08:15:02.2946225-08:00" name="Clean Up" ID="Clean Up">
+			<Outcome value="Passed" />
+		</Test>
+	</ResultSet>
+	<TestDescription>
+		<Definition version="1_0_0_0" xmlns="urn:IEEE-1671:2010:Common">
+			<Description>This example demonstrates how to use multi-tasking in a real-time sequence.
+
+The real-time sequence simulates two engine warmup phases. The first warmup phase sets the desired RPM to 2500 and waits for 25 seconds. 
+The second warmup phase sets the desired RPM to 8000 and it also waits for 25 seconds before the engine turns off.
+
+During both warmup phases, a parallel task monitors the engine temperature so that the engine does not overheat. As soon as the engine temperature rises above a certain value, the currently-active warmup phase stops and the engine shuts down.</Description>
+			<Identification>
+				<ModelName>_</ModelName>
+			</Identification>
+		</Definition>
+	</TestDescription>
+	<UUT>
+		<SerialNumber xmlns="urn:IEEE-1671:2010:Common">0</SerialNumber>
+	</UUT>
+</TestResults>

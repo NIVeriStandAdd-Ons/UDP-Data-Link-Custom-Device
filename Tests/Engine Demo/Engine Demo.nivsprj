@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5EFFD563CBC0332A2127B55F940556DC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.1.61324" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.1.61324" FeatureSetName="VeriStand UI Manager Core Components" MinimumParsableVersion="4.0.0.1" MinimumSemanticallyEquivalentVersion="4.0.0.1" Name="http://www.ni.com/UIManager.Design" Version="4.0.0.49153" />
+		<ApplicationVersionInfo Build="4.5.1.61324" Name="VeriStand.UIManager" Version="4.5.1.61324" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectInformationIcon,EmbeddedReference" Id="7" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectInformationIcon" Name="ProjectInformationIcon">
+				<ProjectInformationIcon>
+					<p.StoragePath>"Documentation\\Engine Demo.png"</p.StoragePath>
+				</ProjectInformationIcon>
+			</EmbeddedDefinitionReference>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,GatewayDefinition,EmbeddedReference" Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition IPAddress="localhost" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,SdfFilePath,EmbeddedReference" Id="6" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="&quot;&lt;CommonDocuments&gt;:\\Examples\\Stimulus Profile\\Engine Demo\\Engine Demo.nivssdf&quot;" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification,SourceFileReference" Id="14" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SupportingDocuments.SourceModel.LoggingSpecification" Name="Logging\ Specification\ \-\ Engine\ Demo\.nivslspec" StoragePath="Logging Specification - Engine Demo.nivslspec" />
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,SourceFileReference" Id="16" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="Engine\ Demo\ Screen\.nivsscr" StoragePath="Engine Demo Screen.nivsscr" />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="17" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="Engine\ Demo\.nivssdf">
+				<ExternalFile>
+					<p.StoragePath>Engine Demo.nivssdf</p.StoragePath>
+				</ExternalFile>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation Author="" ProjectIconBackgroundFilename="{D7561717-D660-4FB3-8F22-FA34432FBB21}" ProjectIconFilename="Engine Demo.png" xmlns="http://www.ni.com/PlatformFramework">
+		<p.Description></p.Description>
+	</ProjectInformation>
+</SourceFile>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StimulusProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Description>This example demonstrates the usage of CSV files as real-time sequences.
+
+You must properly format a CSV file in order for NI VeriStand to consider it valid. Refer to the NI VeriStand Help for details on formatting a CSV file.
+
+A CSV file must specify all timing, channel, and value information. You can call the same CSV file multiple times. You also can use both CSV files and real-time sequence files in the same project.</Description>
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="0" />
+	<Setup Name="Setup">
+		<Step xsi:type="OpenWorkspaceStep" />
+	</Setup>
+	<Main Name="Main">
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="Aliases_EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="Aliases_DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>WarmUp Phase 1.csv</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="Signal">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/ActualRPM" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="UpperLimit">
+					<Value xsi:type="DoubleValue">
+						<Value>500000</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="LowerLimit">
+					<Value xsi:type="DoubleValue">
+						<Value>2400</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="SettleTime">
+					<Value xsi:type="DoubleValue" Units="sec">
+						<Value>10</Value>
+					</Value>
+				</ParameterAssignment>
+				<ParameterAssignment Name="Timeout">
+					<Value xsi:type="DoubleValue" Units="sec">
+						<Value>120</Value>
+					</Value>
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Timing\WaitUntilSettled.nivsseq</SequencePath>
+			<Target>Controller</Target>
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="Aliases_EnginePower">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/EnginePower" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="Aliases_DesiredRPM">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Aliases/DesiredRPM" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>WarmUp Phase 2.csv</SequencePath>
+			<Target />
+			<OutputEvaluation xsi:type="AlwaysPassEvaluation" />
+		</Step>
+	</Main>
+	<CleanUp Name="Clean Up" />
+	<ResultsDirectory>Test Results</ResultsDirectory>
+</StimulusProfile>
