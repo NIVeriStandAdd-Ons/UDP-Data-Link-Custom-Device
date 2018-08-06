@@ -37,40 +37,40 @@
 		<Item Name="Init" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Receive" Type="Folder">
-				<Item Name="Init Rx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Rx Conversion Resources.vi"/>
-				<Item Name="Init Rx Data.vi" Type="VI" URL="../SubVIs/Init Rx Data.vi"/>
-				<Item Name="Init Rx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Rx UDP Connection.vi"/>
-				<Item Name="Init Rx Packet Size.vi" Type="VI" URL="../SubVIs/Init Rx Packet Size.vi"/>
+				<Item Name="Init Rx - Conversion Resources.vi" Type="VI" URL="../Init/Receive/Init Rx - Conversion Resources.vi"/>
+				<Item Name="Init Rx - Data.vi" Type="VI" URL="../Init/Receive/Init Rx - Data.vi"/>
+				<Item Name="Init Rx - UDP Connection.vi" Type="VI" URL="../Init/Receive/Init Rx - UDP Connection.vi"/>
+				<Item Name="Init Rx - Packet Size.vi" Type="VI" URL="../Init/Receive/Init Rx - Packet Size.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
-				<Item Name="Init Tx Conversion Resources.vi" Type="VI" URL="../SubVIs/Init Tx Conversion Resources.vi"/>
-				<Item Name="Init Tx Data.vi" Type="VI" URL="../SubVIs/Init Tx Data.vi"/>
-				<Item Name="Init Tx Header.vi" Type="VI" URL="../SubVIs/Init Tx Header.vi"/>
-				<Item Name="Init Tx UDP Connection.vi" Type="VI" URL="../SubVIs/Init Tx UDP Connection.vi"/>
-				<Item Name="Init Tx Packet Size.vi" Type="VI" URL="../SubVIs/Init Tx Packet Size.vi"/>
-				<Item Name="Apply Static Header.vi" Type="VI" URL="../SubVIs/Apply Static Header.vi"/>
-				<Item Name="Init Tx Dynamic Header.vi" Type="VI" URL="../SubVIs/Init Tx Dynamic Header.vi"/>
+				<Item Name="Init Tx - Conversion Resources.vi" Type="VI" URL="../Init/Transmit/Init Tx - Conversion Resources.vi"/>
+				<Item Name="Init Tx - Data.vi" Type="VI" URL="../Init/Transmit/Init Tx - Data.vi"/>
+				<Item Name="Init Tx - Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Header.vi"/>
+				<Item Name="Init Tx - UDP Connection.vi" Type="VI" URL="../Init/Transmit/Init Tx - UDP Connection.vi"/>
+				<Item Name="Init Tx - Packet Size.vi" Type="VI" URL="../Init/Init Tx - Packet Size.vi"/>
+				<Item Name="Init Tx - Apply Static Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Apply Static Header.vi"/>
+				<Item Name="Init Tx - Dynamic Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Dynamic Header.vi"/>
 			</Item>
-			<Item Name="Init Data.vi" Type="VI" URL="../SubVIs/Init Data.vi"/>
+			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Receive" Type="Folder">
-				<Item Name="UDP to Rx.vi" Type="VI" URL="../SubVIs/UDP to Rx.vi"/>
+				<Item Name="UDP to Rx.vi" Type="VI" URL="../Run/Receive/UDP to Rx.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="Tx to UDP.vi" Type="VI" URL="../SubVIs/Tx to UDP.vi"/>
+				<Item Name="Tx to UDP.vi" Type="VI" URL="../Run/Transmit/Tx to UDP.vi"/>
 			</Item>
-			<Item Name="UDP Rx Process.vi" Type="VI" URL="../UDP Rx Process.vi"/>
-			<Item Name="UDP Tx Process.vi" Type="VI" URL="../UDP Tx Process.vi"/>
+			<Item Name="UDP Rx Process.vi" Type="VI" URL="../Run/UDP Rx Process.vi"/>
+			<Item Name="UDP Tx Process.vi" Type="VI" URL="../Run/UDP Tx Process.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Data Conversion Config.ctl" Type="VI" URL="../Data Conversion Config.ctl"/>
-		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
-		<Item Name="Rx Loop Data.ctl" Type="VI" URL="../Rx Loop Data.ctl"/>
-		<Item Name="Tx Loop Data.ctl" Type="VI" URL="../Tx Loop Data.ctl"/>
+		<Item Name="Engine - Data Conversion Config.ctl" Type="VI" URL="../Types/Engine - Data Conversion Config.ctl"/>
+		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
+		<Item Name="Engine - Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Rx Loop Data.ctl"/>
+		<Item Name="Engine - Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Tx Loop Data.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
