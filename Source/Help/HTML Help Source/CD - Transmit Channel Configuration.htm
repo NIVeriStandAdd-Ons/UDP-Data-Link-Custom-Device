@@ -24,19 +24,28 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h2>Introduction</h2>
 		<p>
 			<!--Global scheme of why this screen is important and how it relates to the general process of setting up the custom device.-->
+			This page provides a means for importing a definition file (*.csv) for data types and data order in the transmit packet.
 		</p>
 		
 		<h2>Configuration Summary</h2>
 		<p>
 			<!--Description/summary of the basic purpose of the controls on this screen.-->
+			Channel data in a transmit packet does not need to be manually reordered and have data types assigned using the configuration screen. Instead, a *.csv file can be used to import an existing definition for all existing channels already in the transmit packet. Examples of thise file can be found with the custom device distribution. The configuration file import only modifies channels with names that exactly match the contents of the configuration file. Additionally, any channels that are not called out in the configuration file will be placed at the end of the transmitted data order. The configuration file not be fully imported and applied until the <i>Apply Config</i> button is pressed in the top menu.
+		</p>
+		<p>
+			When the <i>Apply Config</i> button is pressed, all channels with matching names are re-organized and re-typed to best match the contents of the channel configuration file.
 			<table>
 				<tr>
 					<th></th>
 					<th>Description</th>
 				</tr>
 				<tr>
-					<td><STRONG><!--ControlName--></STRONG></td>
-					<td><!--Description of control functionality and purpose--></td>
+					<td><STRONG>Channel Configuration File</STRONG></td>
+					<td>The target configuration file (*.csv) to import for data type and data ordering. The configuration is loaded immediately and displayed. It is not applied until the <i>Apply Config</i> button is pressed in the top menu.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Imported Channel Configuration</STRONG></td>
+					<td>Provides a summary of the contents of the Channel Configuration File. This list cannot be manipulated manually. Dispalys the target channel names, the Index/Order that they should be sent, and the data-type that they should be encoded with. <i>Boolean</i> and <i>Single</i> are the only two data types currently supported.</td>
 				</tr>
 			</table>
 		</p>

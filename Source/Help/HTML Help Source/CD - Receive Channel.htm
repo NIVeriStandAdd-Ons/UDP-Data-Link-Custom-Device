@@ -24,19 +24,25 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h2>Introduction</h2>
 		<p>
 			<!--Global scheme of why this screen is important and how it relates to the general process of setting up the custom device.-->
+			A specialized channel that will get data from a received UDP packet.
 		</p>
 		
 		<h2>Configuration Summary</h2>
 		<p>
 			<!--Description/summary of the basic purpose of the controls on this screen.-->
+			Receive channels are slightly specialized in that they track the data type that they represent in the received packet, as well as their location in the packet (relative to the front of the packet). Receive channels start with a default value of 0.
 			<table>
 				<tr>
 					<th></th>
 					<th>Description</th>
 				</tr>
 				<tr>
-					<td><STRONG><!--ControlName--></STRONG></td>
-					<td><!--Description of control functionality and purpose--></td>
+					<td><STRONG>Field Index</STRONG></td>
+					<td>The relative location of the corresponding packet data that this channel will hold. An index of 0 indicates that this channel will get the first-most data from the received packet (after the header). An index of 1 means that this channel will get the second-most data from the received packet.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Data Type</STRONG></td>
+					<td>The expected data type that this channel will receive from the inbound UDP packet. <i>Boolean</i> and <i>Single</i> are the only two data types currently supported. <i>Single</i> refers to a 32 bit floating-point value.</td>
 				</tr>
 			</table>
 		</p>
