@@ -51,7 +51,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					</td>
 				</tr>
 				<tr>
-					<td><STRONG>Type</STRONG></td>
+					<td><STRONG>Data Type</STRONG></td>
 					<td>2</td>
 					<td>
 						The data type that the channel represents. Even though all channels are of the Double data type in Veristand, this field instructs the UDP Custom Device engine to convert channel data appropriately to optimize payload sizes.<br>
@@ -96,7 +96,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<tr>
 				<td><STRONG>Data Type</STRONG></td>
 				<td>
-					A target channel will have its data type forcibly changed to match the contents of this field in the file.
+					A target channel will have its <a href="INFO - Data Types.htm">data type</a> forcibly changed to match the contents of this field in the file.
 				</td>
 			</tr>
 			<tr>
@@ -139,9 +139,15 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			</tr>
 		</table>
 
-		<h2>Example Configuration File</h2>
+		<h2>Example Configuration File Contents</h2>
 		<p><!--Example of a raw csv configuration file with a minor description following it.-->
-			
+			An example of the contents of a small channel configuration file.<br><br>
+			Signal Name,Alias,Datatype,Description<br>
+			28VPWR00,Channel 0 28V Power,Boolean,Designates if 28V power is active on channel 0<br>
+			PTCH0000,Channel 0 Pitch,Single,Channel 0 pitch (degrees)<br>
+			YAW00000,Channel 0 Yaw,Single,Channel 0 yaw (degrees)<br>
+			ROLL0000,Channel 0 Roll,Single,Channel 0 roll (degrees)<br>
+			OILTMP00,Channel 0 Oil Temperature,Single,Channel 0 oil temperature (degrees F)<br>
 		</p>
 	</body>
 	<footer>
