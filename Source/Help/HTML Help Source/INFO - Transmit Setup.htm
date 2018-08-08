@@ -40,7 +40,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</p>
 		<img src="img/PacketHeader.png" alt="Packet Header" style="width:289px;height:512px;margin:auto;display:block;max-width:100%;"></img>
 		<p>
-			The final important detail to cover in a transmit packet is the <a href="INFO - Packet Headers.htm">packet header</a>. The packet header determines what additional data is sent with the transmit packet before the channel data. This packet header is pre-defined and can contain versioning, indentification information, and some minor debug values. For this simple setup, the only header value in use is the <i>Packet Size</i>, which is required in all packets.
+			The final important detail to cover in a transmit packet is the <a href="INFO - Packet Headers.htm">packet header</a>. The packet header determines what additional data is sent with the transmit packet before the channel data. This packet header is pre-defined and can contain versioning, indentification information, and some minor debug values. For this simple setup, the only header value in use is the <i>Packet Size</i>, which is 2-byte value required for all packets.
 		</p>
 
 		<h2>Assigning Channels to the Packet</h2>
@@ -63,7 +63,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</p>
 		<img src="img/UpdateTxChannels.png" alt="Configure Tx Channels" style="width:689px;height:197px;margin:auto;display:block;max-width:100%;"></img>
 		<p>
-			In order to resolve both issues, channels have their encoded data type changed, as well as be reordered in this field. Reordering channels only requires that a channel is selected and then dragged and dropped in the listbox to new location. Order is important, as it dictates where in the transmit packet the channel data will be placed. A channel at the top of the list (index 0) will always be transmitted before the channel at index 1. The channel at index 1 will always be transmitted before the channel at index 2. And so on. To adjust the encoded <a href="INFO - Data Types.htm">data type</a> of a channel, select a channel, right click on it, and navigate to the <i>Change Type</i> sub-menu. From here, select the target data type a channel should be treated as when being transmitted over UDP. Please setup the channel order and data types to match the images above.<br>
+			In order to resolve both issues, channels may have their encoded data type changed, as well as be reordered in this field. Reordering channels only requires that a channel is selected and then dragged and dropped in the listbox to new location. Order is important, as it dictates where in the transmit packet the channel data will be placed. A channel at the top of the list (index 0) will always be transmitted before the channel at index 1. The channel at index 1 will always be transmitted before the channel at index 2. And so on. To adjust the encoded <a href="INFO - Data Types.htm">data type</a> of a channel, select a channel, right click on it, and navigate to the <i>Change Type</i> sub-menu. From here, select the target data type a channel should be treated as when being transmitted over UDP. Please setup the channel order and data types to match the images above.<br>
 			Once this is complete, the corresponding receive packet from the <a href="INFO - Receive Setup.htm">Simple Receive Tutorial</a> should be able to receive data from this transmit packet.
 		</p>
 

@@ -106,6 +106,9 @@
 				<Item Name="Shared Channel Accessors.lvlib" Type="Library" URL="../Property Accessors/Shared Channel Accessors.lvlib"/>
 			</Item>
 			<Item Name="Sections" Type="Folder">
+				<Item Name="Receive Channel Section" Type="Folder">
+					<Item Name="Rx Channel Section Accessors.lvlib" Type="Library" URL="../Property Accessors/Rx Channel Section Accessors.lvlib"/>
+				</Item>
 				<Item Name="Shared Section Accessors.lvlib" Type="Library" URL="../Property Accessors/Shared Section Accessors.lvlib"/>
 			</Item>
 			<Item Name="Packets" Type="Folder">
