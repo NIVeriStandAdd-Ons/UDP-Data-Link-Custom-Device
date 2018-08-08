@@ -52,7 +52,6 @@
 					<Item Name="Tx Channel Config Page.vi" Type="VI" URL="../Pages/Tx Channel Config Page.vi"/>
 					<Item Name="Tx Packet Page.vi" Type="VI" URL="../Pages/Tx Packet Page.vi"/>
 					<Item Name="Tx Section Page.vi" Type="VI" URL="../Pages/Tx Section Page.vi"/>
-					<Item Name="Tx Timestamp Channel Page.vi" Type="VI" URL="../Pages/Tx Timestamp Channel Page.vi"/>
 				</Item>
 				<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
 			</Item>

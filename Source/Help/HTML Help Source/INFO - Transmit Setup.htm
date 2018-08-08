@@ -23,24 +23,24 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h1>Simple Transmit Tutorial</h1> <!--REPLACE-->
 		<h2>Introduction</h2>
 		<p>
-			This page will walk you through a very simple setup of transmitting a few channels of Veristand data over UDP. The workflow presented in this tutorial is the suggested methodology for configuring a UDP transmit packet.
+			This page will walk you through a very simple setup of transmitting a few channels of Veristand data over UDP. The workflow presented in this tutorial is the suggested methodology for configuring a UDP transmit packet. This tutorial is complementary to the <a href="INFO - Receive Setup.htm">Simple Receive Tutorial</a> and should create a transmit packet that will generate compatible traffic to that receive packet.
 		</p>
 		
 		<h2>Creating a Transmit Packet</h2>
 		<p>
 			Before any channel data can be transmitted over UDP, a <a href="CD - Transmit Packet">transmit packet</a> must be defined. The transmit packet holds information regarding the local network configuration, the target network configuration, and data payload configuration.
 		</p>
-			<img src="img/TxPacketSmall.png" alt="Transmit Packet on a local/Windows host" style="width:688px;height:669px;margin:auto;display:block;max-width:100%;"></img>
+		<img src="img/TxPacketSmall.png" alt="Transmit Packet on a local/Windows host" style="width:688px;height:669px;margin:auto;display:block;max-width:100%;"></img>
 		<p>
 			A transmit packet is created by right-clicking on the <i>Tx Packets</i> and clicking on <i>Add Packet(s)</i>. Once a transmit packet is added, the network settings and data configuration of the transmit packet may be configured.
 		</p>
-			<img src="img/CreateTxPacketSmall.png" alt="Create Transmit Packet" style="width:441px;height:318px;margin:auto;display:block;max-width:100%;"></img>
+		<img src="img/CreateTxPacketSmall.png" alt="Create Transmit Packet" style="width:441px;height:318px;margin:auto;display:block;max-width:100%;"></img>
 		<p>
 			It is suggested to use the <i>Auto-Assign Local NIC</i> functionality when just starting to setup your first transmit packet. This will ensure that the packet is sent out on the same network that the controller is present on. The destination network settings should be setup to match an existing receive packet. For the purposes of this example, use the network settings as seen above.
 		</p>
 		<img src="img/PacketHeader.png" alt="Packet Header" style="width:289px;height:512px;margin:auto;display:block;max-width:100%;"></img>
 		<p>
-			The final important detail to cover in a transmit packet is the packet header. The packet header determines what additional data is sent with the transmit packet before the channel data. This packet header is pre-defined and usually contains versioning, indentification information, and some minor debug values. For this simple setup, the only header value in use
+			The final important detail to cover in a transmit packet is the <a href="INFO - Packet Headers.htm">packet header</a>. The packet header determines what additional data is sent with the transmit packet before the channel data. This packet header is pre-defined and can contain versioning, indentification information, and some minor debug values. For this simple setup, the only header value in use is the <i>Packet Size</i>, which is required in all packets.
 		</p>
 
 		<h2>Assigning Channels to the Packet</h2>

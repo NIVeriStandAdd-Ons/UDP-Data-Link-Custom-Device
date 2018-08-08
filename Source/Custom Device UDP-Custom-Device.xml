@@ -282,7 +282,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
-<!--
+			<!--
 				<MenuItem>
 					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
 					<Type>Separator</Type>
@@ -329,7 +329,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
--->
+			-->
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
@@ -577,7 +577,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
-<!--
+			<!--
 				<MenuItem>
 					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
 					<Type>Separator</Type>
@@ -624,7 +624,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
--->
+			-->
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
@@ -684,6 +684,7 @@
 				</Button>
 			</ButtonList>
 		</Page>
+	<!-- Currently unused.
 		<Page>
 			<Name>
 				<eng>Timestamp Channel</eng>
@@ -737,6 +738,7 @@
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Status Section Page.vi</Path>
 			</Item2Launch>
 		</Page>
+	-->
 		<Page>
 			<Name>
 				<eng>Channel Configuration</eng>

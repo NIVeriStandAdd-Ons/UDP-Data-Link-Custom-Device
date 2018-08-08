@@ -9,7 +9,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 	<head>
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
-		<title>Template</title> <!--REPLACE-->
+		<title>Simple Receive Tutorial</title> <!--REPLACE-->
 		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
@@ -20,17 +20,28 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 			<hr width="100%" noshade>
 		</noscript>
-		<h1>Template</h1> <!--REPLACE-->
+		<h1>Simple Receive Tutorial</h1> <!--REPLACE-->
 		<h2>Introduction</h2>
 		<p>
-			<!--Global scheme of why this screen is important and how it relates to the general process of setting up the custom device.-->
+			This page will walk you through a very simple setup of receiving a few channels of Veristand data over UDP. The workflow presented in this tutorial is the suggested methodology for configuring a UDP receive packet. This tutorial is complementary to the <a href="INFO - Transmit Setup.htm">Simple Transmit Tutorial</a> and should create a receive packet that can handle data from that transmit packet.
 		</p>
 		
 		<h2>Creating a Receive Packet</h2>
 		<p>
-			<!--Description/summary of the basic purpose of the controls on this screen.-->
+			Before any channel data can be received over UDP, a <a href="CD - Receive Packet">receive packet</a> must be defined. The receive packet holds information regarding the local network configuration and data payload configuration.
 		</p>
-
+		<img src="img/RxPacketSmall.png" alt="Receive Packet on a local/Windows host" style="width:698px;height:666px;margin:auto;display:block;max-width:100%;"></img>
+		<p>
+			A receive packet is created by right-clicking on the <i>Rx Packets</i> and clicking on <i>Add Packet(s)</i>. Once a receive packet is added, the network settings and data configuration of the receive packet may be configured.
+		</p>
+		<img src="img/CreateRxPacketSmall.png" alt="Create Receive Packet" style="width:434px;height:270px;margin:auto;display:block;max-width:100%;"></img>
+		<p>
+			It is suggested to use the <i>Auto-Assign Local NIC</i> functionality when just starting to setup your first receive packet. This will ensure that the packet is received out on the same network that the controller is present on. The receive port should match a pre-existing transmit packet definition or other properly-formatted inbound UDP data. For the purposes of this example, use the network settings as seen above.
+		</p>
+		<img src="img/PacketHeader.png" alt="Packet Header" style="width:289px;height:512px;margin:auto;display:block;max-width:100%;"></img>
+		<p>
+			The final important detail to cover in a receive packet is the <a href="INFO - Packet Headers.htm">packet header</a>. The packet header identifies what additional data is expected in an inbound packet before the channel data. This packet header is pre-defined and can contain versioning, indentification information, and some minor debug values. For this simple setup, the only header value in use is the <i>Packet Size</i>, which is required in all packets.
+		</p>
 		<h2>Adding Channels to the Packet</h2>
 		<p>
 			<!--Description/summary of the basic purpose of the controls on this screen.-->
