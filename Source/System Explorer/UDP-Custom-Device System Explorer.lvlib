@@ -214,6 +214,9 @@
 			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="Channel Configuration" Type="Folder">
+				<Item Name="Channel Config File Data.ctl" Type="VI" URL="../Types/Channel Configuration/Channel Config File Data.ctl"/>
+			</Item>
 			<Item Name="Page References" Type="Folder">
 				<Item Name="Refs - Main Page.ctl" Type="VI" URL="../Types/Page References/Refs - Main Page.ctl"/>
 				<Item Name="Refs - Rx Packets Page.ctl" Type="VI" URL="../Types/Page References/Refs - Rx Packets Page.ctl"/>

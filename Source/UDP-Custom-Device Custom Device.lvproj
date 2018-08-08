@@ -31,7 +31,6 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
-		<Item Name="Channel Config File Data.ctl" Type="VI" URL="../System Explorer/Types/Channel Configuration/Channel Config File Data.ctl"/>
 		<Item Name="Custom Device UDP-Custom-Device.xml" Type="Document" URL="../Custom Device UDP-Custom-Device.xml"/>
 		<Item Name="UDP-Custom-Device Engine.lvlib" Type="Library" URL="../Engine/UDP-Custom-Device Engine.lvlib"/>
 		<Item Name="UDP-Custom-Device Shared.lvlib" Type="Library" URL="../Shared/UDP-Custom-Device Shared.lvlib"/>
