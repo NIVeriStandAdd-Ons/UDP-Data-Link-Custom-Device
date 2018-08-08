@@ -1,7 +1,7 @@
 [OPTIONS]
 Compatibility=1.1 or later
 Compiled File=UDP-Custom-Device.chm
-Default Topic=HTML Help Source\Main.htm
+Default Topic=HTML Help Source\UDP Custom Device.htm
 Display compile progress=No
 Language=0x409 English (United States)
 Title=UDP-Custom-Device
@@ -30,6 +30,20 @@ HTML Help Source\js\polyviselect.js
 HTML Help Source\js\stylesheets.js
 HTML Help Source\js\variables.js
 HTML Help Source\js\web.js
-HTML Help Source\Main.htm
-HTML Help Source\Rx.htm
-HTML Help Source\Tx.htm
+HTML Help Source\CD - Main Page.htm
+HTML Help Source\CD - Page Summary.htm
+HTML Help Source\CD - Receive Channel Configuration.htm
+HTML Help Source\CD - Receive Channel Section.htm
+HTML Help Source\CD - Receive Channel.htm
+HTML Help Source\CD - Receive Packet.htm
+HTML Help Source\CD - Receive Packets.htm
+HTML Help Source\CD - Transmit Channel Configuration.htm
+HTML Help Source\CD - Transmit Packet.htm
+HTML Help Source\CD - Transmit Packets.htm
+HTML Help Source\CFG - Configuration File.htm
+HTML Help Source\INFO - Data Types.htm
+HTML Help Source\INFO - Packet Headers.htm
+HTML Help Source\INFO - Receive Setup.htm
+HTML Help Source\INFO - Transmit Setup.htm
+HTML Help Source\Template.htm
+HTML Help Source\UDP Custom Device.htm

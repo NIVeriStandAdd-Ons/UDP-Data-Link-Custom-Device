@@ -52,7 +52,6 @@
 					<Item Name="Tx Channel Config Page.vi" Type="VI" URL="../Pages/Tx Channel Config Page.vi"/>
 					<Item Name="Tx Packet Page.vi" Type="VI" URL="../Pages/Tx Packet Page.vi"/>
 					<Item Name="Tx Section Page.vi" Type="VI" URL="../Pages/Tx Section Page.vi"/>
-					<Item Name="Tx Timestamp Channel Page.vi" Type="VI" URL="../Pages/Tx Timestamp Channel Page.vi"/>
 				</Item>
 				<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
 			</Item>
@@ -107,6 +106,9 @@
 				<Item Name="Shared Channel Accessors.lvlib" Type="Library" URL="../Property Accessors/Shared Channel Accessors.lvlib"/>
 			</Item>
 			<Item Name="Sections" Type="Folder">
+				<Item Name="Receive Channel Section" Type="Folder">
+					<Item Name="Rx Channel Section Accessors.lvlib" Type="Library" URL="../Property Accessors/Rx Channel Section Accessors.lvlib"/>
+				</Item>
 				<Item Name="Shared Section Accessors.lvlib" Type="Library" URL="../Property Accessors/Shared Section Accessors.lvlib"/>
 			</Item>
 			<Item Name="Packets" Type="Folder">
