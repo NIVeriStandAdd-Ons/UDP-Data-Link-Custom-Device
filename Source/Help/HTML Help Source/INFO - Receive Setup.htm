@@ -54,7 +54,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<p>
 			Once the channels are added, they will appear in the <i>Configured Channels</i> section in the receive packet page. Initially, these channels will all assume an encoded transmission data type of <i>Single</i>. They may also be in an incorrect order.
 		</p>
-		<img src="img/UpdateTxChannels.png" alt="Configure Rx Channels" style="width:689px;height:197px;margin:auto;display:block;max-width:100%;"></img>
+		<img src="img/UpdateRxChannels.png" alt="Configure Rx Channels" style="width:683px;height:234px;margin:auto;display:block;max-width:100%;"></img>
 		<p>
 			In order to resolve both issues, channels may have their expected encoded data type changed, as well as be reordered in this field. Reordering channels only requires that a channel is selected and then dragged and dropped in the listbox to new location. Order is important, as it dictates where in the received packet the channel data is expected. A channel at the top of the list (index 0) will always be received before the channel at index 1. The channel at index 1 will always be received before the channel at index 2. And so on. To adjust the expected encoded <a href="INFO - Data Types.htm">data type</a> of a channel, select a channel, right click on it, and navigate to the <i>Change Type</i> sub-menu. From here, select the target data type a channel data should be expected as when the data is being decoded from the received UDP packet. Please setup the channel order and data types to match the images above.<br>
 			Once this is complete, the corresponding transmit packet from the <a href="INFO - Transmit Setup.htm">Simple Transmit Tutorial</a> should be able to transmit data to this receive packet.
@@ -63,7 +63,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<p>
 			For very large channel counts, a utility has been included to allow for quick configuration of the channel order, data types, and (where applicable) the channels in use.
 		</p>
-		<img src="img/TransmitChannelConfig.png" alt="Bulk Rx Channel Configuration" style="width:699px;height:700px;margin:auto;display:block;max-width:100%;"></img>
+		<img src="img/ReceiveChannelConfig.png" alt="Bulk Rx Channel Configuration" style="width:697px;height:694px;margin:auto;display:block;max-width:100%;"></img>
 		<p>
 			The <a href="CD - Receive Channel Configuration.htm">receive channel configuration</a> allows for a <a href="CFG - Configuration File.htm">channel configuration file</a> to be imported into the receive packet. This is particularly useful for large transmit and receive packets that absolutely must have matching packet orders and data types. For a receive packet, the channel configuration file will explicitly add and remove any channels from the packet to make the receive packet match the file. The data types and ordering of the channels will be changed to match the contents of the channel configuration file. Any unaccounted channels will be removed from the packet.
 		</p>
