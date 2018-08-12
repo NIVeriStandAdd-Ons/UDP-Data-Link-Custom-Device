@@ -22,7 +22,7 @@ build_spec = 'Engine Release'
 type = 'nipkg'
 name = 'udp-custom-device-{version}'
 release_version = '1.0'
-install_destination = 'documents\National Instruments\NI VeriStand {version}\Custom Devices
+install_destination = 'documents\National Instruments\NI VeriStand {version}\Custom Devices'
 
 [[release.steps]]
 name = 'Master Release'
