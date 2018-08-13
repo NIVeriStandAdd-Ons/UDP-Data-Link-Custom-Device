@@ -83,6 +83,7 @@
 					<Item Name="RTM - Remove Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels.vi"/>
 				</Item>
 				<Item Name="Main" Type="Folder">
+					<Item Name="RTM - Export Configuration.vi" Type="VI" URL="../RTMs/RTM - Export Configuration.vi"/>
 					<Item Name="RTM - Export to XML.vi" Type="VI" URL="../RTMs/RTM - Export to XML.vi"/>
 					<Item Name="RTM - Import from XML.vi" Type="VI" URL="../RTMs/RTM - Import from XML.vi"/>
 				</Item>
@@ -91,7 +92,6 @@
 					<Item Name="RTM - Remove Packet Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Packet Dependency.vi"/>
 					<Item Name="RTM - Remove Packet.vi" Type="VI" URL="../RTMs/RTM - Remove Packet.vi"/>
 				</Item>
-				<Item Name="RTM - Export Configuration.vi" Type="VI" URL="../RTMs/RTM - Export Configuration.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Property Accessors" Type="Folder">
@@ -158,6 +158,7 @@
 					<Item Name="Initialize - Set Configuration File.vi" Type="VI" URL="../API/Initialization/Initialize - Set Configuration File.vi"/>
 					<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
 				</Item>
+				<Item Name="New XML" Type="Folder"/>
 				<Item Name="OnCompile" Type="Folder">
 					<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
 					<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
@@ -190,6 +191,7 @@
 				</Item>
 				<Item Name="Sections" Type="Folder"/>
 				<Item Name="XML" Type="Folder">
+					<Item Name="New XML" Type="Folder"/>
 					<Item Name="XML - Add Channel.vi" Type="VI" URL="../API/XML/XML - Add Channel.vi"/>
 					<Item Name="XML - Add System Mapping.vi" Type="VI" URL="../API/XML/XML - Add System Mapping.vi"/>
 					<Item Name="XML - Evaluate Rx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Rx Imported Channels.vi"/>

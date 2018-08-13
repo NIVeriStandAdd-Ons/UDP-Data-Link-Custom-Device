@@ -89,7 +89,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Export Configuration RTM.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Export Configuration.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
@@ -124,6 +124,10 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\ActionVIOnDelete.vi</Path>
 			</ActionVIOnDelete>
+			<ActionVIOnSave>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\ActionVIOnSave.vi</Path>
+			</ActionVIOnSave>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\ActionVIOnCompile.vi</Path>
