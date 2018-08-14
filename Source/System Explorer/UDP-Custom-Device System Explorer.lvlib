@@ -34,6 +34,105 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="System Explorer" Type="Folder">
+		<Item Name="API" Type="Folder">
+			<Item Name="ChannelMap" Type="Folder">
+				<Item Name="ChannelMap - Get Disable and Symbols.vi" Type="VI" URL="../API/ChannelMap/ChannelMap - Get Disable and Symbols.vi"/>
+				<Item Name="ChannelMap - Get Items Names.vi" Type="VI" URL="../API/ChannelMap/ChannelMap - Get Items Names.vi"/>
+				<Item Name="ChannelMap - Get Symbols.vi" Type="VI" URL="../API/ChannelMap/ChannelMap - Get Symbols.vi"/>
+			</Item>
+			<Item Name="Channels" Type="Folder">
+				<Item Name="Config" Type="Folder">
+					<Item Name="ChannelConfig - Parse Config File.vi" Type="VI" URL="../API/Channels/Config/ChannelConfig - Parse Config File.vi"/>
+				</Item>
+				<Item Name="Receive" Type="Folder">
+					<Item Name="RxChannel - Create Rx Channel Configuration.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Create Rx Channel Configuration.vi"/>
+					<Item Name="RxChannel - Get Rx Channels.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Get Rx Channels.vi"/>
+					<Item Name="RxChannel - Remove Rx Channels.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Remove Rx Channels.vi"/>
+					<Item Name="RxChannel - Update Rx Channel Order.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Update Rx Channel Order.vi"/>
+				</Item>
+				<Item Name="Transmit" Type="Folder">
+					<Item Name="TxChannel - Create Channel Configuration.vi" Type="VI" URL="../API/Channels/Transmit/TxChannel - Create Channel Configuration.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Help" Type="Folder">
+				<Item Name="Help - Lookup CMH Path.vi" Type="VI" URL="../API/HelpFile/Help - Lookup CMH Path.vi"/>
+			</Item>
+			<Item Name="Initialization" Type="Folder">
+				<Item Name="Initialize - Device Properties.vi" Type="VI" URL="../API/Initialization/Initialize - Device Properties.vi"/>
+				<Item Name="Initialize - Device Sections and Channels.vi" Type="VI" URL="../API/Initialization/Initialize - Device Sections and Channels.vi"/>
+				<Item Name="Initialize - Main Page Panel.vi" Type="VI" URL="../API/Initialization/Initialize - Main Page Panel.vi"/>
+				<Item Name="Initialize - Packet Page Panel.vi" Type="VI" URL="../API/Initialization/Initialize - Packet Page Panel.vi"/>
+				<Item Name="Initialize - Section Page Panel.vi" Type="VI" URL="../API/Initialization/Initialize - Section Page Panel.vi"/>
+				<Item Name="Initialize - Set Configuration File.vi" Type="VI" URL="../API/Initialization/Initialize - Set Configuration File.vi"/>
+				<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
+			</Item>
+			<Item Name="OnCompile" Type="Folder">
+				<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
+				<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
+				<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
+			</Item>
+			<Item Name="Packets" Type="Folder">
+				<Item Name="HeaderConfig" Type="Folder">
+					<Item Name="PktHeader - Header Array to Strings.vi" Type="VI" URL="../API/Packets/HeaderConfig/PktHeader - Header Array to Strings.vi"/>
+				</Item>
+				<Item Name="Receive" Type="Folder">
+					<Item Name="RxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Add Packet.vi"/>
+					<Item Name="RxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Export Channel Configuration.vi"/>
+					<Item Name="RxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Init Packet Page.vi"/>
+				</Item>
+				<Item Name="Transmit" Type="Folder">
+					<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
+					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
+					<Item Name="TxPkt - Generate Timestamp Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Generate Timestamp Channel.vi"/>
+					<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
+					<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
+					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
+				</Item>
+				<Item Name="Pkt - Check Packet ID Conflict.vi" Type="VI" URL="../API/Packets/Pkt - Check Packet ID Conflict.vi"/>
+				<Item Name="Pkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Pkt - Export Channel Configuration.vi"/>
+				<Item Name="Pkt - Get Controller Name.vi" Type="VI" URL="../API/Packets/Pkt - Get Controller Name.vi"/>
+				<Item Name="Pkt - Get SysDef Version.vi" Type="VI" URL="../API/Packets/Pkt - Get SysDef Version.vi"/>
+				<Item Name="Pkt - Get Target IP.vi" Type="VI" URL="../API/Packets/Pkt - Get Target IP.vi"/>
+				<Item Name="Pkt - Tx or Rx.vi" Type="VI" URL="../API/Packets/Pkt - Tx or Rx.vi"/>
+				<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
+			</Item>
+			<Item Name="Sections" Type="Folder"/>
+			<Item Name="XML" Type="Folder">
+				<Item Name="XML - Add Channel.vi" Type="VI" URL="../API/XML/XML - Add Channel.vi"/>
+				<Item Name="XML - Add System Mapping.vi" Type="VI" URL="../API/XML/XML - Add System Mapping.vi"/>
+				<Item Name="XML - Evaluate Rx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Rx Imported Channels.vi"/>
+				<Item Name="XML - Evaluate Tx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Tx Imported Channels.vi"/>
+				<Item Name="XML - Get Channel Info from XML.vi" Type="VI" URL="../API/XML/XML - Get Channel Info from XML.vi"/>
+				<Item Name="XML - Get Channel XML String.vi" Type="VI" URL="../API/XML/XML - Get Channel XML String.vi"/>
+				<Item Name="XML - Get General Settings.vi" Type="VI" URL="../API/XML/XML - Get General Settings.vi"/>
+				<Item Name="XML - Get Groups Content.vi" Type="VI" URL="../API/XML/XML - Get Groups Content.vi"/>
+				<Item Name="XML - Get System Mappings.vi" Type="VI" URL="../API/XML/XML - Get System Mappings.vi"/>
+				<Item Name="XML - Get Tx Channels Groups Information.vi" Type="VI" URL="../API/XML/XML - Get Tx Channels Groups Information.vi"/>
+				<Item Name="XML - Read from XML.vi" Type="VI" URL="../API/XML/XML - Read from XML.vi"/>
+				<Item Name="XML - Remove Old Rx Channels.vi" Type="VI" URL="../API/XML/XML - Remove Old Rx Channels.vi"/>
+				<Item Name="XML - Remove Old Tx Channels.vi" Type="VI" URL="../API/XML/XML - Remove Old Tx Channels.vi"/>
+				<Item Name="XML - Remove System Mapping.vi" Type="VI" URL="../API/XML/XML - Remove System Mapping.vi"/>
+				<Item Name="XML - Save to XML.vi" Type="VI" URL="../API/XML/XML - Save to XML.vi"/>
+				<Item Name="XML - Set Rx Channels.vi" Type="VI" URL="../API/XML/XML - Set Rx Channels.vi"/>
+				<Item Name="XML - Update Mappings.vi" Type="VI" URL="../API/XML/XML - Update Mappings.vi"/>
+			</Item>
+			<Item Name="XML - New" Type="Folder">
+				<Item Name="Export" Type="Folder">
+					<Item Name="Export - Main.vi" Type="VI" URL="../API/XML - New/Export/Export - Main.vi"/>
+					<Item Name="Export - Rx Packet.vi" Type="VI" URL="../API/XML - New/Export/Export - Rx Packet.vi"/>
+					<Item Name="Export - Rx Packets.vi" Type="VI" URL="../API/XML - New/Export/Export - Rx Packets.vi"/>
+					<Item Name="Export - Tx Packet.vi" Type="VI" URL="../API/XML - New/Export/Export - Tx Packet.vi"/>
+					<Item Name="Export - Tx Packets.vi" Type="VI" URL="../API/XML - New/Export/Export - Tx Packets.vi"/>
+					<Item Name="Export - UDP Custom Device.vi" Type="VI" URL="../API/XML - New/Export/Export - UDP Custom Device.vi"/>
+				</Item>
+				<Item Name="Import" Type="Folder"/>
+			</Item>
+		</Item>
+		<Item Name="Dialogs" Type="Folder">
+			<Item Name="Dialog - Configure Packet Header.vi" Type="VI" URL="../Dialogs/Dialog - Configure Packet Header.vi"/>
+			<Item Name="Dialog - Import Channel Paths Invalid.vi" Type="VI" URL="../Dialogs/Dialog - Import Channel Paths Invalid.vi"/>
+			<Item Name="Dialog - Select Channel Dialog.vi" Type="VI" URL="../Dialogs/Dialog - Select Channel Dialog.vi"/>
+		</Item>
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Action VIs" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Action VIs/ActionVIOnCompile.vi"/>
@@ -125,101 +224,6 @@
 				<Item Name="Main Accessors.lvlib" Type="Library" URL="../Property Accessors/Main Accessors.lvlib"/>
 			</Item>
 		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="API" Type="Folder">
-				<Item Name="ChannelMap" Type="Folder">
-					<Item Name="ChannelMap - Get Disable and Symbols.vi" Type="VI" URL="../API/ChannelMap/ChannelMap - Get Disable and Symbols.vi"/>
-					<Item Name="ChannelMap - Get Items Names.vi" Type="VI" URL="../API/ChannelMap/ChannelMap - Get Items Names.vi"/>
-					<Item Name="ChannelMap - Get Symbols.vi" Type="VI" URL="../API/ChannelMap/ChannelMap - Get Symbols.vi"/>
-				</Item>
-				<Item Name="Channels" Type="Folder">
-					<Item Name="Config" Type="Folder">
-						<Item Name="ChannelConfig - Parse Config File.vi" Type="VI" URL="../API/Channels/Config/ChannelConfig - Parse Config File.vi"/>
-					</Item>
-					<Item Name="Receive" Type="Folder">
-						<Item Name="RxChannel - Create Rx Channel Configuration.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Create Rx Channel Configuration.vi"/>
-						<Item Name="RxChannel - Get Rx Channels.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Get Rx Channels.vi"/>
-						<Item Name="RxChannel - Remove Rx Channels.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Remove Rx Channels.vi"/>
-						<Item Name="RxChannel - Update Rx Channel Order.vi" Type="VI" URL="../API/Channels/Receive/RxChannel - Update Rx Channel Order.vi"/>
-					</Item>
-					<Item Name="Transmit" Type="Folder">
-						<Item Name="TxChannel - Create Channel Configuration.vi" Type="VI" URL="../API/Channels/Transmit/TxChannel - Create Channel Configuration.vi"/>
-					</Item>
-				</Item>
-				<Item Name="Help" Type="Folder">
-					<Item Name="Help - Lookup CMH Path.vi" Type="VI" URL="../API/HelpFile/Help - Lookup CMH Path.vi"/>
-				</Item>
-				<Item Name="Initialization" Type="Folder">
-					<Item Name="Initialize - Device Properties.vi" Type="VI" URL="../API/Initialization/Initialize - Device Properties.vi"/>
-					<Item Name="Initialize - Device Sections and Channels.vi" Type="VI" URL="../API/Initialization/Initialize - Device Sections and Channels.vi"/>
-					<Item Name="Initialize - Main Page Panel.vi" Type="VI" URL="../API/Initialization/Initialize - Main Page Panel.vi"/>
-					<Item Name="Initialize - Packet Page Panel.vi" Type="VI" URL="../API/Initialization/Initialize - Packet Page Panel.vi"/>
-					<Item Name="Initialize - Section Page Panel.vi" Type="VI" URL="../API/Initialization/Initialize - Section Page Panel.vi"/>
-					<Item Name="Initialize - Set Configuration File.vi" Type="VI" URL="../API/Initialization/Initialize - Set Configuration File.vi"/>
-					<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
-				</Item>
-				<Item Name="New XML" Type="Folder"/>
-				<Item Name="OnCompile" Type="Folder">
-					<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
-					<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
-					<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
-				</Item>
-				<Item Name="Packets" Type="Folder">
-					<Item Name="HeaderConfig" Type="Folder">
-						<Item Name="PktHeader - Header Array to Strings.vi" Type="VI" URL="../API/Packets/HeaderConfig/PktHeader - Header Array to Strings.vi"/>
-					</Item>
-					<Item Name="Receive" Type="Folder">
-						<Item Name="RxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Add Packet.vi"/>
-						<Item Name="RxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Export Channel Configuration.vi"/>
-						<Item Name="RxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Init Packet Page.vi"/>
-					</Item>
-					<Item Name="Transmit" Type="Folder">
-						<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
-						<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
-						<Item Name="TxPkt - Generate Timestamp Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Generate Timestamp Channel.vi"/>
-						<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
-						<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
-						<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
-					</Item>
-					<Item Name="Pkt - Check Packet ID Conflict.vi" Type="VI" URL="../API/Packets/Pkt - Check Packet ID Conflict.vi"/>
-					<Item Name="Pkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Pkt - Export Channel Configuration.vi"/>
-					<Item Name="Pkt - Get Controller Name.vi" Type="VI" URL="../API/Packets/Pkt - Get Controller Name.vi"/>
-					<Item Name="Pkt - Get SysDef Version.vi" Type="VI" URL="../API/Packets/Pkt - Get SysDef Version.vi"/>
-					<Item Name="Pkt - Get Target IP.vi" Type="VI" URL="../API/Packets/Pkt - Get Target IP.vi"/>
-					<Item Name="Pkt - Tx or Rx.vi" Type="VI" URL="../API/Packets/Pkt - Tx or Rx.vi"/>
-					<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
-				</Item>
-				<Item Name="Sections" Type="Folder"/>
-				<Item Name="XML" Type="Folder">
-					<Item Name="New XML" Type="Folder">
-						<Item Name="Export" Type="Folder"/>
-						<Item Name="Import" Type="Folder"/>
-					</Item>
-					<Item Name="XML - Add Channel.vi" Type="VI" URL="../API/XML/XML - Add Channel.vi"/>
-					<Item Name="XML - Add System Mapping.vi" Type="VI" URL="../API/XML/XML - Add System Mapping.vi"/>
-					<Item Name="XML - Evaluate Rx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Rx Imported Channels.vi"/>
-					<Item Name="XML - Evaluate Tx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Tx Imported Channels.vi"/>
-					<Item Name="XML - Get Channel Info from XML.vi" Type="VI" URL="../API/XML/XML - Get Channel Info from XML.vi"/>
-					<Item Name="XML - Get Channel XML String.vi" Type="VI" URL="../API/XML/XML - Get Channel XML String.vi"/>
-					<Item Name="XML - Get General Settings.vi" Type="VI" URL="../API/XML/XML - Get General Settings.vi"/>
-					<Item Name="XML - Get Groups Content.vi" Type="VI" URL="../API/XML/XML - Get Groups Content.vi"/>
-					<Item Name="XML - Get System Mappings.vi" Type="VI" URL="../API/XML/XML - Get System Mappings.vi"/>
-					<Item Name="XML - Get Tx Channels Groups Information.vi" Type="VI" URL="../API/XML/XML - Get Tx Channels Groups Information.vi"/>
-					<Item Name="XML - Read from XML.vi" Type="VI" URL="../API/XML/XML - Read from XML.vi"/>
-					<Item Name="XML - Remove Old Rx Channels.vi" Type="VI" URL="../API/XML/XML - Remove Old Rx Channels.vi"/>
-					<Item Name="XML - Remove Old Tx Channels.vi" Type="VI" URL="../API/XML/XML - Remove Old Tx Channels.vi"/>
-					<Item Name="XML - Remove System Mapping.vi" Type="VI" URL="../API/XML/XML - Remove System Mapping.vi"/>
-					<Item Name="XML - Save to XML.vi" Type="VI" URL="../API/XML/XML - Save to XML.vi"/>
-					<Item Name="XML - Set Rx Channels.vi" Type="VI" URL="../API/XML/XML - Set Rx Channels.vi"/>
-					<Item Name="XML - Update Mappings.vi" Type="VI" URL="../API/XML/XML - Update Mappings.vi"/>
-				</Item>
-			</Item>
-			<Item Name="Dialogs" Type="Folder">
-				<Item Name="Dialog - Configure Packet Header.vi" Type="VI" URL="../Dialogs/Dialog - Configure Packet Header.vi"/>
-				<Item Name="Dialog - Import Channel Paths Invalid.vi" Type="VI" URL="../Dialogs/Dialog - Import Channel Paths Invalid.vi"/>
-				<Item Name="Dialog - Select Channel Dialog.vi" Type="VI" URL="../Dialogs/Dialog - Select Channel Dialog.vi"/>
-			</Item>
-		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Configuration" Type="Folder">
 				<Item Name="Channel Config File Data.ctl" Type="VI" URL="../Types/Channel Configuration/Channel Config File Data.ctl"/>
@@ -233,6 +237,14 @@
 				<Item Name="XML - Channel.ctl" Type="VI" URL="../Types/XML/XML - Channel.ctl"/>
 				<Item Name="XML - Group.ctl" Type="VI" URL="../Types/XML/XML - Group.ctl"/>
 				<Item Name="XML - Header Data.ctl" Type="VI" URL="../Types/XML/XML - Header Data.ctl"/>
+			</Item>
+			<Item Name="XML - New" Type="Folder">
+				<Item Name="ImpExp - Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Data.ctl"/>
+				<Item Name="ImpExp - Main Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Main Data.ctl"/>
+				<Item Name="ImpExp - Rx Packet Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Rx Packet Data.ctl"/>
+				<Item Name="ImpExp - Rx Packets Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Rx Packets Data.ctl"/>
+				<Item Name="ImpExp - Tx Packet Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Tx Packet Data.ctl"/>
+				<Item Name="ImpExp - Tx Packets Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Tx Packets Data.ctl"/>
 			</Item>
 		</Item>
 	</Item>
