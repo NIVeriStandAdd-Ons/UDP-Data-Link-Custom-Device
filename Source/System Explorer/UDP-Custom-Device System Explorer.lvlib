@@ -191,7 +191,10 @@
 				</Item>
 				<Item Name="Sections" Type="Folder"/>
 				<Item Name="XML" Type="Folder">
-					<Item Name="New XML" Type="Folder"/>
+					<Item Name="New XML" Type="Folder">
+						<Item Name="Export" Type="Folder"/>
+						<Item Name="Import" Type="Folder"/>
+					</Item>
 					<Item Name="XML - Add Channel.vi" Type="VI" URL="../API/XML/XML - Add Channel.vi"/>
 					<Item Name="XML - Add System Mapping.vi" Type="VI" URL="../API/XML/XML - Add System Mapping.vi"/>
 					<Item Name="XML - Evaluate Rx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Rx Imported Channels.vi"/>
