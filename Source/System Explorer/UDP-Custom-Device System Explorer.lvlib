@@ -128,6 +128,7 @@
 					<Item Name="File Export" Type="Folder">
 						<Item Name="Export File - Generate BIN File.vi" Type="VI" URL="../API/XML - New/File/Export File - Generate BIN File.vi"/>
 					</Item>
+					<Item Name="Export - Strip Controller Path.vi" Type="VI" URL="../API/XML - New/Export/Export - Strip Controller Path.vi"/>
 					<Item Name="Export - UDP Custom Device.vi" Type="VI" URL="../API/XML - New/Export/Export - UDP Custom Device.vi"/>
 				</Item>
 				<Item Name="Import" Type="Folder">

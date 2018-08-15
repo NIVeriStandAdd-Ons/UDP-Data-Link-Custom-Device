@@ -2,9 +2,6 @@ Signal Name,Alias,Data Type,Description
 ERFLG010,ErrFlag10,Boolean,Designates error on channel 10.
 ERFLG011,ErrFlag11,Boolean,Designates error on channel 11.
 ERFLG012,ErrFlag12,Boolean,Designates error on channel 12.
-FDC1BF00,FADEC 01 BITFIELD 00,Single,Bitfield for FADEC 01 on channel 0.
-FDC1BF01,FADEC 01 BITFIELD 01,Single,Bitfield for FADEC 01 on channel 1.
-FDC1BF02,FADEC 01 BITFIELD 02,Single,Bitfield for FADEC 01 on channel 2.
 28VDISC0,28V Discrete 0,Boolean,Designates 28V power on channel 0.
 28VDISC1,28V Discrete 1,Boolean,Designates 28V power on channel 1.
 28VDISC2,28V Discrete 2,Boolean,Designates 28V power on channel 2.
