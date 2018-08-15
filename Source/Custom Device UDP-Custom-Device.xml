@@ -80,7 +80,7 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>5b373e33-8cdf-4361-bd53-7cc75af59f85</GUID>
+					<GUID>8a091f2f-f6f5-4838-b57c-7ff242367d6e</GUID>
 					<Type>Action</Type>
 					<Execution>silent</Execution>
 					<Name>
@@ -89,19 +89,32 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Export Configuration.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Export to XML.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>a9527afc-c1bc-42ef-a605-ac6813829a8e</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Import from XML.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
-					<ID>5b373e33-8cdf-4361-bd53-7cc75af59f85-Button</ID>
+					<ID>8a091f2f-f6f5-4838-b57c-7ff242367d6e-Button</ID>
 					<Glyph>
 						<Type>To Application Data Dir</Type>
 						<Path>System Explorer\Glyphs\Export.png</Path>
 					</Glyph>
 					<Type>Action</Type>
-					<ReferencedGUID>5b373e33-8cdf-4361-bd53-7cc75af59f85</ReferencedGUID>
+					<ReferencedGUID>8a091f2f-f6f5-4838-b57c-7ff242367d6e</ReferencedGUID>
 					<ButtonText>
 						<eng>Export Configuration</eng>
 						<loc>Export Configuration</loc>
@@ -117,6 +130,31 @@
 					<Documentation>
 						<eng>Export Custom Device Configuration</eng>
 						<loc>Export Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>a9527afc-c1bc-42ef-a605-ac6813829a8e-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>a9527afc-c1bc-42ef-a605-ac6813829a8e</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
 					</Documentation>
 				</Button>
 			</ButtonList>
