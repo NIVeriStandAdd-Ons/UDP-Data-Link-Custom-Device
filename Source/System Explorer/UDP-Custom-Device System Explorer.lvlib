@@ -126,15 +126,21 @@
 						<Item Name="Export - Tx Packets.vi" Type="VI" URL="../API/XML - New/Export/Export - Tx Packets.vi"/>
 					</Item>
 					<Item Name="File Export" Type="Folder">
-						<Item Name="Export File - Generate File.vi" Type="VI" URL="../API/XML - New/File/Export File - Generate File.vi"/>
+						<Item Name="Export File - Generate BIN File.vi" Type="VI" URL="../API/XML - New/File/Export File - Generate BIN File.vi"/>
 					</Item>
 					<Item Name="Export - UDP Custom Device.vi" Type="VI" URL="../API/XML - New/Export/Export - UDP Custom Device.vi"/>
 				</Item>
 				<Item Name="Import" Type="Folder">
 					<Item Name="File Import" Type="Folder">
-						<Item Name="Import File - Parse File.vi" Type="VI" URL="../API/XML - New/File/Import File - Parse File.vi"/>
+						<Item Name="Import File - Parse BIN File.vi" Type="VI" URL="../API/XML - New/File/Import File - Parse BIN File.vi"/>
 					</Item>
-					<Item Name="Import Config" Type="Folder"/>
+					<Item Name="Import Config" Type="Folder">
+						<Item Name="Import - Main.vi" Type="VI" URL="../API/XML - New/Import/Import - Main.vi"/>
+						<Item Name="Import - Rx Packet.vi" Type="VI" URL="../API/XML - New/Import/Import - Rx Packet.vi"/>
+						<Item Name="Import - Rx Packets.vi" Type="VI" URL="../API/XML - New/Import/Import - Rx Packets.vi"/>
+						<Item Name="Import - Tx Packet.vi" Type="VI" URL="../API/XML - New/Import/Import - Tx Packet.vi"/>
+						<Item Name="Import - Tx Packets.vi" Type="VI" URL="../API/XML - New/Import/Import - Tx Packets.vi"/>
+					</Item>
 					<Item Name="Import - UDP Custom Device.vi" Type="VI" URL="../API/XML - New/Import/Import - UDP Custom Device.vi"/>
 				</Item>
 			</Item>
