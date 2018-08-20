@@ -72,6 +72,10 @@
 				<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
 			</Item>
 			<Item Name="Packets" Type="Folder">
+				<Item Name="Buffer Data" Type="Folder">
+					<Item Name="BfrPkt - Add Channels.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Add Channels.vi"/>
+					<Item Name="BfrPkt - Set Buffer Direction.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Set Buffer Direction.vi"/>
+				</Item>
 				<Item Name="HeaderConfig" Type="Folder">
 					<Item Name="PktHeader - Header Array to Strings.vi" Type="VI" URL="../API/Packets/HeaderConfig/PktHeader - Header Array to Strings.vi"/>
 				</Item>
@@ -80,9 +84,7 @@
 					<Item Name="RxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Export Channel Configuration.vi"/>
 					<Item Name="RxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Init Packet Page.vi"/>
 				</Item>
-				<Item Name="Rx Buffer Data" Type="Folder">
-					<Item Name="RxBfrDat - Init Packet Page.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrDat - Init Packet Page.vi"/>
-				</Item>
+				<Item Name="Rx Buffer Data" Type="Folder"/>
 				<Item Name="Transmit" Type="Folder">
 					<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
 					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
@@ -92,14 +94,15 @@
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
 				</Item>
 				<Item Name="Tx Buffer Data" Type="Folder">
-					<Item Name="TxBfrDat - Init Packet Page.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrDat - Init Packet Page.vi"/>
+					<Item Name="TxBfrPkt - Add Packet.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Add Packet.vi"/>
+					<Item Name="TxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Init Packet Page.vi"/>
 				</Item>
 				<Item Name="Pkt - Check Packet ID Conflict.vi" Type="VI" URL="../API/Packets/Pkt - Check Packet ID Conflict.vi"/>
 				<Item Name="Pkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Pkt - Export Channel Configuration.vi"/>
 				<Item Name="Pkt - Get Controller Name.vi" Type="VI" URL="../API/Packets/Pkt - Get Controller Name.vi"/>
 				<Item Name="Pkt - Get SysDef Version.vi" Type="VI" URL="../API/Packets/Pkt - Get SysDef Version.vi"/>
 				<Item Name="Pkt - Get Target IP.vi" Type="VI" URL="../API/Packets/Pkt - Get Target IP.vi"/>
-				<Item Name="Pkt - Tx or Rx.vi" Type="VI" URL="../API/Packets/Pkt - Tx or Rx.vi"/>
+				<Item Name="Pkt - Packet Type.vi" Type="VI" URL="../API/Packets/Pkt - Packet Type.vi"/>
 				<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
 			</Item>
 			<Item Name="Sections" Type="Folder"/>
@@ -203,12 +206,6 @@
 					<Item Name="RTM - Apply Tx Configuration Dependency.vi" Type="VI" URL="../RTMs/RTM - Apply Tx Configuration Dependency.vi"/>
 					<Item Name="RTM - Apply Tx Configuration.vi" Type="VI" URL="../RTMs/RTM - Apply Tx Configuration.vi"/>
 				</Item>
-				<Item Name="Diagnostics" Type="Folder">
-					<Item Name="RTM - Add Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels Dependency.vi"/>
-					<Item Name="RTM - Add Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Add Diagnostic Channels.vi"/>
-					<Item Name="RTM - Remove Diagnostic Channels Dependency.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels Dependency.vi"/>
-					<Item Name="RTM - Remove Diagnostic Channels.vi" Type="VI" URL="../RTMs/RTM - Remove Diagnostic Channels.vi"/>
-				</Item>
 				<Item Name="Main" Type="Folder">
 					<Item Name="RTM - Export Configuration.vi" Type="VI" URL="../RTMs/RTM - Export Configuration.vi"/>
 					<Item Name="RTM - Export to XML.vi" Type="VI" URL="../RTMs/RTM - Export to XML.vi"/>
@@ -258,6 +255,9 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Configuration" Type="Folder">
 				<Item Name="Channel Config File Data.ctl" Type="VI" URL="../Types/Channel Configuration/Channel Config File Data.ctl"/>
+			</Item>
+			<Item Name="Packet Info" Type="Folder">
+				<Item Name="Packet Type.ctl" Type="VI" URL="../Types/Packet Info/Packet Type.ctl"/>
 			</Item>
 			<Item Name="Page References" Type="Folder">
 				<Item Name="Refs - Main Page.ctl" Type="VI" URL="../Types/Page References/Refs - Main Page.ctl"/>
