@@ -85,7 +85,10 @@
 					<Item Name="RxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Export Channel Configuration.vi"/>
 					<Item Name="RxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Init Packet Page.vi"/>
 				</Item>
-				<Item Name="Rx Buffer Data" Type="Folder"/>
+				<Item Name="Rx Buffer Data" Type="Folder">
+					<Item Name="RxBfrPkt - Add Packet.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Add Packet.vi"/>
+					<Item Name="RxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Init Packet Page.vi"/>
+				</Item>
 				<Item Name="Transmit" Type="Folder">
 					<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
 					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
@@ -171,7 +174,9 @@
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Receive" Type="Folder">
-					<Item Name="Buffered Data" Type="Folder"/>
+					<Item Name="Buffered Data" Type="Folder">
+						<Item Name="Rx Buffered Packet Page.vi" Type="VI" URL="../Pages/Rx Buffered Packet Page.vi"/>
+					</Item>
 					<Item Name="Rx Channel Config Page.vi" Type="VI" URL="../Pages/Rx Channel Config Page.vi"/>
 					<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
 					<Item Name="Rx Channel Section.vi" Type="VI" URL="../Pages/Rx Channel Section.vi"/>
@@ -263,6 +268,7 @@
 			</Item>
 			<Item Name="Page References" Type="Folder">
 				<Item Name="Refs - Main Page.ctl" Type="VI" URL="../Types/Page References/Refs - Main Page.ctl"/>
+				<Item Name="Refs - Rx Buffered Data Packet Page.ctl" Type="VI" URL="../Types/Page References/Refs - Rx Buffered Data Packet Page.ctl"/>
 				<Item Name="Refs - Rx Packets Page.ctl" Type="VI" URL="../Types/Page References/Refs - Rx Packets Page.ctl"/>
 				<Item Name="Refs - Tx Buffered Data Packet Page.ctl" Type="VI" URL="../Types/Page References/Refs - Tx Buffered Data Packet Page.ctl"/>
 				<Item Name="Refs - Tx Packets Page.ctl" Type="VI" URL="../Types/Page References/Refs - Tx Packets Page.ctl"/>

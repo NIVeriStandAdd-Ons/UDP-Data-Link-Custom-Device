@@ -936,6 +936,23 @@
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Tx Buffered Packet Page.vi</Path>
 			</Item2Launch>
 		</Page>
+		<Page>
+			<Name>
+				<eng>Buffered Receive Packet</eng>
+				<loc>Buffered Receive Packet</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>0b9a6620-1662-48a0-94bf-5c5feb9252a9</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Reflective Memory.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Rx Buffered Packet Page.vi</Path>
+			</Item2Launch>
+		</Page>
 	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>
