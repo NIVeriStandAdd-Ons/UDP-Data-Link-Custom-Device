@@ -54,6 +54,8 @@
 			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
+			<Item Name="Buffered Receive" Type="Folder"/>
+			<Item Name="Buffered Transmit" Type="Folder"/>
 			<Item Name="Receive" Type="Folder">
 				<Item Name="UDP to Rx.vi" Type="VI" URL="../Run/Receive/UDP to Rx.vi"/>
 			</Item>
@@ -61,6 +63,7 @@
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Tx to UDP.vi" Type="VI" URL="../Run/Transmit/Tx to UDP.vi"/>
 			</Item>
+			<Item Name="UDP Buffered Tx Process.vi" Type="VI" URL="../Run/UDP Buffered Tx Process.vi"/>
 			<Item Name="UDP Rx Process.vi" Type="VI" URL="../Run/UDP Rx Process.vi"/>
 			<Item Name="UDP Tx Process.vi" Type="VI" URL="../Run/UDP Tx Process.vi"/>
 		</Item>
