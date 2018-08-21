@@ -67,6 +67,7 @@
 				<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
 			</Item>
 			<Item Name="OnCompile" Type="Folder">
+				<Item Name="Compile - Buffered Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Buffered Tx Channel Refs.vi"/>
 				<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
 				<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
 				<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
@@ -90,6 +91,7 @@
 					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
 					<Item Name="TxPkt - Generate Timestamp Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Generate Timestamp Channel.vi"/>
 					<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
+					<Item Name="TxPkt - Is Buffered Transmit.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Is Buffered Transmit.vi"/>
 					<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
 				</Item>
