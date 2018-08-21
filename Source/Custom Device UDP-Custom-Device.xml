@@ -919,6 +919,23 @@
 				</Button>
 			</ButtonList>
 		</Page>
+		<Page>
+			<Name>
+				<eng>Buffered Transmit Packet</eng>
+				<loc>Buffered Transmit Packet</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>82671a20-3042-4259-849c-bf21b4eca2c0</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Reflective Memory.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Tx Buffered Packet Page.vi</Path>
+			</Item2Launch>
+		</Page>
 	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>
