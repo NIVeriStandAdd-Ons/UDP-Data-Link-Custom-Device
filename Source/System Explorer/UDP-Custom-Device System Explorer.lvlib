@@ -67,7 +67,7 @@
 				<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
 			</Item>
 			<Item Name="OnCompile" Type="Folder">
-				<Item Name="Compile - Buffered Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Buffered Tx Channel Refs.vi"/>
+				<Item Name="Compile - Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Buffered Channel Refs.vi"/>
 				<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
 				<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
 				<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
@@ -94,7 +94,6 @@
 					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
 					<Item Name="TxPkt - Generate Timestamp Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Generate Timestamp Channel.vi"/>
 					<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
-					<Item Name="TxPkt - Is Buffered Transmit.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Is Buffered Transmit.vi"/>
 					<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
 				</Item>
@@ -103,11 +102,12 @@
 					<Item Name="TxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Init Packet Page.vi"/>
 				</Item>
 				<Item Name="Pkt - Check Packet ID Conflict.vi" Type="VI" URL="../API/Packets/Pkt - Check Packet ID Conflict.vi"/>
+				<Item Name="Pkt - Check Packet Type.vi" Type="VI" URL="../API/Packets/Pkt - Check Packet Type.vi"/>
 				<Item Name="Pkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Pkt - Export Channel Configuration.vi"/>
 				<Item Name="Pkt - Get Controller Name.vi" Type="VI" URL="../API/Packets/Pkt - Get Controller Name.vi"/>
 				<Item Name="Pkt - Get SysDef Version.vi" Type="VI" URL="../API/Packets/Pkt - Get SysDef Version.vi"/>
 				<Item Name="Pkt - Get Target IP.vi" Type="VI" URL="../API/Packets/Pkt - Get Target IP.vi"/>
-				<Item Name="Pkt - Packet Type.vi" Type="VI" URL="../API/Packets/Pkt - Packet Type.vi"/>
+				<Item Name="Pkt - Packet Type to Add.vi" Type="VI" URL="../API/Packets/Pkt - Packet Type to Add.vi"/>
 				<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
 			</Item>
 			<Item Name="Sections" Type="Folder"/>

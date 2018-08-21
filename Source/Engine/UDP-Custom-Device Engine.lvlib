@@ -63,6 +63,7 @@
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Tx to UDP.vi" Type="VI" URL="../Run/Transmit/Tx to UDP.vi"/>
 			</Item>
+			<Item Name="UDP Buffered Rx Process.vi" Type="VI" URL="../Run/UDP Buffered Rx Process.vi"/>
 			<Item Name="UDP Buffered Tx Process.vi" Type="VI" URL="../Run/UDP Buffered Tx Process.vi"/>
 			<Item Name="UDP Rx Process.vi" Type="VI" URL="../Run/UDP Rx Process.vi"/>
 			<Item Name="UDP Tx Process.vi" Type="VI" URL="../Run/UDP Tx Process.vi"/>
