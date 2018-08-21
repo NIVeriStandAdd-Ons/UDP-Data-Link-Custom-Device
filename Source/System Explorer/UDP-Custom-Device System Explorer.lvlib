@@ -67,7 +67,7 @@
 				<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
 			</Item>
 			<Item Name="OnCompile" Type="Folder">
-				<Item Name="Compile - Buffered Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Buffered Tx Channel Refs.vi"/>
+				<Item Name="Compile - Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Buffered Channel Refs.vi"/>
 				<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
 				<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
 				<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
@@ -85,13 +85,15 @@
 					<Item Name="RxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Export Channel Configuration.vi"/>
 					<Item Name="RxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Init Packet Page.vi"/>
 				</Item>
-				<Item Name="Rx Buffer Data" Type="Folder"/>
+				<Item Name="Rx Buffer Data" Type="Folder">
+					<Item Name="RxBfrPkt - Add Packet.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Add Packet.vi"/>
+					<Item Name="RxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Init Packet Page.vi"/>
+				</Item>
 				<Item Name="Transmit" Type="Folder">
 					<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
 					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
 					<Item Name="TxPkt - Generate Timestamp Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Generate Timestamp Channel.vi"/>
 					<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
-					<Item Name="TxPkt - Is Buffered Transmit.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Is Buffered Transmit.vi"/>
 					<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
 				</Item>
@@ -100,11 +102,12 @@
 					<Item Name="TxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Init Packet Page.vi"/>
 				</Item>
 				<Item Name="Pkt - Check Packet ID Conflict.vi" Type="VI" URL="../API/Packets/Pkt - Check Packet ID Conflict.vi"/>
+				<Item Name="Pkt - Check Packet Type.vi" Type="VI" URL="../API/Packets/Pkt - Check Packet Type.vi"/>
 				<Item Name="Pkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Pkt - Export Channel Configuration.vi"/>
 				<Item Name="Pkt - Get Controller Name.vi" Type="VI" URL="../API/Packets/Pkt - Get Controller Name.vi"/>
 				<Item Name="Pkt - Get SysDef Version.vi" Type="VI" URL="../API/Packets/Pkt - Get SysDef Version.vi"/>
 				<Item Name="Pkt - Get Target IP.vi" Type="VI" URL="../API/Packets/Pkt - Get Target IP.vi"/>
-				<Item Name="Pkt - Packet Type.vi" Type="VI" URL="../API/Packets/Pkt - Packet Type.vi"/>
+				<Item Name="Pkt - Packet Type to Add.vi" Type="VI" URL="../API/Packets/Pkt - Packet Type to Add.vi"/>
 				<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
 			</Item>
 			<Item Name="Sections" Type="Folder"/>
@@ -171,7 +174,9 @@
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Receive" Type="Folder">
-					<Item Name="Buffered Data" Type="Folder"/>
+					<Item Name="Buffered Data" Type="Folder">
+						<Item Name="Rx Buffered Packet Page.vi" Type="VI" URL="../Pages/Rx Buffered Packet Page.vi"/>
+					</Item>
 					<Item Name="Rx Channel Config Page.vi" Type="VI" URL="../Pages/Rx Channel Config Page.vi"/>
 					<Item Name="Rx Channel Page.vi" Type="VI" URL="../Pages/Rx Channel Page.vi"/>
 					<Item Name="Rx Channel Section.vi" Type="VI" URL="../Pages/Rx Channel Section.vi"/>
@@ -263,6 +268,7 @@
 			</Item>
 			<Item Name="Page References" Type="Folder">
 				<Item Name="Refs - Main Page.ctl" Type="VI" URL="../Types/Page References/Refs - Main Page.ctl"/>
+				<Item Name="Refs - Rx Buffered Data Packet Page.ctl" Type="VI" URL="../Types/Page References/Refs - Rx Buffered Data Packet Page.ctl"/>
 				<Item Name="Refs - Rx Packets Page.ctl" Type="VI" URL="../Types/Page References/Refs - Rx Packets Page.ctl"/>
 				<Item Name="Refs - Tx Buffered Data Packet Page.ctl" Type="VI" URL="../Types/Page References/Refs - Tx Buffered Data Packet Page.ctl"/>
 				<Item Name="Refs - Tx Packets Page.ctl" Type="VI" URL="../Types/Page References/Refs - Tx Packets Page.ctl"/>
