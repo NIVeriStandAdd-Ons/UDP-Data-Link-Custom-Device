@@ -51,11 +51,18 @@
 				<Item Name="Init Tx - Apply Static Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Apply Static Header.vi"/>
 				<Item Name="Init Tx - Dynamic Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Dynamic Header.vi"/>
 			</Item>
+			<Item Name="Buffered Transmit" Type="Folder">
+				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
+				<Item Name="Init Bfr Tx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Create Buffer.vi"/>
+				<Item Name="Init Bfr Tx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - UDP Connection.vi"/>
+			</Item>
 			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder"/>
-			<Item Name="Buffered Transmit" Type="Folder"/>
+			<Item Name="Buffered Transmit" Type="Folder">
+				<Item Name="Run Bfr Tx - Sim Buffer Data.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Sim Buffer Data.vi"/>
+			</Item>
 			<Item Name="Receive" Type="Folder">
 				<Item Name="UDP to Rx.vi" Type="VI" URL="../Run/Receive/UDP to Rx.vi"/>
 			</Item>
@@ -71,6 +78,7 @@
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Engine - Buffered Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Loop Data.ctl"/>
 		<Item Name="Engine - Data Conversion Config.ctl" Type="VI" URL="../Types/Engine - Data Conversion Config.ctl"/>
 		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
 		<Item Name="Engine - Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Rx Loop Data.ctl"/>
