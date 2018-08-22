@@ -56,6 +56,11 @@
 				<Item Name="Init Bfr Tx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Create Buffer.vi"/>
 				<Item Name="Init Bfr Tx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - UDP Connection.vi"/>
 			</Item>
+			<Item Name="Buffered Receive" Type="Folder">
+				<Item Name="Init Bfr Rx - Data.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Data.vi"/>
+				<Item Name="Init Bfr Rx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer.vi"/>
+				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
+			</Item>
 			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
@@ -78,6 +83,7 @@
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
 		<Item Name="Engine - Buffered Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Loop Data.ctl"/>
 		<Item Name="Engine - Data Conversion Config.ctl" Type="VI" URL="../Types/Engine - Data Conversion Config.ctl"/>
 		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
