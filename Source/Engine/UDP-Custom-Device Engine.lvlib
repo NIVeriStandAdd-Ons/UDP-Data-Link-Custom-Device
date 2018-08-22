@@ -66,6 +66,7 @@
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder"/>
 			<Item Name="Buffered Transmit" Type="Folder">
+				<Item Name="Run Bfr Tx - Check Transmit.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Transmit.vi"/>
 				<Item Name="Run Bfr Tx - Sim Buffer Data.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Sim Buffer Data.vi"/>
 			</Item>
 			<Item Name="Receive" Type="Folder">
