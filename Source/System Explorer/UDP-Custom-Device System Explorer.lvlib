@@ -67,14 +67,14 @@
 				<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
 			</Item>
 			<Item Name="OnCompile" Type="Folder">
-				<Item Name="Compile - Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Buffered Channel Refs.vi"/>
+				<Item Name="Compile - Rx Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Buffered Channel Refs.vi"/>
 				<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
+				<Item Name="Compile - Tx Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Buffered Channel Refs.vi"/>
 				<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
 				<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
 			</Item>
 			<Item Name="Packets" Type="Folder">
 				<Item Name="Buffer Data" Type="Folder">
-					<Item Name="BfrPkt - Add Channels.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Add Channels.vi"/>
 					<Item Name="BfrPkt - Set Buffer Direction.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Set Buffer Direction.vi"/>
 				</Item>
 				<Item Name="HeaderConfig" Type="Folder">
@@ -98,6 +98,7 @@
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
 				</Item>
 				<Item Name="Tx Buffer Data" Type="Folder">
+					<Item Name="TxBfrPkt - Add Channels.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Add Channels.vi"/>
 					<Item Name="TxBfrPkt - Add Packet.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Add Packet.vi"/>
 					<Item Name="TxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Init Packet Page.vi"/>
 				</Item>

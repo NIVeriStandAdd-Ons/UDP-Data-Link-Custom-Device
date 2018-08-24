@@ -64,7 +64,9 @@
 			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="Buffered Receive" Type="Folder"/>
+			<Item Name="Buffered Receive" Type="Folder">
+				<Item Name="Run Bfr Rx - New Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - New Data.vi"/>
+			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Run Bfr Tx - Check Transmit.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Transmit.vi"/>
 				<Item Name="Run Bfr Tx - Sim Buffer Data.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Sim Buffer Data.vi"/>
