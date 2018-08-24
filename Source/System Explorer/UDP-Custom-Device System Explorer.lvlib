@@ -108,6 +108,7 @@
 				<Item Name="Pkt - Get Controller Name.vi" Type="VI" URL="../API/Packets/Pkt - Get Controller Name.vi"/>
 				<Item Name="Pkt - Get SysDef Version.vi" Type="VI" URL="../API/Packets/Pkt - Get SysDef Version.vi"/>
 				<Item Name="Pkt - Get Target IP.vi" Type="VI" URL="../API/Packets/Pkt - Get Target IP.vi"/>
+				<Item Name="Pkt - Menu Data Types.vi" Type="VI" URL="../API/Packets/Pkt - Menu Data Types.vi"/>
 				<Item Name="Pkt - Packet Type to Add.vi" Type="VI" URL="../API/Packets/Pkt - Packet Type to Add.vi"/>
 				<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
 			</Item>
