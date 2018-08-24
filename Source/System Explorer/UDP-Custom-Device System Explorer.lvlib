@@ -96,6 +96,7 @@
 					<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
 					<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
+					<Item Name="TxPkt - Update Transmit Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Transmit Channels.vi"/>
 				</Item>
 				<Item Name="Tx Buffer Data" Type="Folder">
 					<Item Name="TxBfrPkt - Add Channels.vi" Type="VI" URL="../API/Packets/TxBufferedData/TxBfrPkt - Add Channels.vi"/>
