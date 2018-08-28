@@ -152,6 +152,8 @@
 						<Item Name="Export File - Main XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Main XML.vi"/>
 						<Item Name="Export File - Rx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx Packet XML.vi"/>
 						<Item Name="Export File - Rx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx XML.vi"/>
+						<Item Name="Export File - Tx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx Packet XML.vi"/>
+						<Item Name="Export File - Tx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx XML.vi"/>
 					</Item>
 					<Item Name="Export - Strip Controller Path.vi" Type="VI" URL="../API/XML - New/Export/Export - Strip Controller Path.vi"/>
 					<Item Name="Export - UDP Custom Device.vi" Type="VI" URL="../API/XML - New/Export/Export - UDP Custom Device.vi"/>
@@ -294,8 +296,8 @@
 			<Item Name="XML - New" Type="Folder">
 				<Item Name="ImpExp - Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Data.ctl"/>
 				<Item Name="ImpExp - Main Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Main Data.ctl"/>
+				<Item Name="ImpExp - Packet Headers.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Packet Headers.ctl"/>
 				<Item Name="ImpExp - Rx Packet Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Rx Packet Data.ctl"/>
-				<Item Name="ImpExp - Rx Packet Headers.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Rx Packet Headers.ctl"/>
 				<Item Name="ImpExp - Rx Packets Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Rx Packets Data.ctl"/>
 				<Item Name="ImpExp - Tx Packet Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Tx Packet Data.ctl"/>
 				<Item Name="ImpExp - Tx Packets Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Tx Packets Data.ctl"/>
