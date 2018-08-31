@@ -145,15 +145,17 @@
 						<Item Name="Export - Tx Packets.vi" Type="VI" URL="../API/XML - New/Export/Export - Tx Packets.vi"/>
 					</Item>
 					<Item Name="File Export" Type="Folder">
-						<Item Name="Export File - Common Block XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Common Block XML.vi"/>
-						<Item Name="Export File - Create Name Value Node.vi" Type="VI" URL="../API/XML - New/File/Export File - Create Name Value Node.vi"/>
+						<Item Name="Operations" Type="Folder">
+							<Item Name="Export File - Common Block XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Common Block XML.vi"/>
+							<Item Name="Export File - Create Name Value Node.vi" Type="VI" URL="../API/XML - New/File/Export File - Create Name Value Node.vi"/>
+							<Item Name="Export File - Main XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Main XML.vi"/>
+							<Item Name="Export File - Rx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx Packet XML.vi"/>
+							<Item Name="Export File - Rx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx XML.vi"/>
+							<Item Name="Export File - Tx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx Packet XML.vi"/>
+							<Item Name="Export File - Tx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx XML.vi"/>
+						</Item>
 						<Item Name="Export File - Generate BIN File.vi" Type="VI" URL="../API/XML - New/File/Export File - Generate BIN File.vi"/>
 						<Item Name="Export File - Generate XML File.vi" Type="VI" URL="../API/XML - New/File/Export File - Generate XML File.vi"/>
-						<Item Name="Export File - Main XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Main XML.vi"/>
-						<Item Name="Export File - Rx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx Packet XML.vi"/>
-						<Item Name="Export File - Rx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx XML.vi"/>
-						<Item Name="Export File - Tx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx Packet XML.vi"/>
-						<Item Name="Export File - Tx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx XML.vi"/>
 					</Item>
 					<Item Name="Export - Strip Controller Path.vi" Type="VI" URL="../API/XML - New/Export/Export - Strip Controller Path.vi"/>
 					<Item Name="Export - UDP Custom Device.vi" Type="VI" URL="../API/XML - New/Export/Export - UDP Custom Device.vi"/>
