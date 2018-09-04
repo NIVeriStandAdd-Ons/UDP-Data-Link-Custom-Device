@@ -162,7 +162,17 @@
 				</Item>
 				<Item Name="Import" Type="Folder">
 					<Item Name="File Import" Type="Folder">
+						<Item Name="Operations" Type="Folder">
+							<Item Name="Import File - Common Block XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Common Block XML.vi"/>
+							<Item Name="Import File - Main XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Main XML.vi"/>
+							<Item Name="Import File - Name Value Pair.vi" Type="VI" URL="../API/XML - New/File/Import File - Name Value Pair.vi"/>
+							<Item Name="Import File - Rx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Rx Packet XML.vi"/>
+							<Item Name="Import File - Rx XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Rx XML.vi"/>
+							<Item Name="Import File - Tx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Tx Packet XML.vi"/>
+							<Item Name="Import File - Tx XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Tx XML.vi"/>
+						</Item>
 						<Item Name="Import File - Parse BIN File.vi" Type="VI" URL="../API/XML - New/File/Import File - Parse BIN File.vi"/>
+						<Item Name="Import File - Parse XML File.vi" Type="VI" URL="../API/XML - New/File/Import File - Parse XML File.vi"/>
 					</Item>
 					<Item Name="Import Config" Type="Folder">
 						<Item Name="Import - Buffered Rx Packet.vi" Type="VI" URL="../API/XML - New/Import/Import - Buffered Rx Packet.vi"/>
