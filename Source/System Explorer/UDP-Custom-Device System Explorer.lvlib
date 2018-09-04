@@ -136,6 +136,8 @@
 			<Item Name="XML - New" Type="Folder">
 				<Item Name="Export" Type="Folder">
 					<Item Name="Data Scraping" Type="Folder">
+						<Item Name="Export - Buffered Rx Packet.vi" Type="VI" URL="../API/XML - New/Export/Export - Buffered Rx Packet.vi"/>
+						<Item Name="Export - Buffered Tx Packet.vi" Type="VI" URL="../API/XML - New/Export/Export - Buffered Tx Packet.vi"/>
 						<Item Name="Export - Main.vi" Type="VI" URL="../API/XML - New/Export/Export - Main.vi"/>
 						<Item Name="Export - Rx Packet.vi" Type="VI" URL="../API/XML - New/Export/Export - Rx Packet.vi"/>
 						<Item Name="Export - Rx Packets.vi" Type="VI" URL="../API/XML - New/Export/Export - Rx Packets.vi"/>
@@ -143,16 +145,38 @@
 						<Item Name="Export - Tx Packets.vi" Type="VI" URL="../API/XML - New/Export/Export - Tx Packets.vi"/>
 					</Item>
 					<Item Name="File Export" Type="Folder">
+						<Item Name="Operations" Type="Folder">
+							<Item Name="Export File - Common Block XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Common Block XML.vi"/>
+							<Item Name="Export File - Create Name Value Node.vi" Type="VI" URL="../API/XML - New/File/Export File - Create Name Value Node.vi"/>
+							<Item Name="Export File - Main XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Main XML.vi"/>
+							<Item Name="Export File - Rx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx Packet XML.vi"/>
+							<Item Name="Export File - Rx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Rx XML.vi"/>
+							<Item Name="Export File - Tx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx Packet XML.vi"/>
+							<Item Name="Export File - Tx XML.vi" Type="VI" URL="../API/XML - New/File/Export File - Tx XML.vi"/>
+						</Item>
 						<Item Name="Export File - Generate BIN File.vi" Type="VI" URL="../API/XML - New/File/Export File - Generate BIN File.vi"/>
+						<Item Name="Export File - Generate XML File.vi" Type="VI" URL="../API/XML - New/File/Export File - Generate XML File.vi"/>
 					</Item>
 					<Item Name="Export - Strip Controller Path.vi" Type="VI" URL="../API/XML - New/Export/Export - Strip Controller Path.vi"/>
 					<Item Name="Export - UDP Custom Device.vi" Type="VI" URL="../API/XML - New/Export/Export - UDP Custom Device.vi"/>
 				</Item>
 				<Item Name="Import" Type="Folder">
 					<Item Name="File Import" Type="Folder">
+						<Item Name="Operations" Type="Folder">
+							<Item Name="Import File - Common Block XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Common Block XML.vi"/>
+							<Item Name="Import File - Main XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Main XML.vi"/>
+							<Item Name="Import File - Name Value Pair.vi" Type="VI" URL="../API/XML - New/File/Import File - Name Value Pair.vi"/>
+							<Item Name="Import File - Rx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Rx Packet XML.vi"/>
+							<Item Name="Import File - Rx XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Rx XML.vi"/>
+							<Item Name="Import File - Tx Packet XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Tx Packet XML.vi"/>
+							<Item Name="Import File - Tx XML.vi" Type="VI" URL="../API/XML - New/File/Import File - Tx XML.vi"/>
+						</Item>
 						<Item Name="Import File - Parse BIN File.vi" Type="VI" URL="../API/XML - New/File/Import File - Parse BIN File.vi"/>
+						<Item Name="Import File - Parse XML File.vi" Type="VI" URL="../API/XML - New/File/Import File - Parse XML File.vi"/>
 					</Item>
 					<Item Name="Import Config" Type="Folder">
+						<Item Name="Import - Buffered Rx Packet.vi" Type="VI" URL="../API/XML - New/Import/Import - Buffered Rx Packet.vi"/>
+						<Item Name="Import - Buffered Tx Packet.vi" Type="VI" URL="../API/XML - New/Import/Import - Buffered Tx Packet.vi"/>
 						<Item Name="Import - Main.vi" Type="VI" URL="../API/XML - New/Import/Import - Main.vi"/>
 						<Item Name="Import - Rx Packet.vi" Type="VI" URL="../API/XML - New/Import/Import - Rx Packet.vi"/>
 						<Item Name="Import - Rx Packets.vi" Type="VI" URL="../API/XML - New/Import/Import - Rx Packets.vi"/>
@@ -284,6 +308,7 @@
 			<Item Name="XML - New" Type="Folder">
 				<Item Name="ImpExp - Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Data.ctl"/>
 				<Item Name="ImpExp - Main Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Main Data.ctl"/>
+				<Item Name="ImpExp - Packet Headers.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Packet Headers.ctl"/>
 				<Item Name="ImpExp - Rx Packet Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Rx Packet Data.ctl"/>
 				<Item Name="ImpExp - Rx Packets Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Rx Packets Data.ctl"/>
 				<Item Name="ImpExp - Tx Packet Data.ctl" Type="VI" URL="../Types/XML - New/ImpExp - Tx Packet Data.ctl"/>
