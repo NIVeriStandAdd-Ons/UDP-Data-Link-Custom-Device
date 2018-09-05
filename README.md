@@ -8,7 +8,7 @@ LabVIEW 2016
 
 ### Built Availability ###
 
-Builds of this IP are not available.
+Builds of this IP in select versions of VeriStand are available under Releases.
 
 ### Quality, Limitations ###
 
