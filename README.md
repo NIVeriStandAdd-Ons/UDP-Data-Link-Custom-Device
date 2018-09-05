@@ -17,7 +17,7 @@ It currently does not meet all of the specifications defined within the Document
 ### Dependencies ###
 
 OpenG Toolkit  
-VeriStand Data Library (https://github.com/NIVeriStandAdd-Ons/VeriStand-Data-Library)
+VeriStand Data Library v0.1.0 (https://github.com/NIVeriStandAdd-Ons/VeriStand-Data-Library)
 
 ### License ###
 
