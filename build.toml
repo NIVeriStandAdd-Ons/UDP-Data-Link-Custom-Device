@@ -21,7 +21,7 @@ build_spec = 'Engine Release'
 [package]
 type = 'nipkg'
 name = 'udp-custom-device-{version}'
-release_version = '1.0'
+dev_xml_path = 'Source\Custom Device UDP-Custom-Device.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {version}\Custom Devices'
 
 [[release.steps]]
