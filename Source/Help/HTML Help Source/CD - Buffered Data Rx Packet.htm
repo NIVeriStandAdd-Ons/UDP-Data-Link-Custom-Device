@@ -9,7 +9,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 	<head>
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
-		<title>Transmit Packet</title> <!--REPLACE-->
+		<title>Template</title> <!--REPLACE-->
 		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
@@ -20,26 +20,28 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 			<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 			<hr width="100%" noshade>
 		</noscript>
-		<h1>Transmit Packet</h1> <!--REPLACE-->
+		<h1>Template</h1> <!--REPLACE-->
 		<h2>Introduction</h2>
 		<p>
 			<!--Global scheme of why this screen is important and how it relates to the general process of setting up the custom device.-->
-			This page represents a single packet to be transmitted out on a UDP port. A packet will have an ID, which represents the relative order in which the packet will be sent. This is the primary means for formatting and sending channel data out on a UDP port.
+			This page represents a single packet to be received on a UDP port. A packet will have an ID, which represents the relative order in which the packet is expected to arrive in. Unlike a typical <a href="CD - Receive Packet.htm">receive packet</a>, this packet only operates on buffers of data instead of channels.
 		</p>
 		
 		<h2>Configuration Summary</h2>
 		<p>
 			<!--Description/summary of the basic purpose of the controls on this screen.-->
-			A transmit packet must be configured with a local NIC and port to send on. Additionally, the packet needs a destination address and port to try to send to. Further configuration can adjust the endianness of the packet contents, the packet header, and frequency the packet is transacted. A packet header must have at least the <i>Packet Size</i> bytes. Channels to send in the transmit packet may be added using the <i>Add Channel(s)</i> button or right-click menu option from the system definition tree.
+			A receive packet must be configured with a local NIC and port to send on. Additionally, the packet needs a destination address and port to try to send to. Further configuration can adjust the endianness of the expended inbound packet contents. The size of the buffer must also be defined for this packet. The packet itself will create the buffer at run time. A pointer to the buffer is exposed via the <i>Buffer</i> channel on the first execution of the simulation. Another custom device or model that wants to read data from this buffer must have a channel mapped to the <i>Buffer</i> channel. An invalid buffer will take the value of 0 in the channel.
 			<table>
 				<tr>
 					<th></th>
 					<th>Description</th>
 				</tr>
+			<!--
 				<tr>
 					<td><STRONG>Configure Header</STRONG></td>
 					<td>Clicking on this button opens a dialogue that displays the current <a href="INFO - Packet Headers.htm">header payload</a> that will be used for the transmit packet. Header elements may be removed and added as needed, but the <i>Packet Size</i> bytes are required at a minimum for the header.</td>
 				</tr>
+			-->
 				<tr>
 					<td><STRONG>Endianness</STRONG></td>
 					<td>Determines the byte endianness of the transmitted packet. Supports little-endian and big-endian.</td>
@@ -49,37 +51,26 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>IP address of the local network interface card to use to send this packet.</td>
 				</tr>
 				<tr>
-					<td><STRONG>IP Address of Destination</STRONG></td>
-					<td>IP address of the destination that is going to receive this packet.</td>
-				</tr>
-				<tr>
 					<td><STRONG>Port</STRONG></td>
 					<td>The local port to use to send this packet.</td>
 				</tr>
 				<tr>
-					<td><STRONG>Destination Port</STRONG></td>
-					<td>IP address of the destination that is going to receive this packet.</td>
+					<td><STRONG>Read Timeout</STRONG></td>
+					<td>The number of milliseconds that the packet should wait (at the longest) for any incoming data.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Auto-Assign Local NIC</STRONG></td>
 					<td>A shortcut functionality that enables the auto-population of the <i>IP Address of Local NIC</i> field. Attempts to use the IP address assigned to controller or realtime host.</td>
 				</tr>
 				<tr>
-					<td><STRONG>Always Transmit</STRONG></td>
-					<td>When checked, this packet is only transmitted when the local transmit channel flag is set high.</td>
-				</tr>
-				<tr>
 					<td><STRONG>Decimation</STRONG></td>
 					<td>Determines the rate at which this packet is sent. This rate is relative to the loop rate of the Primary Control Loop (PCL). If the PCL is set to 100 Hz, and the decimation of this packet is set to 2, this transmit packet will be sent at a rate of 50 Hz.</td>
 				</tr>
 				<tr>
-					<td><STRONG>Tx Channels</STRONG></td>
-					<td>Enumerates <STRONG>ALL THE CHANNELS</STRONG> configured to be transmitted with this transmit packet, as well as their expected data type, order in the packet, and the path to their source channel. A channel may be removed by selecting it from this list, right-clicking, and selecting <i>Remove Channels</i>. The <a href="INFO - Data Types.htm">data type</a> of a channel may be changed similarly. Channel transmit order may be changed by dragging and dropping channels in this listbox.</td>
+					<td><STRONG>Buffer Size</STRONG></td>
+					<td>The number of bytes that will be allocated for using in the transmit buffer. Other models and custom devices filling using this buffer should never use more byte than what is allocated here.</td>
 				</tr>
-				<tr>
-					<td><STRONG>Export</STRONG></td>
-					<td>Exports the current transmit packet channel configuration to a formatted csv file. This csv file may be imported by transmit or receive channel configurations for quick configuration and setup of many channels.</td>
-				</tr>
+			</table>
 			</table>
 		</p>
 		<h2>Channels</h2>
@@ -90,8 +81,12 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<th>Description</th>
 				</tr>
 				<tr>
-					<td><STRONG>Transmit</STRONG></td>
-					<td>When this channel is set to 1, the channel data is transmitted out on the network. This channel resets back to 0 after transmitting a payload. This channel is only used when the <i>Always Transmit</i> property is set.</td>
+					<td><STRONG>New Data</STRONG></td>
+					<td>This channel is set to 1 when new data is received. It is set to 0 when the network read times out.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Buffer</STRONG></td>
+					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to read large collections of data in from the UDP network. The data in the buffer takes no particular format and is application dependent.</td>
 				</tr>
 			</table>
 		</p>
