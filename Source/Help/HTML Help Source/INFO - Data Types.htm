@@ -35,6 +35,13 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<th>Conversion Behavior</th>
 				</tr>
 				<tr>
+					<td><STRONG>Boolean</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to a 8-bit representation of a boolean value. Any value not equal to 0 will be converted to a boolean high; a byte with a value of 1. Any value equal to 0 will be converted to a boolean low; a byte with a value of 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from a 8-bit boolean to a 64-bit, double-precision, floating point Veristand channel value. A boolean high (a byte with anything other than a 0 value in it) will be converted to a 1. A boolean low (a byte that is all zeroes) will be converted to a 0.<br>
+					</td>
+				</tr>
+				<tr>
 					<td><STRONG>Single</STRONG></td>
 					<td>
 						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to a 32-bit, single-precision, floating point value. Retains high levels of floating point accuracy, but the conversion times from a double to a single may be long in high channel counts transmissions.<br>
@@ -42,10 +49,66 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					</td>
 				</tr>
 				<tr>
-					<td><STRONG>Boolean</STRONG></td>
+					<td><STRONG>Double</STRONG></td>
 					<td>
-						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to a 8-bit representation of a boolean value. Any value not equal to <i>0</i> will be converted to a boolean high; a byte with a value of <i>1</i>. Any value equal to <i>0</i> will be converted to a boolean low; a byte with a value of <i>0</i>.<br>
-						<STRONG>Receive Decoding:</STRONG> Converts from a 8-bit boolean to a 64-bit, double-precision, floating point Veristand channel value. A boolean high (a byte with anything other than a <i>0</i> value in it) will be converted to a <i>1</i>. A boolean low (a byte that is all zeroes) will be converted to a <i>0</i>.<br>
+						<STRONG>Transmit Encoding:</STRONG> Maintains the encoding for a 64-bit floating-point double. This is the native format of all Veristand channels.<br>
+						<STRONG>Receive Decoding:</STRONG> Maintains the encoding for a 64-bit floating-point double. This is the native format of all Veristand channels.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>I8</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 8-bit signed integer representation of the value. Any decimals will be coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from an 8-bit signed integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>I16</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 16-bit signed integer representation of the value. Any decimals will be coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from a 16-bit signed integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>I32</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 32-bit signed integer representation of the value. Any decimals will be coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from a 32-bit signed integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>I64</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 64-bit signed integer representation of the value. Any decimals will be coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from a 64-bit signed integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>U8</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 8-bit unsigned integer representation of the value. Any decimals will be coerced to 0. Negative values are coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from an 8-bit unsigned integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>U16</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 16-bit unsigned integer representation of the value. Any decimals will be coerced to 0. Negative values are coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from a 16-bit unsigned integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>U32</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 32-bit unsigned integer representation of the value. Any decimals will be coerced to 0. Negative values are coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from a 32-bit unsigned integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
+					</td>
+				</tr>
+				<tr>
+					<td><STRONG>U64</STRONG></td>
+					<td>
+						<STRONG>Transmit Encoding:</STRONG> Converts from a Veristand double channel, to an 64-bit unsigned integer representation of the value. Any decimals will be coerced to 0. Negative values are coerced to 0.<br>
+						<STRONG>Receive Decoding:</STRONG> Converts from a 64-bit unsigned integer to a 64-bit, double-precision, floating point Veristand channel value.<br>
 					</td>
 				</tr>
 				<tr>
