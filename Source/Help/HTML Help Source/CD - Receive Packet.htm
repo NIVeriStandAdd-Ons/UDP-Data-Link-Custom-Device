@@ -53,12 +53,33 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>The local port to use to receive this packet.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Read Timeout</STRONG></td>
+					<td>The number of milliseconds that the packet should wait (at the longest) for any incoming data.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Auto-Assign Local NIC</STRONG></td>
 					<td>A shortcut functionality that enables the auto-population of the <i>IP Address of Local NIC</i> field. Attempts to use the IP address assigned to controller or realtime host.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Rx Channels</STRONG></td>
 					<td>Enumerates <STRONG>ALL THE CHANNELS</STRONG> expected to be received on inbound UDP traffic for this packet. Further displays their expected data type and order in the packet. A channel may be removed by selecting it from this list, right-clicking, and selecting <i>Remove Channels</i>. The <a href="INFO - Data Types.htm">data type</a> of a channel may be changed similarly. Channel receive order may be changed by dragging and dropping channels in this listbox.</td> 
+				</tr>
+				<tr>
+					<td><STRONG>Export</STRONG></td>
+					<td>Exports the current receive packet channel configuration to a formatted csv file. This csv file may be imported by transmit or receive channel configurations for quick configuration and setup of many channels.</td>
+				</tr>
+			</table>
+		</p>
+		<h2>Channels</h2>
+		<p>
+			<table>
+				<tr>
+					<th></th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td><STRONG>New Data</STRONG></td>
+					<td>This channel is set to 1 when new data is received. It is set to 0 when the network read times out.</td>
 				</tr>
 			</table>
 		</p>
