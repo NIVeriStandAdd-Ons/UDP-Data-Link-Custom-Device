@@ -1,0 +1,15 @@
+[My Computer]
+My Computer = "192.168.195.1"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "0.0.0.0"
+
+[RT CompactRIO Target - Linux ARM]
+RT CompactRIO Target - Linux ARM = "0.0.0.0"
+
+[RT CompactRIO Target - Linux x64]
+RT CompactRIO Target - Linux x64 = "0.0.0.0"
+
+[RT PXI Target]
+RT PXI Target = "0.0.0.0"
+

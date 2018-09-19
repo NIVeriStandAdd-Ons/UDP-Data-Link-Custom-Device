@@ -80,7 +80,7 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>5b373e33-8cdf-4361-bd53-7cc75af59f85</GUID>
+					<GUID>8a091f2f-f6f5-4838-b57c-7ff242367d6e</GUID>
 					<Type>Action</Type>
 					<Execution>silent</Execution>
 					<Name>
@@ -89,19 +89,32 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Export Configuration RTM.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Export to XML.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>a9527afc-c1bc-42ef-a605-ac6813829a8e</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Import from XML.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
-					<ID>5b373e33-8cdf-4361-bd53-7cc75af59f85-Button</ID>
+					<ID>8a091f2f-f6f5-4838-b57c-7ff242367d6e-Button</ID>
 					<Glyph>
 						<Type>To Application Data Dir</Type>
 						<Path>System Explorer\Glyphs\Export.png</Path>
 					</Glyph>
 					<Type>Action</Type>
-					<ReferencedGUID>5b373e33-8cdf-4361-bd53-7cc75af59f85</ReferencedGUID>
+					<ReferencedGUID>8a091f2f-f6f5-4838-b57c-7ff242367d6e</ReferencedGUID>
 					<ButtonText>
 						<eng>Export Configuration</eng>
 						<loc>Export Configuration</loc>
@@ -119,11 +132,40 @@
 						<loc>Export Custom Device Configuration</loc>
 					</Documentation>
 				</Button>
+				<Button>
+					<ID>a9527afc-c1bc-42ef-a605-ac6813829a8e-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>a9527afc-c1bc-42ef-a605-ac6813829a8e</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
 			</ButtonList>
 			<ActionVIOnDelete>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\ActionVIOnDelete.vi</Path>
 			</ActionVIOnDelete>
+			<ActionVIOnSave>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\ActionVIOnSave.vi</Path>
+			</ActionVIOnSave>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\ActionVIOnCompile.vi</Path>
@@ -282,7 +324,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
-<!--
+			<!--
 				<MenuItem>
 					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
 					<Type>Separator</Type>
@@ -329,7 +371,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
--->
+			-->
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
@@ -557,7 +599,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Add Channels Updated.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Add Channels Updated.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -569,15 +611,15 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Channels.vi</Path>
 					</Item2Launch>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Channels Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
-<!--
+			<!--
 				<MenuItem>
 					<GUID>05226d16-1f5e-47ce-855d-44c1d4213d39</GUID>
 					<Type>Separator</Type>
@@ -624,7 +666,7 @@
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</MenuItem>
--->
+			-->
 			</RunTimeMenu>
 			<ButtonList>
 				<Button>
@@ -678,12 +720,13 @@
 					</Documentation>
 					<Dependency>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\UDP Data Link - RTMs - Remove Channels Dependency.vi</Path>
+						<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\RTM - Remove Channels Dependency.vi</Path>
 						<Behavior>Dynamic</Behavior>
 					</Dependency>
 				</Button>
 			</ButtonList>
 		</Page>
+	<!-- Currently unused.
 		<Page>
 			<Name>
 				<eng>Timestamp Channel</eng>
@@ -737,6 +780,7 @@
 				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Status Section Page.vi</Path>
 			</Item2Launch>
 		</Page>
+	-->
 		<Page>
 			<Name>
 				<eng>Channel Configuration</eng>
@@ -874,6 +918,40 @@
 					</Dependency>
 				</Button>
 			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Buffered Transmit Packet</eng>
+				<loc>Buffered Transmit Packet</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>82671a20-3042-4259-849c-bf21b4eca2c0</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Reflective Memory.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Tx Buffered Packet Page.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Buffered Receive Packet</eng>
+				<loc>Buffered Receive Packet</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+			<GUID>0b9a6620-1662-48a0-94bf-5c5feb9252a9</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Reflective Memory.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\UDP-Custom-Device\Windows\UDP-Custom-Device Configuration.llb\Rx Buffered Packet Page.vi</Path>
+			</Item2Launch>
 		</Page>
 	</Pages>
 	<CustomXML>
