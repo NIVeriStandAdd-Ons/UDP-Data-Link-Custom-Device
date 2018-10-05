@@ -1,13 +1,29 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "37,4,878,495"
+ProjectExplorer.ClassicPosition[String] = "-62,-2120,779,-1629"
 
-[AB_Cache_{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}]
-Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{BDB37"
-Cache_Path[Path] Line0002 = "E78-1B48-4DD8-B51B-9DFE56743A02}.txt"
+[AB_Cache_{0FFE989D-B571-426F-BFD1-1B015D4319A2}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{0FFE9"
+Cache_Path[Path] Line0002 = "89D-B571-426F-BFD1-1B015D4319A2}.txt"
 
-[AB_Cache_{32214451-43E2-4D3E-92C8-CE819321FAC4}]
-Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{32214"
-Cache_Path[Path] Line0002 = "451-43E2-4D3E-92C8-CE819321FAC4}.txt"
+[AB_Cache_{E24CF77A-EDD5-435E-91DE-CAC6522BEA2A}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{E24CF"
+Cache_Path[Path] Line0002 = "77A-EDD5-435E-91DE-CAC6522BEA2A}.txt"
+
+[AB_Cache_{8BD177DF-882F-4506-BE35-A5DF5F673C18}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{8BD17"
+Cache_Path[Path] Line0002 = "7DF-882F-4506-BE35-A5DF5F673C18}.txt"
+
+[AB_Cache_{F7A753CB-5AA6-49B3-83A7-C0336FA31893}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{F7A75"
+Cache_Path[Path] Line0002 = "3CB-5AA6-49B3-83A7-C0336FA31893}.txt"
+
+[AB_Cache_{4EA7F6CA-0FE2-408B-80F7-1E24293F26DB}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{4EA7F"
+Cache_Path[Path] Line0002 = "6CA-0FE2-408B-80F7-1E24293F26DB}.txt"
+
+[AB_Cache_{404D6B07-67A0-4316-9956-B550D4D5F685}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{404D6"
+Cache_Path[Path] Line0002 = "B07-67A0-4316-9956-B550D4D5F685}.txt"
 
 [AB_Cache_{1C5E1E67-9451-441D-846C-27770C0D4D34}]
 Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{1C5E1"
@@ -16,6 +32,14 @@ Cache_Path[Path] Line0002 = "E67-9451-441D-846C-27770C0D4D34}.txt"
 [AB_Cache_{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}]
 Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{4DDC7"
 Cache_Path[Path] Line0002 = "D17-96A1-4AE7-BF29-EC0FD60BE89D}.txt"
+
+[AB_Cache_{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{BDB37"
+Cache_Path[Path] Line0002 = "E78-1B48-4DD8-B51B-9DFE56743A02}.txt"
+
+[AB_Cache_{32214451-43E2-4D3E-92C8-CE819321FAC4}]
+Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{32214"
+Cache_Path[Path] Line0002 = "451-43E2-4D3E-92C8-CE819321FAC4}.txt"
 
 [AB_Cache_{F7E936A1-C50B-4217-AC2B-A4DA3629CD4B}]
 Cache_Path[Path] Line0001 = "/C/Users/jamesv/AppData/Local/Temp/AB_Cache_{F7E93"
