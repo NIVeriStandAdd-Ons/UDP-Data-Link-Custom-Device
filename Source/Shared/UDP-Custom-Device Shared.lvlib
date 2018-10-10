@@ -35,11 +35,12 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
-			<Item Name="Channel Data Type.ctl" Type="VI" URL="../../System Explorer/Types/Channel Data Type.ctl"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
-			<Item Name="Header Details.ctl" Type="VI" URL="../Header Details.ctl"/>
-			<Item Name="Rx.PacketInfo.ctl" Type="VI" URL="../Rx.PacketInfo.ctl"/>
-			<Item Name="Tx.PacketInfo.ctl" Type="VI" URL="../Tx.PacketInfo.ctl"/>
+			<Item Name="Shared - Buffered.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Buffered.PacketInfo.ctl"/>
+			<Item Name="Shared - Channel Data Type.ctl" Type="VI" URL="../Types/Shared - Channel Data Type.ctl"/>
+			<Item Name="Shared - Header Details.ctl" Type="VI" URL="../Types/Shared - Header Details.ctl"/>
+			<Item Name="Shared - Rx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Rx.PacketInfo.ctl"/>
+			<Item Name="Shared - Tx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Tx.PacketInfo.ctl"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="String to Type.vi" Type="VI" URL="../Utility/String to Type.vi"/>
