@@ -56,21 +56,28 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Read Timeout</STRONG></td>
-					<td>The number of milliseconds that the packet should wait (at the longest) for any incoming data.</td>
+					<td>The number of milliseconds that the packet should wait (at the longest) for any incoming data. When trying to receive data sets smaller than the <i>Buffer Size</i> property, it is suggested to make this property at least as fast as the PCL period.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Multicast IP Address</STRONG></td>
+					<td>The Multicast address to subscribe to in the event that inbound traffic is multicast.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Auto-Assign Local NIC</STRONG></td>
 					<td>A shortcut functionality that enables the auto-population of the <i>IP Address of Local NIC</i> field. Attempts to use the IP address assigned to controller or realtime host.</td>
 				</tr>
 				<tr>
-					<td><STRONG>Decimation</STRONG></td>
-					<td>Determines the rate at which this packet is sent. This rate is relative to the loop rate of the Primary Control Loop (PCL). If the PCL is set to 100 Hz, and the decimation of this packet is set to 2, this transmit packet will be sent at a rate of 50 Hz.</td>
+					<td><STRONG>Multicast?</STRONG></td>
+					<td>Toggles if the UDP receive session expects data over a Multicast address.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
-					<td>The number of bytes that will be allocated for using in the transmit buffer. Other models and custom devices filling using this buffer should never use more byte than what is allocated here.</td>
+					<td>The number of bytes that will be allocated for using in the receive buffer. Other models and custom devices reading using this buffer should never use more bytes than what is allocated here.</td>
 				</tr>
-			</table>
+				<tr>
+					<td><STRONG>External Buffer</STRONG></td>
+					<td>If active, an external model or custom device is required to provide the buffer that will receive data over UDP. The buffer pointer must be provided via the Buffer channel. If inactive, a buffer will be internally created by this custom device. The buffer will be exposed over the Buffer channel.</td>
+				</tr>
 			</table>
 		</p>
 		<h2>Channels</h2>
@@ -85,8 +92,12 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>This channel is set to 1 when new data is received. It is set to 0 when the network read times out.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Bytes Received</STRONG></td>
+					<td>A receive packet always attempts to read, at a maximum, <i>Buffer Size</i> number of bytes. This channel will always reflect the number bytes actually received over the UDP socket.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Buffer</STRONG></td>
-					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to read large collections of data in from the UDP network. The data in the buffer takes no particular format and is application dependent.</td>
+					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to read large collections of data in from the UDP network. The data in the buffer takes no particular format and is application dependent. If an external buffer is being provided, no data will be transmitted out until a non-zero value is present on this channel. Provided buffers should be a union of a 32-bit pointer and a double, with the pointer occupying the lower 32 bits of the double. Alternatively, a raw typecast of a pointer to a double will work as well. If unclear, please refer to the locally-provided buffer for example pointer storage in this channel.</td>
 				</tr>
 			</table>
 		</p>

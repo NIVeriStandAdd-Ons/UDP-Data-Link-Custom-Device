@@ -50,4 +50,12 @@
 		<Item Name="Read Channel Refs.vi" Type="VI" URL="../Packets/Read Channel Refs.vi"/>
 		<Item Name="Write Channel Refs.vi" Type="VI" URL="../Packets/Write Channel Refs.vi"/>
 	</Item>
+	<Item Name="Multicast" Type="Folder">
+		<Item Name="Read Multicast.vi" Type="VI" URL="../Packets/Read Multicast.vi"/>
+		<Item Name="Write Multicast.vi" Type="VI" URL="../Packets/Write Multicast.vi"/>
+	</Item>
+	<Item Name="Multicast IP" Type="Folder">
+		<Item Name="Read Multicast IP.vi" Type="VI" URL="../Packets/Read Multicast IP.vi"/>
+		<Item Name="Write Multicast IP.vi" Type="VI" URL="../Packets/Write Multicast IP.vi"/>
+	</Item>
 </Library>
