@@ -52,7 +52,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>IP Address of Destination</STRONG></td>
-					<td>IP address of the destination that is going to receive this packet.</td>
+					<td>IP address of the destination that is going to receive this packet. When the <i>Multicast?</i> option is set active, this field is used for the Multicast address.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Port</STRONG></td>
@@ -72,11 +72,19 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Decimation</STRONG></td>
-					<td>Determines the rate at which this packet is sent. This rate is relative to the loop rate of the Primary Control Loop (PCL). If the PCL is set to 100 Hz, and the decimation of this packet is set to 2, this transmit packet will be sent at a rate of 50 Hz.</td>
+					<td>Determines the rate at which this packet is sent. This rate is relative to the loop rate of the Primary Control Loop (PCL). If the PCL is set to 100 Hz, and the decimation of this packet is set to 2, this transmit packet will be sent at a rate of 50 Hz. Decimation of 2 or more is potentially useful when sending subsets of the <i>Buffer Size</i> out on the network.</td>
+				</tr>
+				<tr>
+					<td><STRONG>TTL</STRONG></td>
+					<td>Sets the Time-To-Live property for transmitted packets. This is necessary when traversing particular pieces of networking equipment.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
-					<td>The number of bytes that will be allocated for using in the transmit buffer. Other models and custom devices filling using this buffer should never use more byte than what is allocated here.</td>
+					<td>The number of bytes that will be allocated for using in the transmit buffer. Other models and custom devices filling using this buffer should never use more bytes than what is allocated here.</td>
+				</tr>
+				<tr>
+					<td><STRONG>External Buffer</STRONG></td>
+					<td>If active, an external model or custom device is required to provide the buffer that will ttransact data over UDP. The buffer pointer must be provided via the Buffer channel. If inactive, a buffer will be internally created by this custom device. The buffer will be exposed over the Buffer channel.</td>
 				</tr>
 			</table>
 		</p>
@@ -88,11 +96,15 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Transmit</STRONG></td>
-					<td>When this channel is set to 1, the channel data is transmitted out on the network. This channel resets back to 0 after transmitting a payload. This channel is only used when the <i>Always Transmit</i> property is set.</td>
+					<td>When this channel is set to 1, the channel data is transmitted out on the network. This channel resets back to 0 after transmitting a payload. This channel is only used when the <i>Always Transmit</i> property is inactive.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Transmit Bytes</STRONG></td>
+					<td>Takes an initial value of 0. Determines the number of bytes to transmit out on the UDP socket. This channel should never have a value larger than the <i>Buffer Size</i> property. Packets will not be transmitted until this value does not equal 0.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Buffer</STRONG></td>
-					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to pass large collections of data out on the UDP network. The data in the buffer takes no particular format and is application dependent.</td>
+					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to pass large collections of data out on the UDP network. The data in the buffer takes no particular format and is application dependent. If an external buffer is being provided, no data will be transmitted out until a non-zero value is present on this channel. Provided buffers should be a union of a pointer and a double, with the pointer occupying the lower 32 bits of the double. Alternatively, a raw typecast of a pointer to a double will work as well. If unclear, please refer to the locally-provided buffer for example pointer storage in this channel.</td>
 				</tr>
 			</table>
 		</p>
