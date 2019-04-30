@@ -97,7 +97,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Buffer</STRONG></td>
-					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to read large collections of data in from the UDP network. The data in the buffer takes no particular format and is application dependent. If an external buffer is being provided, no data will be transmitted out until a non-zero value is present on this channel. Provided buffers should be a union of a 32-bit pointer and a double, with the pointer occupying the lower 32 bits of the double. Alternatively, a raw typecast of a pointer to a double will work as well. If unclear, please refer to the locally-provided buffer for example pointer storage in this channel.</td>
+					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to read large collections of data in from the UDP network. The data in the buffer takes no particular format and is application dependent. If an external buffer is being provided, no data will be transmitted out until a non-zero value is present on this channel. Provided buffers should be a union of a pointer and a double. Alternatively, a raw typecast of a pointer to a double will work as well. If unclear, please refer to the locally-provided buffer for example pointer storage in this channel.</td>
 				</tr>
 			</table>
 		</p>
