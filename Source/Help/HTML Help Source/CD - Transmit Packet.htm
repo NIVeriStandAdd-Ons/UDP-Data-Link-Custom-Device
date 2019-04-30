@@ -50,7 +50,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>IP Address of Destination</STRONG></td>
-					<td>IP address of the destination that is going to receive this packet.</td>
+					<td>IP address of the destination that is going to receive this packet. When the <i>Multicast?</i> option is set active, this field is used for the Multicast address.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Port</STRONG></td>
@@ -73,6 +73,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Determines the rate at which this packet is sent. This rate is relative to the loop rate of the Primary Control Loop (PCL). If the PCL is set to 100 Hz, and the decimation of this packet is set to 2, this transmit packet will be sent at a rate of 50 Hz.</td>
 				</tr>
 				<tr>
+					<td><STRONG>TTL</STRONG></td>
+					<td>Sets the Time-To-Live property for transmitted packets. This is necessary when traversing particular pieces of networking equipment.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Tx Channels</STRONG></td>
 					<td>Enumerates <STRONG>ALL THE CHANNELS</STRONG> configured to be transmitted with this transmit packet, as well as their expected data type, order in the packet, and the path to their source channel. A channel may be removed by selecting it from this list, right-clicking, and selecting <i>Remove Channels</i>. The <a href="INFO - Data Types.htm">data type</a> of a channel may be changed similarly. Channel transmit order may be changed by dragging and dropping channels in this listbox.</td>
 				</tr>
@@ -91,7 +95,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Transmit</STRONG></td>
-					<td>When this channel is set to 1, the channel data is transmitted out on the network. This channel resets back to 0 after transmitting a payload. This channel is only used when the <i>Always Transmit</i> property is set.</td>
+					<td>When this channel is set to 1, the channel data is transmitted out on the network. This channel resets back to 0 after transmitting a payload. This channel is only used when the <i>Always Transmit</i> property is inactive.</td>
 				</tr>
 			</table>
 		</p>
