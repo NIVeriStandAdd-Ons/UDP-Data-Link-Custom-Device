@@ -62,6 +62,9 @@
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
 			</Item>
 			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
+			<Item Name="Init - Find Duplex.vi" Type="VI" URL="../Init/Init - Find Duplex.vi"/>
+			<Item Name="Init - Setup Duplex.vi" Type="VI" URL="../Init/Init - Setup Duplex.vi"/>
+			<Item Name="Init - Check Duplex.vi" Type="VI" URL="../Init/Init - Check Duplex.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder">
@@ -86,7 +89,9 @@
 			<Item Name="UDP Rx Process.vi" Type="VI" URL="../Run/UDP Rx Process.vi"/>
 			<Item Name="UDP Tx Process.vi" Type="VI" URL="../Run/UDP Tx Process.vi"/>
 		</Item>
-		<Item Name="Shut Down" Type="Folder"/>
+		<Item Name="Shut Down" Type="Folder">
+			<Item Name="Shutdown - Close Duplex.vi" Type="VI" URL="../Shut Down/Shutdown - Close Duplex.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
