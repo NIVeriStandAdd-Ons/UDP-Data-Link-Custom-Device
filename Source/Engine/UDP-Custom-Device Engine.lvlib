@@ -62,6 +62,7 @@
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
 			</Item>
 			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
+			<Item Name="Init - Setup Duplex.vi" Type="VI" URL="../Init/Init - Setup Duplex.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder">
