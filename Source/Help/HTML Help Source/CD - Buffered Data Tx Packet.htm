@@ -79,6 +79,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Sets the Time-To-Live property for transmitted packets. This is necessary when traversing particular pieces of networking equipment.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Pointer Encoding</STRONG></td>
+					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel.<br><STRONG>Direct Encoding</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
 					<td>The number of bytes that will be allocated for using in the transmit buffer. Other models and custom devices filling using this buffer should never use more bytes than what is allocated here.</td>
 				</tr>
@@ -104,7 +108,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Buffer</STRONG></td>
-					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to pass large collections of data out on the UDP network. The data in the buffer takes no particular format and is application dependent. If an external buffer is being provided, no data will be transmitted out until a non-zero value is present on this channel. Provided buffers should be a union of a pointer and a double. Alternatively, a raw typecast of a pointer to a double will work as well. If unclear, please refer to the locally-provided buffer for example pointer storage in this channel.</td>
+					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to pass large collections of data out on the UDP network. The data in the buffer takes no particular format and is application dependent. If an external buffer is being provided, no data will be transmitted out until a non-zero value is present on this channel. See the <b>Pointer Encoding</b> or more information on how the pointer is encoded in this channel.</td>
 				</tr>
 			</table>
 		</p>
