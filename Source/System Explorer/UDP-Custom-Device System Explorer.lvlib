@@ -68,6 +68,7 @@
 			</Item>
 			<Item Name="OnCompile" Type="Folder">
 				<Item Name="Compile - Rx Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Buffered Channel Refs.vi"/>
+				<Item Name="Compile - Rx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Channel Refs.vi"/>
 				<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
 				<Item Name="Compile - Tx Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Buffered Channel Refs.vi"/>
 				<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
