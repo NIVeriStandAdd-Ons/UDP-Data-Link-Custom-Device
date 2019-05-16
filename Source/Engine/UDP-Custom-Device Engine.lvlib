@@ -86,6 +86,7 @@
 				<Item Name="Tx to UDP.vi" Type="VI" URL="../Run/Transmit/Tx to UDP.vi"/>
 				<Item Name="Run Tx - Check Transmit.vi" Type="VI" URL="../Run/Transmit/Run Tx - Check Transmit.vi"/>
 				<Item Name="Run Tx - Check Dynamic Port.vi" Type="VI" URL="../Run/Transmit/Run Tx - Check Dynamic Port.vi"/>
+				<Item Name="Run Tx - Handle Transmit Option.vi" Type="VI" URL="../Run/Transmit/Run Tx - Handle Transmit Option.vi"/>
 			</Item>
 			<Item Name="UDP Buffered Rx Process.vi" Type="VI" URL="../Run/UDP Buffered Rx Process.vi"/>
 			<Item Name="UDP Buffered Tx Process.vi" Type="VI" URL="../Run/UDP Buffered Tx Process.vi"/>
