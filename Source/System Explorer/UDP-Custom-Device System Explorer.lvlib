@@ -279,7 +279,6 @@
 			</Item>
 			<Item Name="Packet Info" Type="Folder">
 				<Item Name="Packet Type.ctl" Type="VI" URL="../Types/Packet Info/Packet Type.ctl"/>
-				<Item Name="Transmit Flag Options.ctl" Type="VI" URL="../Types/Packet Info/Transmit Flag Options.ctl"/>
 			</Item>
 			<Item Name="Page References" Type="Folder">
 				<Item Name="Refs - Main Page.ctl" Type="VI" URL="../Types/Page References/Refs - Main Page.ctl"/>
