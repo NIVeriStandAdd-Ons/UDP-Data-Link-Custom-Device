@@ -93,7 +93,9 @@
 					<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
 					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
 					<Item Name="TxPkt - Generate Timestamp Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Generate Timestamp Channel.vi"/>
+					<Item Name="TxPkt - Handle Port Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Handle Port Channel.vi"/>
 					<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
+					<Item Name="TxPkt - Update Port Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Port Channel.vi"/>
 					<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
 					<Item Name="TxPkt - Update Transmit Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Transmit Channels.vi"/>
