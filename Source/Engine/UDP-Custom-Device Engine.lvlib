@@ -69,7 +69,6 @@
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder">
 				<Item Name="Run Bfr Rx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Buffer.vi"/>
-				<Item Name="Run Bfr Rx - New Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - New Data.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Run Bfr Tx - Check Dynamic Port.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Dynamic Port.vi"/>
@@ -78,6 +77,8 @@
 				<Item Name="Run Bfr Tx - Sim Buffer Data.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Sim Buffer Data.vi"/>
 			</Item>
 			<Item Name="Receive" Type="Folder">
+				<Item Name="Run Rx - New Data.vi" Type="VI" URL="../Run/Receive/Run Rx - New Data.vi"/>
+				<Item Name="Run Rx - Sender Port.vi" Type="VI" URL="../Run/Receive/Run Rx - Sender Port.vi"/>
 				<Item Name="UDP to Rx.vi" Type="VI" URL="../Run/Receive/UDP to Rx.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
