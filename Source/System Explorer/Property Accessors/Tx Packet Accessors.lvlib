@@ -37,6 +37,10 @@
 		<Item Name="Read TxPkt Timestamp Ref.vi" Type="VI" URL="../Tx Packet/Read TxPkt Timestamp Ref.vi"/>
 		<Item Name="Write TxPkt Timestamp Ref.vi" Type="VI" URL="../Tx Packet/Write TxPkt Timestamp Ref.vi"/>
 	</Item>
+	<Item Name="Transmit Options" Type="Folder">
+		<Item Name="Read TxPkt Transmit Option.vi" Type="VI" URL="../Tx Packet/Read TxPkt Transmit Option.vi"/>
+		<Item Name="Write TxPkt Transmit Option.vi" Type="VI" URL="../Tx Packet/Write TxPkt Transmit Option.vi"/>
+	</Item>
 	<Item Name="TTL" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Read TTL.vi" Type="VI" URL="../Packets/Read TTL.vi"/>
