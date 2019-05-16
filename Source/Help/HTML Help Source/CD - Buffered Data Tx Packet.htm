@@ -79,6 +79,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Sets the Time-To-Live property for transmitted packets. This is necessary when traversing particular pieces of networking equipment.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Port as Channel</STRONG></td>
+					<td>When active, creates a <i>Port</i> channel. This port channel can be modified at runtime to change the destination port a packet is being sent to.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Pointer Encoding</STRONG></td>
 					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
 				</tr>
