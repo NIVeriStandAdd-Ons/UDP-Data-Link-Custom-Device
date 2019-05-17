@@ -67,8 +67,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>A shortcut functionality that enables the auto-population of the <i>IP Address of Local NIC</i> field. Attempts to use the IP address assigned to controller or realtime host.</td>
 				</tr>
 				<tr>
-					<td><STRONG>Always Transmit</STRONG></td>
-					<td>When checked, this packet is only transmitted when the local transmit channel flag is set high.</td>
+					<td><STRONG>Transmit Options</STRONG></td>
+					<td>This parameter controls the behavior of the <i>Transmit</i> channel. All transmit behavior is pending valid buffers, transmit bytes, and ports as relevant.<br><STRONG>Always:</STRONG> This packet will always attempt to be sent, regardless of the value of the <i>Transmit</i> channel.<br><STRONG>One-Shot:</STRONG> This packet will be sent any time the <i>Transmit</i> channel changes to a non-zero value. For example, this packet is transmitted when a change from 1 to 2 is observed, but not transmitted when a change from 1 to 0 is observed.<br><STRONG>Toggle:</STRONG> This packet is sent as long as the value of the <i>Transmit</i> channel is non-zero.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Decimation</STRONG></td>
@@ -77,6 +77,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<tr>
 					<td><STRONG>TTL</STRONG></td>
 					<td>Sets the Time-To-Live property for transmitted packets. This is necessary when traversing particular pieces of networking equipment.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Port as Channel</STRONG></td>
+					<td>When active, creates a <i>Port</i> channel. This port channel can be modified at runtime to change the destination port a packet is being sent to.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Pointer Encoding</STRONG></td>
@@ -109,6 +113,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<tr>
 					<td><STRONG>Buffer</STRONG></td>
 					<td>Takes an initial value of 0. On the first execution of the simulation, this channel will be set to a value that represents a pointer to an in-memory buffer. Another custom device or model may map an input channel to this channel to pass large collections of data out on the UDP network. The data in the buffer takes no particular format and is application dependent. If an external buffer is being provided, no data will be transmitted out until a non-zero value is present on this channel. See the <b>Pointer Encoding</b> property for more information on how the pointer is encoded in this channel.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Port</STRONG></td>
+					<td>Only present when the <i>Port as Channel</i> property is active. Initializes to a default value that is the same as the <i>Destination Port</i> property. When modified at runtime, results in packets being delivered to a different port.</td>
 				</tr>
 			</table>
 		</p>

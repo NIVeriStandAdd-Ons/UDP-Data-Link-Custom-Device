@@ -66,8 +66,12 @@
 				<Item Name="Initialize - Set Configuration File.vi" Type="VI" URL="../API/Initialization/Initialize - Set Configuration File.vi"/>
 				<Item Name="Initialize - Set Time Stamp.vi" Type="VI" URL="../API/Initialization/Initialize - Set Time Stamp.vi"/>
 			</Item>
+			<Item Name="Legacy" Type="Folder">
+				<Item Name="XML - Remove System Mapping.vi" Type="VI" URL="../API/XML/XML - Remove System Mapping.vi"/>
+			</Item>
 			<Item Name="OnCompile" Type="Folder">
 				<Item Name="Compile - Rx Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Buffered Channel Refs.vi"/>
+				<Item Name="Compile - Rx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Channel Refs.vi"/>
 				<Item Name="Compile - Rx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Rx Packet Information.vi"/>
 				<Item Name="Compile - Tx Buffered Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Buffered Channel Refs.vi"/>
 				<Item Name="Compile - Tx Channel Refs.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Channel Refs.vi"/>
@@ -93,7 +97,9 @@
 					<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
 					<Item Name="TxPkt - Export Channel Configuration.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Export Channel Configuration.vi"/>
 					<Item Name="TxPkt - Generate Timestamp Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Generate Timestamp Channel.vi"/>
+					<Item Name="TxPkt - Handle Port Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Handle Port Channel.vi"/>
 					<Item Name="TxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Init Packet Page.vi"/>
+					<Item Name="TxPkt - Update Port Channel.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Port Channel.vi"/>
 					<Item Name="TxPkt - Update Properties.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Properties.vi"/>
 					<Item Name="TxPkt - Update Selected Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Selected Channels.vi"/>
 					<Item Name="TxPkt - Update Transmit Channels.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Update Transmit Channels.vi"/>
@@ -114,25 +120,6 @@
 				<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
 			</Item>
 			<Item Name="Sections" Type="Folder"/>
-			<Item Name="XML" Type="Folder">
-				<Item Name="XML - Add Channel.vi" Type="VI" URL="../API/XML/XML - Add Channel.vi"/>
-				<Item Name="XML - Add System Mapping.vi" Type="VI" URL="../API/XML/XML - Add System Mapping.vi"/>
-				<Item Name="XML - Evaluate Rx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Rx Imported Channels.vi"/>
-				<Item Name="XML - Evaluate Tx Imported Channels.vi" Type="VI" URL="../API/XML/XML - Evaluate Tx Imported Channels.vi"/>
-				<Item Name="XML - Get Channel Info from XML.vi" Type="VI" URL="../API/XML/XML - Get Channel Info from XML.vi"/>
-				<Item Name="XML - Get Channel XML String.vi" Type="VI" URL="../API/XML/XML - Get Channel XML String.vi"/>
-				<Item Name="XML - Get General Settings.vi" Type="VI" URL="../API/XML/XML - Get General Settings.vi"/>
-				<Item Name="XML - Get Groups Content.vi" Type="VI" URL="../API/XML/XML - Get Groups Content.vi"/>
-				<Item Name="XML - Get System Mappings.vi" Type="VI" URL="../API/XML/XML - Get System Mappings.vi"/>
-				<Item Name="XML - Get Tx Channels Groups Information.vi" Type="VI" URL="../API/XML/XML - Get Tx Channels Groups Information.vi"/>
-				<Item Name="XML - Read from XML.vi" Type="VI" URL="../API/XML/XML - Read from XML.vi"/>
-				<Item Name="XML - Remove Old Rx Channels.vi" Type="VI" URL="../API/XML/XML - Remove Old Rx Channels.vi"/>
-				<Item Name="XML - Remove Old Tx Channels.vi" Type="VI" URL="../API/XML/XML - Remove Old Tx Channels.vi"/>
-				<Item Name="XML - Remove System Mapping.vi" Type="VI" URL="../API/XML/XML - Remove System Mapping.vi"/>
-				<Item Name="XML - Save to XML.vi" Type="VI" URL="../API/XML/XML - Save to XML.vi"/>
-				<Item Name="XML - Set Rx Channels.vi" Type="VI" URL="../API/XML/XML - Set Rx Channels.vi"/>
-				<Item Name="XML - Update Mappings.vi" Type="VI" URL="../API/XML/XML - Update Mappings.vi"/>
-			</Item>
 			<Item Name="XML - New" Type="Folder">
 				<Item Name="Export" Type="Folder">
 					<Item Name="Data Scraping" Type="Folder">

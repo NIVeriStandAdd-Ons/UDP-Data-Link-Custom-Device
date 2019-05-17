@@ -69,20 +69,24 @@
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder">
 				<Item Name="Run Bfr Rx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Buffer.vi"/>
-				<Item Name="Run Bfr Rx - New Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - New Data.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
+				<Item Name="Run Bfr Tx - Check Dynamic Port.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Dynamic Port.vi"/>
 				<Item Name="Run Bfr Tx - Check Transmit.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Transmit.vi"/>
 				<Item Name="Run Bfr Tx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Valid Buffer.vi"/>
 				<Item Name="Run Bfr Tx - Sim Buffer Data.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Sim Buffer Data.vi"/>
 			</Item>
 			<Item Name="Receive" Type="Folder">
+				<Item Name="Run Rx - New Data.vi" Type="VI" URL="../Run/Receive/Run Rx - New Data.vi"/>
+				<Item Name="Run Rx - Sender Port.vi" Type="VI" URL="../Run/Receive/Run Rx - Sender Port.vi"/>
 				<Item Name="UDP to Rx.vi" Type="VI" URL="../Run/Receive/UDP to Rx.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Tx to UDP.vi" Type="VI" URL="../Run/Transmit/Tx to UDP.vi"/>
 				<Item Name="Run Tx - Check Transmit.vi" Type="VI" URL="../Run/Transmit/Run Tx - Check Transmit.vi"/>
+				<Item Name="Run Tx - Check Dynamic Port.vi" Type="VI" URL="../Run/Transmit/Run Tx - Check Dynamic Port.vi"/>
+				<Item Name="Run Tx - Handle Transmit Option.vi" Type="VI" URL="../Run/Transmit/Run Tx - Handle Transmit Option.vi"/>
 			</Item>
 			<Item Name="UDP Buffered Rx Process.vi" Type="VI" URL="../Run/UDP Buffered Rx Process.vi"/>
 			<Item Name="UDP Buffered Tx Process.vi" Type="VI" URL="../Run/UDP Buffered Tx Process.vi"/>
