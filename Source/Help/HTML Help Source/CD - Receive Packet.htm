@@ -69,6 +69,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Toggles if the UDP receive session expects data over a Multicast address.</td>
 				</tr>
 				<tr>
+					<td><STRONG>New Data Options</STRONG></td>
+					<td>Determines how the <i>New Data</i> channel operates during execution.<br><STRONG>Timeout Reset</STRONG> When a new packet is received, the <i>New Data</i> is set to 1. Upon a UDP timeout, the <i>New Data</i> channel will reset to 0.<br><STRONG>Counter</STRONG> The <i>New Data</i> channel initializes to 0. When a new packet is received, <i>New Data</i> increments by 1. When a UDP timeout occurs, the channel remains at its previous value.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Rx Channels</STRONG></td>
 					<td>Enumerates <STRONG>ALL THE CHANNELS</STRONG> expected to be received on inbound UDP traffic for this packet. Further displays their expected data type and order in the packet. A channel may be removed by selecting it from this list, right-clicking, and selecting <i>Remove Channels</i>. The <a href="INFO - Data Types.htm">data type</a> of a channel may be changed similarly. Channel receive order may be changed by dragging and dropping channels in this listbox.</td> 
 				</tr>
@@ -87,7 +91,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>New Data</STRONG></td>
-					<td>This channel is set to 1 when new data is received. It is set to 0 when the network read times out.</td>
+					<td>Changes state when a packet is received. See the <b>New Data Options</b> property configure how this channel will behave during runtime.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Port</STRONG></td>
