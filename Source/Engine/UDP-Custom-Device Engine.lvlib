@@ -69,6 +69,9 @@
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder">
 				<Item Name="Run Bfr Rx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Buffer.vi"/>
+				<Item Name="Run Bfr Rx - Handle Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Data.vi"/>
+				<Item Name="Run Bfr Rx - Handle Offset.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Offset.vi"/>
+				<Item Name="Run Bfr Rx - Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Rollover.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Run Bfr Tx - Check Dynamic Port.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Dynamic Port.vi"/>
