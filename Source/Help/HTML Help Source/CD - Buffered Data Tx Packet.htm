@@ -84,7 +84,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Pointer Encoding</STRONG></td>
-					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
+					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
@@ -107,6 +107,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>When this channel changes value, a packet is transmitted out on the network. This channel resets back to 0 after transmitting a payload. This channel is only used when the <i>Always Transmit</i> property is inactive.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Transmitted</STRONG></td>
+					<td>Toggles high for one PCL cycle to confirm that successfully transmitted the packet. Depending on the <i>Transmit Options</i> property, the behavior of this channel may vary. For example, this channel will always have a value of 1 when the <STRONG>Always</STRONG> option is used.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Transmit Bytes</STRONG></td>
 					<td>Takes an initial value of 0. Determines the number of bytes to transmit out on the UDP socket. This channel should never have a value larger than the <i>Buffer Size</i> property. Packets will not be transmitted until this value does not equal 0.</td>
 				</tr>
@@ -116,7 +120,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Port</STRONG></td>
-					<td>Only present when the <i>Port as Channel</i> property is active. Initializes to a default value that is the same as the <i>Destination Port</i> property. When modified at runtime, results in packets being delivered to a different port.</td>
+					<td>Only present when the <i>Port as Channel</i> property is active. Initializes to a default value that is the same as the <i>Destination Port</i> property. When modified at runtime, results in packets being delivered to a different port. Prevents outbound traffic when set to 0.</td>
 				</tr>
 			</table>
 		</p>

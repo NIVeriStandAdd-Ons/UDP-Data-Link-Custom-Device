@@ -71,8 +71,12 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Toggles if the UDP receive session expects data over a Multicast address.</td>
 				</tr>
 				<tr>
+					<td><STRONG>New Data Options</STRONG></td>
+					<td>Determines how the <i>New Data</i> channel operates during execution.<br><STRONG>Timeout Reset:</STRONG> When a new packet is received, the <i>New Data</i> is set to 1. Upon a UDP timeout, the <i>New Data</i> channel will reset to 0.<br><STRONG>Counter:</STRONG> The <i>New Data</i> channel initializes to 0. When a new packet is received, <i>New Data</i> increments by 1. When a UDP timeout occurs, the channel remains at its previous value.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Pointer Encoding</STRONG></td>
-					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
+					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
@@ -93,7 +97,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>New Data</STRONG></td>
-					<td>This channel is set to 1 when new data is received. It is set to 0 when the network read times out.</td>
+					<td>Changes state when a packet is received. See the <b>New Data Options</b> property configure how this channel will behave during runtime.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Bytes Received</STRONG></td>

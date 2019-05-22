@@ -40,6 +40,7 @@
 			<Item Name="Shared - Channel Data Type.ctl" Type="VI" URL="../Types/Shared - Channel Data Type.ctl"/>
 			<Item Name="Shared - Duplex Settings.ctl" Type="VI" URL="../Types/Shared - Duplex Settings.ctl"/>
 			<Item Name="Shared - Header Details.ctl" Type="VI" URL="../Types/Shared - Header Details.ctl"/>
+			<Item Name="Shared - New Data Options.ctl" Type="VI" URL="../Types/Shared - New Data Options.ctl"/>
 			<Item Name="Shared - Pointer Encoding.ctl" Type="VI" URL="../Types/Shared - Pointer Encoding.ctl"/>
 			<Item Name="Shared - Rx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Rx.PacketInfo.ctl"/>
 			<Item Name="Shared - Transmit Flag Options.ctl" Type="VI" URL="../Types/Shared - Transmit Flag Options.ctl"/>
