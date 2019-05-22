@@ -58,8 +58,4 @@
 		<Item Name="Read Multicast IP.vi" Type="VI" URL="../Packets/Read Multicast IP.vi"/>
 		<Item Name="Write Multicast IP.vi" Type="VI" URL="../Packets/Write Multicast IP.vi"/>
 	</Item>
-	<Item Name="Buffer Option" Type="Folder">
-		<Item Name="Write Buffer Option.vi" Type="VI" URL="../Packets/Write Buffer Option.vi"/>
-		<Item Name="Read Buffer Option.vi" Type="VI" URL="../Packets/Read Buffer Option.vi"/>
-	</Item>
 </Library>
