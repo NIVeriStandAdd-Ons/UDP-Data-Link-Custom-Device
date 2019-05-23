@@ -69,6 +69,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>This parameter controls the behavior of the <i>Transmit</i> channel. All transmit behavior is pending valid buffers, transmit bytes, and ports as relevant.<br><STRONG>Always:</STRONG> This packet will always attempt to be sent, regardless of the value of the <i>Transmit</i> channel.<br><STRONG>One-Shot:</STRONG> This packet will be sent any time the <i>Transmit</i> channel changes to a non-zero value. For example, this packet is transmitted when a change from 1 to 2 is observed, but not transmitted when a change from 1 to 0 is observed.<br><STRONG>Toggle:</STRONG> This packet is sent as long as the value of the <i>Transmit</i> channel is non-zero.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Transmit Echo Options</STRONG></td>
+					<td>Determines the behavior of the <i>Transmitted</i> channel.<br><STRONG>PCL Reset:</STRONG> The <i>Transmitted</i> channel will set to 1 for approximately least one PCL cycle before returning to 0.<br><STRONG>Counter:</STRONG> The <i>Transmitted</i> channel will continuously count up every time a packet is sent.<br><STRONG>Mirror:</STRONG> The <i>Transmitted</i> channel will display the same value as the <i>Transmit</i> channel.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Decimation</STRONG></td>
 					<td>Determines the rate at which this packet is sent. This rate is relative to the loop rate of the Primary Control Loop (PCL). If the PCL is set to 100 Hz, and the decimation of this packet is set to 2, this transmit packet will be sent at a rate of 50 Hz.</td>
 				</tr>
