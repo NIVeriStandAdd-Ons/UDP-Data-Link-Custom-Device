@@ -34,6 +34,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
+		<Item Name="Debug Mode" Type="Folder"/>
 		<Item Name="Init" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Receive" Type="Folder">
