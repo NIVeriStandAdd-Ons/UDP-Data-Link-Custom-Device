@@ -94,6 +94,7 @@
 				<Item Name="Run Tx - Echo Transmit.vi" Type="VI" URL="../Run/Transmit/Run Tx - Echo Transmit.vi"/>
 				<Item Name="Run Tx - Loop Delay.vi" Type="VI" URL="../Run/Transmit/Run Tx - Loop Delay.vi"/>
 				<Item Name="Run Tx - Handle Port Tx Check.vi" Type="VI" URL="../Run/Transmit/Run Tx - Handle Port Tx Check.vi"/>
+				<Item Name="Run Tx - Mirror Transmit.vi" Type="VI" URL="../Run/Transmit/Run Tx - Mirror Transmit.vi"/>
 			</Item>
 			<Item Name="UDP Buffered Rx Process.vi" Type="VI" URL="../Run/UDP Buffered Rx Process.vi"/>
 			<Item Name="UDP Buffered Tx Process.vi" Type="VI" URL="../Run/UDP Buffered Tx Process.vi"/>
