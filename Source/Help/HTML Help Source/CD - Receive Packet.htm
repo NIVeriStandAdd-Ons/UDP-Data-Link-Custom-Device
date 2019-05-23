@@ -69,6 +69,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Toggles if the UDP receive session expects data over a Multicast address.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Debug Mode</STRONG></td>
+					<td>When active, logs verbose error messages to the Veristand console and default Veristand log file. Only errors are logged. Issues with opening duplex connections are current unhandled. Additionally, generates unique log files for the enabled packet. These log files can be found in the custom device directory on the target in the 'UDP_CD_Debug_Logs' directory. The custom device directory varies by target. These log files are unmanaged and should be manually cleaned-up or removed from the target upon completion of debug. Debug logs automatically begin overwriting old records after the file size has exceeded ~24MB. This caps the log file size around 24MB.<br><STRONG>NOTE:</STRONG> Debug mode sacrifices significant performance for thorough logging of errors. This includes receive packet timeouts and other potential error conditions.</td>
+				</tr>
+				<tr>
 					<td><STRONG>New Data Options</STRONG></td>
 					<td>Determines how the <i>New Data</i> channel operates during execution.<br><STRONG>Timeout Reset:</STRONG> When a new packet is received, the <i>New Data</i> is set to 1. Upon a UDP timeout, the <i>New Data</i> channel will reset to 0.<br><STRONG>Counter:</STRONG> The <i>New Data</i> channel initializes to 0. When a new packet is received, <i>New Data</i> increments by 1. When a UDP timeout occurs, the channel remains at its previous value.</td>
 				</tr>
