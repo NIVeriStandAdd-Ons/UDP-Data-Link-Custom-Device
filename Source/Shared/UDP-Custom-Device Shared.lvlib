@@ -44,6 +44,7 @@
 			<Item Name="Shared - New Data Options.ctl" Type="VI" URL="../Types/Shared - New Data Options.ctl"/>
 			<Item Name="Shared - Pointer Encoding.ctl" Type="VI" URL="../Types/Shared - Pointer Encoding.ctl"/>
 			<Item Name="Shared - Rx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Rx.PacketInfo.ctl"/>
+			<Item Name="Shared - Transmit Echo Options.ctl" Type="VI" URL="../Types/Shared - Transmit Echo Options.ctl"/>
 			<Item Name="Shared - Transmit Flag Options.ctl" Type="VI" URL="../Types/Shared - Transmit Flag Options.ctl"/>
 			<Item Name="Shared - Tx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Tx.PacketInfo.ctl"/>
 		</Item>
