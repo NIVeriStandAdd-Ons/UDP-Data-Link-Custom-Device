@@ -36,6 +36,7 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
+			<Item Name="Shared - Buffer Options.ctl" Type="VI" URL="../Types/Shared - Buffer Options.ctl"/>
 			<Item Name="Shared - Buffered.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Buffered.PacketInfo.ctl"/>
 			<Item Name="Shared - Channel Data Type.ctl" Type="VI" URL="../Types/Shared - Channel Data Type.ctl"/>
 			<Item Name="Shared - Duplex Settings.ctl" Type="VI" URL="../Types/Shared - Duplex Settings.ctl"/>
@@ -43,6 +44,7 @@
 			<Item Name="Shared - New Data Options.ctl" Type="VI" URL="../Types/Shared - New Data Options.ctl"/>
 			<Item Name="Shared - Pointer Encoding.ctl" Type="VI" URL="../Types/Shared - Pointer Encoding.ctl"/>
 			<Item Name="Shared - Rx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Rx.PacketInfo.ctl"/>
+			<Item Name="Shared - Transmit Echo Options.ctl" Type="VI" URL="../Types/Shared - Transmit Echo Options.ctl"/>
 			<Item Name="Shared - Transmit Flag Options.ctl" Type="VI" URL="../Types/Shared - Transmit Flag Options.ctl"/>
 			<Item Name="Shared - Tx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Tx.PacketInfo.ctl"/>
 		</Item>
