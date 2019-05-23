@@ -79,6 +79,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
 				</tr>
 				<tr>
+					<td><STRONG>Buffer Options</STRONG></td>
+					<td>Modifies how the buffer is filled during runtime.<br><STRONG>Static Buffer:</STRONG> A received packet is always pushed into the buffer at a 0 offset, filling the buffer up to the size of the packet.<br><STRONG>Circular Buffer:</STRONG> A received packet fills the buffer in a circular fashion, appending each received packet to the end of the previously received packet. Automatically handles roll-over events. A roll-over event will never result in a split packet, restarting at the beginning of the buffer if a packet is too large to fit into the remainder of the buffer.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
 					<td>The number of bytes that will be allocated for using in the receive buffer. Other models and custom devices reading using this buffer should never use more bytes than what is allocated here.</td>
 				</tr>
