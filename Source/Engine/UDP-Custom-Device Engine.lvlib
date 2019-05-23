@@ -35,6 +35,8 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Debug Mode" Type="Folder">
+			<Item Name="Debug - Catch and Log.vi" Type="VI" URL="../Debug Mode/Debug - Catch and Log.vi"/>
+			<Item Name="Debug - Close.vi" Type="VI" URL="../Debug Mode/Debug - Close.vi"/>
 			<Item Name="Debug - Initialize.vi" Type="VI" URL="../Debug Mode/Debug - Initialize.vi"/>
 		</Item>
 		<Item Name="Init" Type="Folder">
@@ -112,6 +114,7 @@
 		<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
 		<Item Name="Engine - Buffered Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Loop Data.ctl"/>
 		<Item Name="Engine - Data Conversion Config.ctl" Type="VI" URL="../Types/Engine - Data Conversion Config.ctl"/>
+		<Item Name="Engine - Debug Resources.ctl" Type="VI" URL="../Types/Engine - Debug Resources.ctl"/>
 		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
 		<Item Name="Engine - Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Rx Loop Data.ctl"/>
 		<Item Name="Engine - Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Tx Loop Data.ctl"/>
