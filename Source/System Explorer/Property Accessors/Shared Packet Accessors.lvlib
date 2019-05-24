@@ -58,4 +58,8 @@
 		<Item Name="Read Multicast IP.vi" Type="VI" URL="../Packets/Read Multicast IP.vi"/>
 		<Item Name="Write Multicast IP.vi" Type="VI" URL="../Packets/Write Multicast IP.vi"/>
 	</Item>
+	<Item Name="Debug Mode" Type="Folder">
+		<Item Name="Read Debug Mode.vi" Type="VI" URL="../Packets/Read Debug Mode.vi"/>
+		<Item Name="Write Debug Mode.vi" Type="VI" URL="../Packets/Write Debug Mode.vi"/>
+	</Item>
 </Library>
