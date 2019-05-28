@@ -112,14 +112,19 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered Receive" Type="Folder">
+			<Item Name="Engine - Buffered Rx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Channel Refs.ctl"/>
 			<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
+			<Item Name="Engine - Rx Buffer Option Support.ctl" Type="VI" URL="../Types/Engine - Rx Buffer Option Support.ctl"/>
 		</Item>
 		<Item Name="Buffered Transmit" Type="Folder">
 			<Item Name="Engine - Buffered Tx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Channel Refs.ctl"/>
 			<Item Name="Engine - Buffered Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Loop Data.ctl"/>
 		</Item>
 		<Item Name="Formatted Receive" Type="Folder">
+			<Item Name="Engine - Rx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Rx Channel Refs.ctl"/>
 			<Item Name="Engine - Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Rx Loop Data.ctl"/>
+			<Item Name="Engine - Rx New Data Options Support.ctl" Type="VI" URL="../Types/Engine - Rx New Data Options Support.ctl"/>
+			<Item Name="Engine - Rx Runtime Resources.ctl" Type="VI" URL="../Types/Engine - Rx Runtime Resources.ctl"/>
 		</Item>
 		<Item Name="Formatted Transmit" Type="Folder">
 			<Item Name="Engine - Tx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Tx Channel Refs.ctl"/>
@@ -131,6 +136,7 @@
 			<Item Name="Engine - Buffer Resources.ctl" Type="VI" URL="../Types/Engine - Buffer Resources.ctl"/>
 			<Item Name="Engine - Data Conversion Config.ctl" Type="VI" URL="../Types/Engine - Data Conversion Config.ctl"/>
 			<Item Name="Engine - Debug Resources.ctl" Type="VI" URL="../Types/Engine - Debug Resources.ctl"/>
+			<Item Name="Engine - General Resources.ctl" Type="VI" URL="../Types/Engine - General Resources.ctl"/>
 		</Item>
 		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
 	</Item>
