@@ -117,6 +117,7 @@
 		<Item Name="Engine - Debug Resources.ctl" Type="VI" URL="../Types/Engine - Debug Resources.ctl"/>
 		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
 		<Item Name="Engine - Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Rx Loop Data.ctl"/>
+		<Item Name="Engine - Tx Echo Resources.ctl" Type="VI" URL="../Types/Engine - Tx Echo Resources.ctl"/>
 		<Item Name="Engine - Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Tx Loop Data.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
