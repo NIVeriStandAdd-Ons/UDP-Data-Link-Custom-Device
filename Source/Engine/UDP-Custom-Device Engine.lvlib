@@ -83,6 +83,7 @@
 				<Item Name="Run Bfr Tx - Check Transmit.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Transmit.vi"/>
 				<Item Name="Run Bfr Tx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Valid Buffer.vi"/>
 				<Item Name="Run Bfr Tx - Handle Transmit Size.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Handle Transmit Size.vi"/>
+				<Item Name="Run Bfr Tx - Handle Transmit.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Handle Transmit.vi"/>
 				<Item Name="Run Bfr Tx - Sim Buffer Data.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Sim Buffer Data.vi"/>
 			</Item>
 			<Item Name="Receive" Type="Folder">
@@ -100,6 +101,7 @@
 				<Item Name="Run Tx - Loop Delay.vi" Type="VI" URL="../Run/Transmit/Run Tx - Loop Delay.vi"/>
 				<Item Name="Run Tx - Handle Port Tx Check.vi" Type="VI" URL="../Run/Transmit/Run Tx - Handle Port Tx Check.vi"/>
 				<Item Name="Run Tx - Mirror Transmit.vi" Type="VI" URL="../Run/Transmit/Run Tx - Mirror Transmit.vi"/>
+				<Item Name="Run Tx - Handle Transmit.vi" Type="VI" URL="../Run/Transmit/Run Tx - Handle Transmit.vi"/>
 			</Item>
 			<Item Name="UDP Buffered Rx Process.vi" Type="VI" URL="../Run/UDP Buffered Rx Process.vi"/>
 			<Item Name="UDP Buffered Tx Process.vi" Type="VI" URL="../Run/UDP Buffered Tx Process.vi"/>
