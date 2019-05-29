@@ -80,6 +80,7 @@
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="FIFO Buffer" Type="Folder">
+					<Item Name="Run Bfr Tx - FIFO Count Packets.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - FIFO Count Packets.vi"/>
 					<Item Name="Run Bfr Tx - FIFO Entry Size.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - FIFO Entry Size.vi"/>
 					<Item Name="Run Bfr Tx - FIFO Payload.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - FIFO Payload.vi"/>
 					<Item Name="Run Bfr Tx - FIFO Port.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - FIFO Port.vi"/>
