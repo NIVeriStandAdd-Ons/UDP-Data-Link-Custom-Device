@@ -56,15 +56,15 @@
 				<Item Name="Init Tx - Apply Static Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Apply Static Header.vi"/>
 				<Item Name="Init Tx - Dynamic Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Dynamic Header.vi"/>
 			</Item>
-			<Item Name="Buffered Transmit" Type="Folder">
-				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
-				<Item Name="Init Bfr Tx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Create Buffer.vi"/>
-				<Item Name="Init Bfr Tx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - UDP Connection.vi"/>
-			</Item>
 			<Item Name="Buffered Receive" Type="Folder">
 				<Item Name="Init Bfr Rx - Data.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Data.vi"/>
 				<Item Name="Init Bfr Rx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer.vi"/>
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
+			</Item>
+			<Item Name="Buffered Transmit" Type="Folder">
+				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
+				<Item Name="Init Bfr Tx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Create Buffer.vi"/>
+				<Item Name="Init Bfr Tx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - UDP Connection.vi"/>
 			</Item>
 			<Item Name="Init - Data.vi" Type="VI" URL="../Init/Init - Data.vi"/>
 			<Item Name="Init - Find Duplex.vi" Type="VI" URL="../Init/Init - Find Duplex.vi"/>
@@ -112,11 +112,12 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered Receive" Type="Folder">
+			<Item Name="Engine - Buffered Rx Buffer Option Support.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Buffer Option Support.ctl"/>
 			<Item Name="Engine - Buffered Rx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Channel Refs.ctl"/>
 			<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
-			<Item Name="Engine - Rx Buffer Option Support.ctl" Type="VI" URL="../Types/Engine - Rx Buffer Option Support.ctl"/>
 		</Item>
 		<Item Name="Buffered Transmit" Type="Folder">
+			<Item Name="Engine - Buffered Tx Buffer Option Support.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Buffer Option Support.ctl"/>
 			<Item Name="Engine - Buffered Tx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Channel Refs.ctl"/>
 			<Item Name="Engine - Buffered Tx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Tx Loop Data.ctl"/>
 		</Item>
