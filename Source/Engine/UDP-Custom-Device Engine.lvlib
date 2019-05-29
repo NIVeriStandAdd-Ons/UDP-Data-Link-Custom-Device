@@ -79,6 +79,11 @@
 				<Item Name="Run Bfr Rx - Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Rollover.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
+				<Item Name="FIFO Buffer" Type="Folder">
+					<Item Name="Run Bfr Tx - FIFO Entry Size.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - FIFO Entry Size.vi"/>
+					<Item Name="Run Bfr Tx - FIFO Payload.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - FIFO Payload.vi"/>
+					<Item Name="Run Bfr Tx - FIFO Port.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - FIFO Port.vi"/>
+				</Item>
 				<Item Name="Run Bfr Tx - Check Dynamic Port.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Dynamic Port.vi"/>
 				<Item Name="Run Bfr Tx - Check Transmit.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Transmit.vi"/>
 				<Item Name="Run Bfr Tx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Transmit/Run Bfr Tx - Check Valid Buffer.vi"/>
