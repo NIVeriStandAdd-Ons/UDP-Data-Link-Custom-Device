@@ -119,7 +119,6 @@
 				<Item Name="Pkt - Packet Type to Add.vi" Type="VI" URL="../API/Packets/Pkt - Packet Type to Add.vi"/>
 				<Item Name="Pkt - Update Packet Order.vi" Type="VI" URL="../API/Packets/Pkt - Update Packet Order.vi"/>
 			</Item>
-			<Item Name="Sections" Type="Folder"/>
 			<Item Name="XML - New" Type="Folder">
 				<Item Name="Export" Type="Folder">
 					<Item Name="Data Scraping" Type="Folder">

@@ -14,6 +14,14 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
 		<script src="launchhelp.js" type="text/javascript"></script><script src="js/dynamicjumps.js" type="text/javascript"></script>
+		<style type="text/css">
+			table{
+				border-collapse: collapse;
+			}
+			td, th{
+				border: 1px solid #dddddd;
+			}
+		</style>
 	</head>
 	<body>
 		<noscript>
@@ -30,7 +38,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h2>Configuration Summary</h2>
 		<p>
 			<!--Description/summary of the basic purpose of the controls on this screen.-->
-			A transmit packet must be configured with a local NIC and port to send on. Additionally, the packet needs a destination address and port to try to send to. Further configuration can adjust the endianness of the packet contents, the packet header, and frequency the packet is transacted. The size of the buffer must also be defined for this packet. The packet itself will create the buffer at run time. A pointer to the buffer is exposed via the <i>Buffer</i> channel on the first execution of the simulation. Another custom device or model that wants to push data into this buffer must have a channel mapped to the <i>Buffer</i> channel.
+			A transmit packet must be configured with a local NIC and port to send on. Additionally, the packet needs a destination address and port to try to send to. Further configuration can adjust the endianness of the packet contents, the packet header, and frequency the packet is transacted. The size of the buffer must also be defined for this packet. The packet itself will create the buffer at run time. A pointer to the buffer is exposed via the <i>Buffer</i> channel on the first execution of the simulation. Another custom device or model that wants to push data into this buffer must have a channel mapped to the <i>Buffer</i> channel.<br><br>
 			<table>
 				<tr>
 					<th></th>
@@ -72,7 +80,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Transmit Echo Options</STRONG></td>
-					<td>Determines the behavior of the <i>Transmitted</i> channel. These conditions only occur upon successful transmission of a packet.<br><STRONG>PCL Reset:</STRONG> The <i>Transmitted</i> channel will set to 1 for approximately least one PCL cycle before returning to 0.<br><STRONG>Counter:</STRONG> The <i>Transmitted</i> channel will continuously count up every time a packet is sent.<br><STRONG>Mirror:</STRONG> The <i>Transmitted</i> channel will display the same value as the <i>Transmit</i> channel.</td>
+					<td>Determines the behavior of the <i>Transmitted</i> channel. These conditions only occur upon successful transmission of a packet.<br><STRONG>PCL Reset:</STRONG> The <i>Transmitted</i> channel will set to 1 for approximately least one PCL cycle before returning to 0.<br><STRONG>Counter:</STRONG> The <i>Transmitted</i> channel will continuously count up every time a packet is sent. When using a <i>FIFO Buffer</i>, every packet sent during a single scan of the buffer is counted.<br><STRONG>Mirror:</STRONG> The <i>Transmitted</i> channel will display the same value as the <i>Transmit</i> channel.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Decimation</STRONG></td>
@@ -91,10 +99,6 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>When active, logs verbose error messages to the Veristand console and default Veristand log file. Only errors are logged. Issues with opening duplex connections are current unhandled. Additionally, generates unique log files for the enabled packet. These log files can be found in the custom device directory on the target in the 'UDP_CD_Debug_Logs' directory. The custom device directory varies by target. The log file creation will be displayed at startup on the console. These log files are unmanaged and should be manually cleaned-up or removed from the target upon completion of debug. Debug logs automatically begin overwriting old records after the file size has exceeded ~24MB. This caps the log file size around 24MB.<br><STRONG>NOTE:</STRONG> Debug mode sacrifices significant performance for thorough logging of errors. This includes receive packet timeouts and other potential error conditions.</td>
 				</tr>
 				<tr>
-					<td><STRONG>Pointer Encoding</STRONG></td>
-					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
-				</tr>
-				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
 					<td>The number of bytes that will be allocated for using in the transmit buffer. Other models and custom devices filling using this buffer should never use more bytes than what is allocated here.</td>
 				</tr>
@@ -102,8 +106,17 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td><STRONG>External Buffer</STRONG></td>
 					<td>If active, an external model or custom device is required to provide the buffer that will ttransact data over UDP. The buffer pointer must be provided via the Buffer channel. If inactive, a buffer will be internally created by this custom device. The buffer will be exposed over the Buffer channel.</td>
 				</tr>
+				<tr>
+					<td><STRONG>Buffer Options</STRONG></td>
+					<td>Modifies the buffer-to-packet interactions at runtime. <a href="INFO - Transmit FIFO Format.htm">FIFO Buffer Formatting</a><br><STRONG>Static Buffer:</STRONG> Up to the entire buffer contents is pushed into a packet on every transmit. The <i>Transmit Bytes</i> channel dictates the number of bytes to send.<br><STRONG>FIFO Buffer:</STRONG> Allows for multiple packets to be sent in bulk at runtime. Each time a transmit occurs, this packet will scan through the buffer and send out all the valid payloads sequentially. The 0-index element is sent first. The <i>Transmit Bytes</i> channel is ignored while any FIFO option is active.<br><STRONG>FIFO Buffer + Port:</STRONG> Each payload in the buffer contains an additional two bytes for the destination port. The <i>Destination Port</i> property and the <i>Port</i> channel are ignored while this mode is active.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Pointer Encoding</STRONG></td>
+					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
+				</tr>
 			</table>
 		</p>
+		<h2>Channels</h2>
 		<p>
 			<table>
 				<tr>
