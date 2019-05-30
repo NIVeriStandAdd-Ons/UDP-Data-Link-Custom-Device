@@ -102,6 +102,9 @@ ul.vilogger {
 
 
 /*Table Styles*/
+table{border-collapse: collapse;}
+td, th{border: 1px solid #dddddd;}
+
 
 TABLE { margin-left : 45px; }
 TH {    font-family: Verdana, sans-serif;

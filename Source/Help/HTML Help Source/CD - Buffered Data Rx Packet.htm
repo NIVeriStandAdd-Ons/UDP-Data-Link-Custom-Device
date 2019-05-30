@@ -30,7 +30,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h2>Configuration Summary</h2>
 		<p>
 			<!--Description/summary of the basic purpose of the controls on this screen.-->
-			A receive packet must be configured with a local NIC and port to send on. Additionally, the packet needs a destination address and port to try to send to. Further configuration can adjust the endianness of the expended inbound packet contents. The size of the buffer must also be defined for this packet. The packet itself will create the buffer at run time. A pointer to the buffer is exposed via the <i>Buffer</i> channel on the first execution of the simulation. Another custom device or model that wants to read data from this buffer must have a channel mapped to the <i>Buffer</i> channel. An invalid buffer will take the value of 0 in the channel.
+			A receive packet must be configured with a local NIC and port to send on. Additionally, the packet needs a destination address and port to try to send to. Further configuration can adjust the endianness of the expended inbound packet contents. The size of the buffer must also be defined for this packet. The packet itself will create the buffer at run time. A pointer to the buffer is exposed via the <i>Buffer</i> channel on the first execution of the simulation. Another custom device or model that wants to read data from this buffer must have a channel mapped to the <i>Buffer</i> channel. An invalid buffer will take the value of 0 in the channel.<br><br>
 			<table>
 				<tr>
 					<th></th>
@@ -79,20 +79,20 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Determines how the <i>New Data</i> channel operates during execution.<br><STRONG>Timeout Reset:</STRONG> When a new packet is received, the <i>New Data</i> is set to 1. Upon a UDP timeout, the <i>New Data</i> channel will reset to 0.<br><STRONG>Counter:</STRONG> The <i>New Data</i> channel initializes to 0. When a new packet is received, <i>New Data</i> increments by 1. When a UDP timeout occurs, the channel remains at its previous value.</td>
 				</tr>
 				<tr>
-					<td><STRONG>Pointer Encoding</STRONG></td>
-					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
-				</tr>
-				<tr>
-					<td><STRONG>Buffer Options</STRONG></td>
-					<td>Modifies how the buffer is filled during runtime.<br><STRONG>Static Buffer:</STRONG> A received packet is always pushed into the buffer at a 0 offset, filling the buffer up to the size of the packet.<br><STRONG>Circular Buffer:</STRONG> A received packet fills the buffer in a circular fashion, appending each received packet to the end of the previously received packet. Automatically handles roll-over events. A roll-over event will never result in a split packet, restarting at the beginning of the buffer if a packet is too large to fit into the remainder of the buffer.</td>
-				</tr>
-				<tr>
 					<td><STRONG>Buffer Size</STRONG></td>
 					<td>The number of bytes that will be allocated for using in the receive buffer. Other models and custom devices reading using this buffer should never use more bytes than what is allocated here.</td>
 				</tr>
 				<tr>
 					<td><STRONG>External Buffer</STRONG></td>
 					<td>If active, an external model or custom device is required to provide the buffer that will receive data over UDP. The buffer pointer must be provided via the Buffer channel. If inactive, a buffer will be internally created by this custom device. The buffer will be exposed over the Buffer channel.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Buffer Options</STRONG></td>
+					<td>Modifies how the buffer is filled during runtime.<br><STRONG>Static Buffer:</STRONG> A received packet is always pushed into the buffer at a 0 offset, filling the buffer up to the size of the packet.<br><STRONG>Circular Buffer:</STRONG> A received packet fills the buffer in a circular fashion, appending each received packet to the end of the previously received packet. Automatically handles roll-over events. A roll-over event will never result in a split packet, restarting at the beginning of the buffer if a packet is too large to fit into the remainder of the buffer.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Pointer Encoding</STRONG></td>
+					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
 				</tr>
 			</table>
 		</p>
