@@ -73,10 +73,13 @@
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder">
+				<Item Name="Circular Buffer" Type="Folder">
+					<Item Name="Run Bfr Rx - Handle Offset.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Offset.vi"/>
+					<Item Name="Run Bfr Rx - Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Rollover.vi"/>
+				</Item>
+				<Item Name="Circular Buffer + Size" Type="Folder"/>
 				<Item Name="Run Bfr Rx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Buffer.vi"/>
 				<Item Name="Run Bfr Rx - Handle Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Data.vi"/>
-				<Item Name="Run Bfr Rx - Handle Offset.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Offset.vi"/>
-				<Item Name="Run Bfr Rx - Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Rollover.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="FIFO Buffer" Type="Folder">
