@@ -77,7 +77,10 @@
 					<Item Name="Run Bfr Rx - Handle Offset.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Offset.vi"/>
 					<Item Name="Run Bfr Rx - Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Rollover.vi"/>
 				</Item>
-				<Item Name="Circular Buffer + Size" Type="Folder"/>
+				<Item Name="Circular Buffer + Size" Type="Folder">
+					<Item Name="Run Bfr Rx - Postpend Null.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Postpend Null.vi"/>
+					<Item Name="Run Bfr Rx - Prepend Size.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Prepend Size.vi"/>
+				</Item>
 				<Item Name="Run Bfr Rx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Buffer.vi"/>
 				<Item Name="Run Bfr Rx - Handle Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Data.vi"/>
 			</Item>
