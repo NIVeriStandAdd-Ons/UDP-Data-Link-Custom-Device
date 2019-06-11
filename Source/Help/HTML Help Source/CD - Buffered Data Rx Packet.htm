@@ -88,7 +88,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Buffer Options</STRONG></td>
-					<td>Modifies how the buffer is filled during runtime.<br><STRONG>Static Buffer:</STRONG> A received packet is always pushed into the buffer at a 0 offset, filling the buffer up to the size of the packet.<br><STRONG>Circular Buffer:</STRONG> A received packet fills the buffer in a circular fashion, appending each received packet to the end of the previously received packet. Automatically handles roll-over events. A roll-over event will never result in a split packet, restarting at the beginning of the buffer if a packet is too large to fit into the remainder of the buffer.</td>
+					<td>Modifies how the buffer is filled during runtime. <a href="INFO - Receive Circular Buffer Format.htm">Circular Buffer Formatting</a><br><STRONG>Static Buffer:</STRONG> A received packet is always pushed into the buffer at a 0 offset, filling the buffer up to the size of the packet.<br><STRONG>Circular Buffer:</STRONG> A received packet fills the buffer in a circular fashion, appending each received packet to the end of the previously received packet. Automatically handles roll-over events. A roll-over event will never result in a split packet, restarting at the beginning of the buffer if a packet is too large to fit into the remainder of the buffer.<br><STRONG>Circular Buffer + Size:</STRONG> Each payload received has size data stored with it in the buffer. The buffer is handled similarly to the <i>Circular Buffer</i> option.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Pointer Encoding</STRONG></td>
