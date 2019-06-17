@@ -77,7 +77,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<th>Payload(1)</th>
 					<th>Size(n)</th>
 					<th>Payload(n)</th>
-					<th>NULL FIELD</th>
+					<th>ROLLOVER FIELD</th>
 					<th>--End of Buffer Encountered--</th>
 					<th>Size(n+1)</th>
 					<th>Payload(n+1)</th>
@@ -90,7 +90,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td>Size(1) Bytes - Untyped</td>
 					<td>4 Bytes - I32</td>
 					<td>Size(n) Bytes - Untyped</td>
-					<td>4 Bytes - Null</td>
+					<td>4 Bytes - I32 (-1)</td>
 					<td>--Reset to Beginning of Buffer--</td>
 					<td>4 Bytes - I32</td>
 					<td>Size(n+1) Bytes - Untyped</td>
@@ -103,7 +103,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<li>Packets are always placed adjacent to each other with a size delimiter taking up four bytes before the packet.</li>
 				<li>When a packet is done being written to the buffer, the <i>NULL FIELD</i> value is written to the 4 bytes following the packet. This field is overwritten by the size delimiter upon receipt of the next packet.</li>
 				<li>When the end of the buffer is encountered, packets will begin to overwrite older packets at the beginning of the buffer.</li>
-				<li>If a packet requires more space than is available in the remainder of the buffer, the packet will instead be placed at the beginning of the circular buffer, overwriting old packet data.</li>
+				<li>If a packet requires more space than is available in the remainder of the buffer, the packet will instead be placed at the beginning of the circular buffer, overwriting old packet data. This is a roll-over event.</li>
+				<li>If a roll-over occurs, the final <i>NULL FIELD</i> n the buffer will be filled with a -1 value. This is functionally 4 consecutive bytes of 0xFF.</li>
 				<li>The packet count will increment for all received packets. This is the suggested means for tracking the current location in the buffer.</li>
 				<li>The <i>Bytes Received</i> channel will no longer work as intended.</li>
 				<li>The <i>Port</i> channel will only display the <STRONG>LATEST</STRONG> sending port.</li>
