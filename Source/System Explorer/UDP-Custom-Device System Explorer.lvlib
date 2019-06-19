@@ -80,6 +80,7 @@
 			<Item Name="Packets" Type="Folder">
 				<Item Name="Buffer Data" Type="Folder">
 					<Item Name="BfrPkt - Set Buffer Direction.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Set Buffer Direction.vi"/>
+					<Item Name="BfrPkt - Set Buffer Size Channel Value.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Set Buffer Size Channel Value.vi"/>
 				</Item>
 				<Item Name="HeaderConfig" Type="Folder">
 					<Item Name="PktHeader - Header Array to Strings.vi" Type="VI" URL="../API/Packets/HeaderConfig/PktHeader - Header Array to Strings.vi"/>
@@ -90,6 +91,7 @@
 					<Item Name="RxPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Init Packet Page.vi"/>
 				</Item>
 				<Item Name="Rx Buffer Data" Type="Folder">
+					<Item Name="RxBfrPkt - Add Channels.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Add Channels.vi"/>
 					<Item Name="RxBfrPkt - Add Packet.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Add Packet.vi"/>
 					<Item Name="RxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Init Packet Page.vi"/>
 				</Item>
