@@ -8,7 +8,7 @@ LabVIEW 2016
 
 ### Built Availability ###
 
-Builds of this IP are not available.
+Builds of this IP in select versions of VeriStand are available under Releases.
 
 ### Quality, Limitations ###
 
@@ -17,7 +17,7 @@ It currently does not meet all of the specifications defined within the Document
 ### Dependencies ###
 
 OpenG Toolkit  
-VeriStand Data Library (https://github.com/NIVeriStandAdd-Ons/VeriStand-Data-Library)
+VeriStand Data Library v0.1.0 (https://github.com/NIVeriStandAdd-Ons/VeriStand-Data-Library)
 
 ### License ###
 
