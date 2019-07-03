@@ -47,6 +47,7 @@
 			<Item Name="Shared - Transmit Buffer Options.ctl" Type="VI" URL="../Types/Shared - Transmit Buffer Options.ctl"/>
 			<Item Name="Shared - Transmit Echo Options.ctl" Type="VI" URL="../Types/Shared - Transmit Echo Options.ctl"/>
 			<Item Name="Shared - Transmit Flag Options.ctl" Type="VI" URL="../Types/Shared - Transmit Flag Options.ctl"/>
+			<Item Name="Shared - Transmit Sim Options.ctl" Type="VI" URL="../Types/Shared - Transmit Sim Options.ctl"/>
 			<Item Name="Shared - Tx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Tx.PacketInfo.ctl"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
