@@ -33,4 +33,8 @@
 		<Item Name="Read Tx Buffer Option.vi" Type="VI" URL="../Buffered Data Packet/Read Tx Buffer Option.vi"/>
 		<Item Name="Write Tx Buffer Option.vi" Type="VI" URL="../Buffered Data Packet/Write Tx Buffer Option.vi"/>
 	</Item>
+	<Item Name="Tx Sim Option" Type="Folder">
+		<Item Name="Read Tx Sim Option.vi" Type="VI" URL="../Buffered Data Packet/Read Tx Sim Option.vi"/>
+		<Item Name="Write Tx Sim Option.vi" Type="VI" URL="../Buffered Data Packet/Write Tx Sim Option.vi"/>
+	</Item>
 </Library>

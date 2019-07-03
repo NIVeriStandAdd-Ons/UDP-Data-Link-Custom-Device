@@ -5,7 +5,7 @@
 		<eng>UDP Custom Device</eng>
 		<loc>UDP Custom Device</loc>
 	</AddMenu>
-	<Version>1.3.9a</Version>
+	<Version>1.3.10</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>255</MaxOccurrence>
 	<MainPageGUID>1dbe19ca-57a1-40f3-b205-33efa5cbd18f</MainPageGUID>
