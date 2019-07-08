@@ -78,9 +78,14 @@
 					<Item Name="Run Bfr Rx - Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Rollover.vi"/>
 				</Item>
 				<Item Name="Circular Buffer + Size" Type="Folder">
-					<Item Name="Run Bfr Rx - Flag Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Flag Rollover.vi"/>
-					<Item Name="Run Bfr Rx - Postpend Null.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Postpend Null.vi"/>
-					<Item Name="Run Bfr Rx - Prepend Size.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Prepend Size.vi"/>
+					<Item Name="Obsolete" Type="Folder">
+						<Item Name="Run Bfr Rx - Flag Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Flag Rollover.vi"/>
+						<Item Name="Run Bfr Rx - Postpend Null.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Postpend Null.vi"/>
+						<Item Name="Run Bfr Rx - Prepend Size.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Prepend Size.vi"/>
+					</Item>
+					<Item Name="Run Bfr Rx - Sized Detect Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Detect Rollover.vi"/>
+					<Item Name="Run Bfr Rx - Sized Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Handle Rollover.vi"/>
+					<Item Name="Run Bfr Rx - Sized Write Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Write Buffer.vi"/>
 				</Item>
 				<Item Name="Run Bfr Rx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Buffer.vi"/>
 				<Item Name="Run Bfr Rx - Handle Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Data.vi"/>

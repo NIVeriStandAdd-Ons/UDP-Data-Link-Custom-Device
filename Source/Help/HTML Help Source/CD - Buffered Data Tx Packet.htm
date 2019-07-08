@@ -114,6 +114,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td><STRONG>Pointer Encoding</STRONG></td>
 					<td>Determines the encoding of the pointer in the <i>Buffer</i> channel. Conversion Encoding may result in loss of pointer bits in 64-bit systems.<br><STRONG>Direct Encoding:</STRONG> The pointer is cast into the <i>Buffer</i> channel at runtime and will occupy the lower 32 bits of the double value directly.<br><STRONG>Conversion Encoding:</STRONG> The pointer will undergo a floating point conversion and be represented as a floating point value in the <i>Buffer</i> channel.</td>
 				</tr>
+				<tr>
+					<td><STRONG>Sim Options</STRONG></td>
+					<td>Setup or disable simulated buffer data with this option. It is intentionally obfuscated when not in use. It may be displayed forcefully by clicking directly above the upper right corner of the <i>Description</i> property. This option may not be imported or exported.<br><STRONG>No Simulation:</STRONG> Normal operation of the transmit buffer. The <i>Sim Options</i> control will automatically hide itself upon leaving this screen while this option is active.<br><STRONG>Counter:</STRONG> Places an incrementing 4-byte ASCII counter into the transmit buffer. It will increment each time a packet is sent. Not useable with the FIFO <i>Buffer Options</i>.<br><STRONG>Full Buffer:</STRONG> Fills each byte of the transmit buffer with random data. Not useable withe FIFO <i>Buffer Options</i>.<br><STRONG>FIFO Test:</STRONG> Exclusively designed to test the FIFO option. Pushes 10 blocks of 10-byte data into the FIFO for sequential transmission. All data bytes are of random value.<br><STRONG>FIFO Test + Port:</STRONG> Exclusively designed to test the FIFO + Port option. Pushes 10 blocks of 10-byte data into the FIFO for sequential transmission. All data bytes are of random value. Sends the first block out on the <i>Destination Port</i> property value. The remaining blocks are sent out seqentially on incrementing port values from the <i>Destination Port</i> property value.</td>
+				</tr>
 			</table>
 		</p>
 		<h2>Channels</h2>
