@@ -46,6 +46,7 @@
 				<Item Name="Init Rx - Data.vi" Type="VI" URL="../Init/Receive/Init Rx - Data.vi"/>
 				<Item Name="Init Rx - UDP Connection.vi" Type="VI" URL="../Init/Receive/Init Rx - UDP Connection.vi"/>
 				<Item Name="Init Rx - Packet Size.vi" Type="VI" URL="../Init/Receive/Init Rx - Packet Size.vi"/>
+				<Item Name="Init Rx - Execution Details.vi" Type="VI" URL="../Init/Receive/Init Rx - Execution Details.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
 				<Item Name="Init Tx - Conversion Resources.vi" Type="VI" URL="../Init/Transmit/Init Tx - Conversion Resources.vi"/>
