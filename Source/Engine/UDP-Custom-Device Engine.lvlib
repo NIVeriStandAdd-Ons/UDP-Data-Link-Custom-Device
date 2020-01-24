@@ -46,7 +46,6 @@
 				<Item Name="Init Rx - Data.vi" Type="VI" URL="../Init/Receive/Init Rx - Data.vi"/>
 				<Item Name="Init Rx - UDP Connection.vi" Type="VI" URL="../Init/Receive/Init Rx - UDP Connection.vi"/>
 				<Item Name="Init Rx - Packet Size.vi" Type="VI" URL="../Init/Receive/Init Rx - Packet Size.vi"/>
-				<Item Name="Init Rx - Execution Details.vi" Type="VI" URL="../Init/Receive/Init Rx - Execution Details.vi"/>
 			</Item>
 			<Item Name="Transmit" Type="Folder">
 				<Item Name="Init Tx - Conversion Resources.vi" Type="VI" URL="../Init/Transmit/Init Tx - Conversion Resources.vi"/>
@@ -56,13 +55,12 @@
 				<Item Name="Init Tx - Packet Size.vi" Type="VI" URL="../Init/Init Tx - Packet Size.vi"/>
 				<Item Name="Init Tx - Apply Static Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Apply Static Header.vi"/>
 				<Item Name="Init Tx - Dynamic Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Dynamic Header.vi"/>
-				<Item Name="Init Tx - Windows Execution Details.vi" Type="VI" URL="../Init/Transmit/Init Tx - Windows Execution Details.vi"/>
-				<Item Name="Init Tx - RT Execution Details.vi" Type="VI" URL="../Init/Transmit/Init Tx - RT Execution Details.vi"/>
 			</Item>
 			<Item Name="Buffered Receive" Type="Folder">
 				<Item Name="Init Bfr Rx - Data.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Data.vi"/>
 				<Item Name="Init Bfr Rx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer.vi"/>
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
+				<Item Name="Init Bfr Rx - Execution Details.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Execution Details.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
@@ -160,6 +158,7 @@
 			<Item Name="Engine - Buffer Resources.ctl" Type="VI" URL="../Types/Engine - Buffer Resources.ctl"/>
 			<Item Name="Engine - Data Conversion Config.ctl" Type="VI" URL="../Types/Engine - Data Conversion Config.ctl"/>
 			<Item Name="Engine - Debug Resources.ctl" Type="VI" URL="../Types/Engine - Debug Resources.ctl"/>
+			<Item Name="Engine - Execution Config.ctl" Type="VI" URL="../Types/Engine - Execution Config.ctl"/>
 			<Item Name="Engine - General Resources.ctl" Type="VI" URL="../Types/Engine - General Resources.ctl"/>
 		</Item>
 		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
