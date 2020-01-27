@@ -88,6 +88,8 @@
 						<Item Name="ThreadCfg - Allow Period Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Allow Period Config.vi"/>
 						<Item Name="ThreadCfg - Read TxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Read TxPkt Config.vi"/>
 						<Item Name="ThreadCfg - Write TxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Write TxPkt Config.vi"/>
+						<Item Name="ThreadCfg - Read RxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Read RxPkt Config.vi"/>
+						<Item Name="ThreadCfg - Write RxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Write RxPkt Config.vi"/>
 					</Item>
 					<Item Name="HeaderConfig" Type="Folder">
 						<Item Name="PktHeader - Header Array to Strings.vi" Type="VI" URL="../API/Packets/HeaderConfig/PktHeader - Header Array to Strings.vi"/>
