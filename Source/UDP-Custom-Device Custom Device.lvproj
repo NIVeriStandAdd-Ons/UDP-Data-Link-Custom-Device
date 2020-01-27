@@ -618,6 +618,11 @@ DirectoryIndex index.htm
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Pointer.In-Place Read (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (I32).vi"/>
+				<Item Name="Pointer.In-Place Read (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (U16).vi"/>
+				<Item Name="Pointer.Read (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (I32).vi"/>
+				<Item Name="Pointer.Read (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (U16).vi"/>
+				<Item Name="Pointer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read.vi"/>
 				<Item Name="Pointer.Write (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (1D U8).vi"/>
 				<Item Name="Pointer.Write (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (I32).vi"/>
 				<Item Name="Pointer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write.vi"/>
@@ -629,8 +634,11 @@ DirectoryIndex index.htm
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Type Conversion.From Double (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (I32).vi"/>
+				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
 				<Item Name="Type Conversion.To Double (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (U16).vi"/>
 				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
@@ -812,6 +820,11 @@ DirectoryIndex index.htm
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Pointer.In-Place Read (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (I32).vi"/>
+				<Item Name="Pointer.In-Place Read (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (U16).vi"/>
+				<Item Name="Pointer.Read (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (I32).vi"/>
+				<Item Name="Pointer.Read (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (U16).vi"/>
+				<Item Name="Pointer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read.vi"/>
 				<Item Name="Pointer.Write (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (1D U8).vi"/>
 				<Item Name="Pointer.Write (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (I32).vi"/>
 				<Item Name="Pointer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write.vi"/>
@@ -823,8 +836,11 @@ DirectoryIndex index.htm
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Type Conversion.From Double (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (I32).vi"/>
+				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
 				<Item Name="Type Conversion.To Double (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (U16).vi"/>
 				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
@@ -1007,6 +1023,11 @@ DirectoryIndex index.htm
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Pointer.In-Place Read (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (I32).vi"/>
+				<Item Name="Pointer.In-Place Read (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.In-Place Read (U16).vi"/>
+				<Item Name="Pointer.Read (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (I32).vi"/>
+				<Item Name="Pointer.Read (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read (U16).vi"/>
+				<Item Name="Pointer.Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Read.vi"/>
 				<Item Name="Pointer.Write (1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (1D U8).vi"/>
 				<Item Name="Pointer.Write (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write (I32).vi"/>
 				<Item Name="Pointer.Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Pointer Operations/Pointer.Write.vi"/>
@@ -1018,8 +1039,11 @@ DirectoryIndex index.htm
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Type Conversion.From Double (I32).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double (I32).vi"/>
+				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
 				<Item Name="Type Conversion.To Double (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (U16).vi"/>
 				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
