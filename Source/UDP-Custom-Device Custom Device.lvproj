@@ -404,6 +404,7 @@
 				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
 				<Item Name="Type Conversion.To Double (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (U16).vi"/>
 				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
@@ -637,6 +638,7 @@ DirectoryIndex index.htm
 				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
 				<Item Name="Type Conversion.To Double (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (U16).vi"/>
 				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
@@ -838,6 +840,7 @@ DirectoryIndex index.htm
 				<Item Name="Type Conversion.From Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.From Double.vi"/>
 				<Item Name="Type Conversion.To Double (U16).vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double (U16).vi"/>
 				<Item Name="Type Conversion.To Double.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Type Conversion/Type Conversion.To Double.vi"/>
+				<Item Name="Typedefs.Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/VeriStand Data/Library/Typedefs/Typedefs.Data Types.ctl"/>
 				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
 				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
 				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
