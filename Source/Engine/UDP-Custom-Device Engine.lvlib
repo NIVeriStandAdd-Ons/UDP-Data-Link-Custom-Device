@@ -61,7 +61,6 @@
 				<Item Name="Init Bfr Rx - Data.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Data.vi"/>
 				<Item Name="Init Bfr Rx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer.vi"/>
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
-				<Item Name="Init Bfr Rx - Execution Details.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Execution Details.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
