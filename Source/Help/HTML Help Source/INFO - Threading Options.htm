@@ -45,7 +45,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Priority</STRONG></td>
-					<td>Sets the priority of this packet compared to other packets (and other system resources) running on the realtime scheduler. All UDP Custom Device packets run on the realtime scheduler. Other resources that allow for selection of priority and processor assignment likely run on the realtime scheduler as well. A larger value results in higher priority. Defaults to 100. If unsure of the potential impact, leave this value at 100. All resources that do not have a priority will always be pre-empted a UDP Custom Device packet, regardless of the priority of the packet.</td>
+					<td>Sets the priority of this packet compared to other packets (and other system resources) running on the realtime scheduler. All UDP Custom Device packets run on the realtime scheduler. Other resources that allow for selection of priority and processor assignment likely run on the realtime scheduler as well. A larger value results in higher priority. Defaults to 100. If unsure of the potential impact, leave this value at 100. All resources that do not have a priority will always be pre-empted a UDP Custom Device packet, regardless of the priority of the packet.<br>If run on a Windows target (or another non-RealTime target), priorty may not have predictable or observable effects, due to the absence of a realtime scheduler.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Default (Priority)</STRONG></td>
@@ -53,15 +53,15 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Loop Period (us)</STRONG></td>
-					<td>Selects the period that the packet thread will attempt to run at. Windows systems <b>MUST</b> have a period of at least 1000 us. This option is disabled when PCL synchronizatipon is selected.</td>
+					<td>Selects the period that the packet thread will attempt to run at. Windows systems <b>MUST</b> have a period of at least 1000 us. This option is disabled when PCL synchronizatipon is selected. This option is not available on receive packets.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Sychronization</STRONG></td>
-					<td><!--Description of control functionality and purpose--></td>
+					<td>Determines whether this packet will synchronize itself to the PCL or run asynchronously. This option is not available on receive packets.<br><b>PCL:</b> Synchronizes this packet to the PCL. Disables the <i>Loop Period</i> control. Enables the <i>PCL Decimation</i> control.<br><b>Async:</b> This packet will run asynchronously from the PCL. Enables the <i>Loop Period</i> control. Disables the <i>PCL Decimation</i> control.</td>
 				</tr>
 				<tr>
 					<td><STRONG>PCL Decimation</STRONG></td>
-					<td><!--Description of control functionality and purpose--></td>
+					<td>Determines if this packet will run at a subset period of the Primary Control Loop (PCL). For example, if the PCL is set to a period of 10ms, a value of 1 will transmit packets at roughly 10ms intervals. A value of 2 will transmit packets at approximately 20 ms intervals. Only available in the PCL synchronization. Unavailable for receive packets.</td>
 				</tr>
 				<tr>
 					<td><STRONG>OK Button</STRONG></td>
