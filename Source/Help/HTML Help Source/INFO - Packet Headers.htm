@@ -24,6 +24,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h2>Introduction</h2>
 		<p>
 			<!--What are the packet headers and what purpose do they serve?-->
+			The packet header is used for communicating information about packet payloads to the packet receivers. These always preceed the actual data payloads in the transacted packet. The packet header is customizable (with some limitation). Packet headers are only relevant when working with non-buffered packets. It is advised when working within the UDP Custom Device that the transmitting and receiving endpoints of a packet have the same header. Failure to use the same header will result in parsing errors.
 		</p>
 		
 		<h2>Packet Headers</h2>
