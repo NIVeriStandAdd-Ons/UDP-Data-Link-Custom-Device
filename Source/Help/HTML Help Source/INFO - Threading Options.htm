@@ -37,7 +37,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Target Processor</STRONG></td>
-					<td>Determines the processor assignment behavior for this packet. A value of -2 will result in automatic processor assignment. Starts at 0 for the first logical processor. For clarity, processor, logical core, and otherwise all refer to discrete numerable compute elements on the target CPU. EG: a 'quad core' CPU likely has 8 processors in this context -- 4 physical cores and 4 logical cores.</td>
+					<td>Determines the processor assignment behavior for this packet. A value of -2 will result in automatic processor assignment. Starts at 0 for the first logical processor. For clarity, processor, logical core, and otherwise all refer to discrete numerable compute elements on the target CPU. EG: a 'quad core' CPU likely has 8 processors in this context -- 4 physical cores and 4 logical cores. This core count must be relative to the target that will be running the system definition. Selecting a core that is not available on the target may result in unexpected behavior.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Default (Target Processor)</STRONG></td>
