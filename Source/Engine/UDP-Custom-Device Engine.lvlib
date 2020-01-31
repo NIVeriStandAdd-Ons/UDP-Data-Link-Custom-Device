@@ -55,6 +55,7 @@
 				<Item Name="Init Tx - Packet Size.vi" Type="VI" URL="../Init/Init Tx - Packet Size.vi"/>
 				<Item Name="Init Tx - Apply Static Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Apply Static Header.vi"/>
 				<Item Name="Init Tx - Dynamic Header.vi" Type="VI" URL="../Init/Transmit/Init Tx - Dynamic Header.vi"/>
+				<Item Name="Init Tx - Derive Windows Loop Period.vi" Type="VI" URL="../Init/Transmit/Init Tx - Derive Windows Loop Period.vi"/>
 			</Item>
 			<Item Name="Buffered Receive" Type="Folder">
 				<Item Name="Init Bfr Rx - Data.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Data.vi"/>
@@ -157,6 +158,7 @@
 			<Item Name="Engine - Buffer Resources.ctl" Type="VI" URL="../Types/Engine - Buffer Resources.ctl"/>
 			<Item Name="Engine - Data Conversion Config.ctl" Type="VI" URL="../Types/Engine - Data Conversion Config.ctl"/>
 			<Item Name="Engine - Debug Resources.ctl" Type="VI" URL="../Types/Engine - Debug Resources.ctl"/>
+			<Item Name="Engine - Execution Config.ctl" Type="VI" URL="../Types/Engine - Execution Config.ctl"/>
 			<Item Name="Engine - General Resources.ctl" Type="VI" URL="../Types/Engine - General Resources.ctl"/>
 		</Item>
 		<Item Name="Engine - RTStateVariables.ctl" Type="VI" URL="../Types/Engine - RTStateVariables.ctl"/>
