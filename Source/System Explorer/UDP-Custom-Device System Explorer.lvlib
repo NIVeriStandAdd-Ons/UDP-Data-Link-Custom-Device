@@ -85,7 +85,7 @@
 				</Item>
 				<Item Name="Dialog Support" Type="Folder">
 					<Item Name="ThreadConfig" Type="Folder">
-						<Item Name="ThreadCfg - Allow Period Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Allow Period Config.vi"/>
+						<Item Name="ThreadCfg - Control Dialog UI.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Control Dialog UI.vi"/>
 						<Item Name="ThreadCfg - Read TxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Read TxPkt Config.vi"/>
 						<Item Name="ThreadCfg - Write TxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Write TxPkt Config.vi"/>
 						<Item Name="ThreadCfg - Read RxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Read RxPkt Config.vi"/>
@@ -301,6 +301,7 @@
 			</Item>
 			<Item Name="Threading" Type="Folder">
 				<Item Name="Thread Configuration.ctl" Type="VI" URL="../Types/Threading/Thread Configuration.ctl"/>
+				<Item Name="Thread Management.ctl" Type="VI" URL="../Types/Threading/Thread Management.ctl"/>
 				<Item Name="Thread Sync Reference.ctl" Type="VI" URL="../Types/Threading/Thread Sync Reference.ctl"/>
 			</Item>
 			<Item Name="XML" Type="Folder">
