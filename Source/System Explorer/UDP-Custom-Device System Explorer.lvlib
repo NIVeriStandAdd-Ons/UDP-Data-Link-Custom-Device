@@ -301,7 +301,6 @@
 			</Item>
 			<Item Name="Threading" Type="Folder">
 				<Item Name="Thread Configuration.ctl" Type="VI" URL="../Types/Threading/Thread Configuration.ctl"/>
-				<Item Name="Thread Management.ctl" Type="VI" URL="../Types/Threading/Thread Management.ctl"/>
 				<Item Name="Thread Sync Reference.ctl" Type="VI" URL="../Types/Threading/Thread Sync Reference.ctl"/>
 			</Item>
 			<Item Name="XML" Type="Folder">
