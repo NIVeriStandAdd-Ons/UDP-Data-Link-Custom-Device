@@ -44,6 +44,7 @@
 			<Item Name="Shared - Pointer Encoding.ctl" Type="VI" URL="../Types/Shared - Pointer Encoding.ctl"/>
 			<Item Name="Shared - Receive Buffer Options.ctl" Type="VI" URL="../Types/Shared - Receive Buffer Options.ctl"/>
 			<Item Name="Shared - Rx.PacketInfo.ctl" Type="VI" URL="../Types/Shared - Rx.PacketInfo.ctl"/>
+			<Item Name="Shared - Thread Management.ctl" Type="VI" URL="../Types/Shared - Thread Management.ctl"/>
 			<Item Name="Shared - Transmit Buffer Options.ctl" Type="VI" URL="../Types/Shared - Transmit Buffer Options.ctl"/>
 			<Item Name="Shared - Transmit Echo Options.ctl" Type="VI" URL="../Types/Shared - Transmit Echo Options.ctl"/>
 			<Item Name="Shared - Transmit Flag Options.ctl" Type="VI" URL="../Types/Shared - Transmit Flag Options.ctl"/>
