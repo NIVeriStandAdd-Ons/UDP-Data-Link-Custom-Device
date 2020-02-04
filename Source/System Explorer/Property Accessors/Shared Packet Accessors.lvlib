@@ -70,4 +70,8 @@
 		<Item Name="Write Target Processor.vi" Type="VI" URL="../Packets/Write Target Processor.vi"/>
 		<Item Name="Read Target Processor.vi" Type="VI" URL="../Packets/Read Target Processor.vi"/>
 	</Item>
+	<Item Name="Thread Management" Type="Folder">
+		<Item Name="Write Thread Management.vi" Type="VI" URL="../Packets/Write Thread Management.vi"/>
+		<Item Name="Read Thread Management.vi" Type="VI" URL="../Packets/Read Thread Management.vi"/>
+	</Item>
 </Library>
