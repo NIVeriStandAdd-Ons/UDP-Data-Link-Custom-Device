@@ -67,7 +67,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<li>Payloads are sent out in order, starting from the first byte of the buffer and ending on the first size field found with a value of zero.</li>
 				<li>All payloads with a non-zero size are always sent.</li>
 				<li>The first size field found with a value of 0 will instruct the packet to stop scanning for more payloads to send.</li>
-				<li>The packet <STRONG>DOES NOT</STRONG> spend time confirming a size field does not surpass the end of a buffer.</li>
+				<li><s>The packet <STRONG>DOES NOT</STRONG> spend time confirming a size field does not surpass the end of a buffer.</s></li>
+				<li>As of version 1.4.3, packets now check if a size field will result in accessing memory outside of the allocated buffer.</li>
 			</ul>
 		</p>
 		<h2>FIFO Buffer + Port</h2>
@@ -110,7 +111,8 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<li>Payloads are sent out in order, starting from the first byte of the buffer and ending on the first size field found with a value of zero.</li>
 				<li>All payloads with a non-zero size are always sent.</li>
 				<li>The first size field found with a value of 0 will instruct the packet to stop scanning for more payloads to send.</li>
-				<li>The packet <STRONG>DOES NOT</STRONG> spend time confirming a size field does not surpass the end of a buffer.</li>
+				<li><s>The packet <STRONG>DOES NOT</STRONG> spend time confirming a size field does not surpass the end of a buffer.</s></li>
+				<li>As of version 1.4.3, packets now check if a size field will result in accessing memory outside of the allocated buffer.</li>
 			</ul>
 		</p>
 	</body>
