@@ -61,6 +61,8 @@
 				<Item Name="Init Bfr Rx - Data.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Data.vi"/>
 				<Item Name="Init Bfr Rx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer.vi"/>
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
+				<Item Name="Init Bfr Rx - Create Channels.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Channels.vi"/>
+				<Item Name="Init Bfr Rx - Create Buffer Options.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer Options.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
@@ -148,13 +150,19 @@
 			<Item Name="UDP Tx Process.vi" Type="VI" URL="../Run/UDP Tx Process.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder">
+			<Item Name="Buffered Receive" Type="Folder"/>
+			<Item Name="Buffered Transmit" Type="Folder"/>
+			<Item Name="Receive" Type="Folder"/>
+			<Item Name="Transmit" Type="Folder"/>
 			<Item Name="Shutdown - Close Duplex.vi" Type="VI" URL="../Shut Down/Shutdown - Close Duplex.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered Receive" Type="Folder">
 			<Item Name="Engine - Buffered Rx Buffer Option Support.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Buffer Option Support.ctl"/>
+			<Item Name="Engine - Buffered Rx Cached Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Cached Buffer.ctl"/>
 			<Item Name="Engine - Buffered Rx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Channel Refs.ctl"/>
+			<Item Name="Engine - Buffered Rx Circular Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Circular Buffer.ctl"/>
 			<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
 		</Item>
 		<Item Name="Buffered Transmit" Type="Folder">
