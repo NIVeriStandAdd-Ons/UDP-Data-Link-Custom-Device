@@ -25,9 +25,17 @@
 		<Item Name="Read TxPkt Destination Port.vi" Type="VI" URL="../Tx Packet/Read TxPkt Destination Port.vi"/>
 		<Item Name="Write TxPkt Destination Port.vi" Type="VI" URL="../Tx Packet/Write TxPkt Destination Port.vi"/>
 	</Item>
+	<Item Name="Loop Period" Type="Folder">
+		<Item Name="Read TxPkt Loop Period.vi" Type="VI" URL="../Tx Packet/Read TxPkt Loop Period.vi"/>
+		<Item Name="Write TxPkt Loop Period.vi" Type="VI" URL="../Tx Packet/Write TxPkt Loop Period.vi"/>
+	</Item>
 	<Item Name="Port as Channel" Type="Folder">
 		<Item Name="Read TxPkt Port as Channel.vi" Type="VI" URL="../Tx Packet/Read TxPkt Port as Channel.vi"/>
 		<Item Name="Write TxPkt Port as Channel.vi" Type="VI" URL="../Tx Packet/Write TxPkt Port as Channel.vi"/>
+	</Item>
+	<Item Name="Thread Sync" Type="Folder">
+		<Item Name="Read TxPkt Thread Sync.vi" Type="VI" URL="../Tx Packet/Read TxPkt Thread Sync.vi"/>
+		<Item Name="Write TxPkt Thread Sync.vi" Type="VI" URL="../Tx Packet/Write TxPkt Thread Sync.vi"/>
 	</Item>
 	<Item Name="Timestamp Channel Ref" Type="Folder">
 		<Item Name="Read TxPkt Timestamp Ref.vi" Type="VI" URL="../Tx Packet/Read TxPkt Timestamp Ref.vi"/>

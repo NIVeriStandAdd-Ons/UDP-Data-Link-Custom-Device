@@ -78,12 +78,22 @@
 				<Item Name="Compile - Tx Packet Information.vi" Type="VI" URL="../API/OnCompile/Compile - Tx Packet Information.vi"/>
 			</Item>
 			<Item Name="Packets" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Buffer Data" Type="Folder">
 					<Item Name="BfrPkt - Set Buffer Direction.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Set Buffer Direction.vi"/>
 					<Item Name="BfrPkt - Set Buffer Size Channel Value.vi" Type="VI" URL="../API/Packets/BufferedData/BfrPkt - Set Buffer Size Channel Value.vi"/>
 				</Item>
-				<Item Name="HeaderConfig" Type="Folder">
-					<Item Name="PktHeader - Header Array to Strings.vi" Type="VI" URL="../API/Packets/HeaderConfig/PktHeader - Header Array to Strings.vi"/>
+				<Item Name="Dialog Support" Type="Folder">
+					<Item Name="ThreadConfig" Type="Folder">
+						<Item Name="ThreadCfg - Control Dialog UI.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Control Dialog UI.vi"/>
+						<Item Name="ThreadCfg - Read TxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Read TxPkt Config.vi"/>
+						<Item Name="ThreadCfg - Write TxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Write TxPkt Config.vi"/>
+						<Item Name="ThreadCfg - Read RxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Read RxPkt Config.vi"/>
+						<Item Name="ThreadCfg - Write RxPkt Config.vi" Type="VI" URL="../API/Packets/ThreadConfig/ThreadCfg - Write RxPkt Config.vi"/>
+					</Item>
+					<Item Name="HeaderConfig" Type="Folder">
+						<Item Name="PktHeader - Header Array to Strings.vi" Type="VI" URL="../API/Packets/HeaderConfig/PktHeader - Header Array to Strings.vi"/>
+					</Item>
 				</Item>
 				<Item Name="Receive" Type="Folder">
 					<Item Name="RxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Receive/RxPkt - Add Packet.vi"/>
@@ -177,6 +187,7 @@
 		</Item>
 		<Item Name="Dialogs" Type="Folder">
 			<Item Name="Dialog - Configure Packet Header.vi" Type="VI" URL="../Dialogs/Dialog - Configure Packet Header.vi"/>
+			<Item Name="Dialog - Configure Threading.vi" Type="VI" URL="../Dialogs/Dialog - Configure Threading.vi"/>
 			<Item Name="Dialog - Import Channel Paths Invalid.vi" Type="VI" URL="../Dialogs/Dialog - Import Channel Paths Invalid.vi"/>
 			<Item Name="Dialog - Select Channel Dialog.vi" Type="VI" URL="../Dialogs/Dialog - Select Channel Dialog.vi"/>
 		</Item>
@@ -287,6 +298,10 @@
 				<Item Name="Refs - Rx Packets Page.ctl" Type="VI" URL="../Types/Page References/Refs - Rx Packets Page.ctl"/>
 				<Item Name="Refs - Tx Buffered Data Packet Page.ctl" Type="VI" URL="../Types/Page References/Refs - Tx Buffered Data Packet Page.ctl"/>
 				<Item Name="Refs - Tx Packets Page.ctl" Type="VI" URL="../Types/Page References/Refs - Tx Packets Page.ctl"/>
+			</Item>
+			<Item Name="Threading" Type="Folder">
+				<Item Name="Thread Configuration.ctl" Type="VI" URL="../Types/Threading/Thread Configuration.ctl"/>
+				<Item Name="Thread Sync Reference.ctl" Type="VI" URL="../Types/Threading/Thread Sync Reference.ctl"/>
 			</Item>
 			<Item Name="XML" Type="Folder">
 				<Item Name="XML - Channel.ctl" Type="VI" URL="../Types/XML/XML - Channel.ctl"/>

@@ -62,4 +62,16 @@
 		<Item Name="Read Debug Mode.vi" Type="VI" URL="../Packets/Read Debug Mode.vi"/>
 		<Item Name="Write Debug Mode.vi" Type="VI" URL="../Packets/Write Debug Mode.vi"/>
 	</Item>
+	<Item Name="Priority" Type="Folder">
+		<Item Name="Write Priority.vi" Type="VI" URL="../Packets/Write Priority.vi"/>
+		<Item Name="Read Priority.vi" Type="VI" URL="../Packets/Read Priority.vi"/>
+	</Item>
+	<Item Name="Target Processor" Type="Folder">
+		<Item Name="Write Target Processor.vi" Type="VI" URL="../Packets/Write Target Processor.vi"/>
+		<Item Name="Read Target Processor.vi" Type="VI" URL="../Packets/Read Target Processor.vi"/>
+	</Item>
+	<Item Name="Thread Management" Type="Folder">
+		<Item Name="Write Thread Management.vi" Type="VI" URL="../Packets/Write Thread Management.vi"/>
+		<Item Name="Read Thread Management.vi" Type="VI" URL="../Packets/Read Thread Management.vi"/>
+	</Item>
 </Library>

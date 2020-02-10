@@ -51,6 +51,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 			-->
 				<tr>
+					<td><STRONG>Configure Threading</STRONG></td>
+					<td>Clicking on this button opens a dialogue that displays the current <a href="INFO - Threading Options.htm">threading options</a> that will be used for the transmit packet. These options adjust the runtime behavior of the packet threading.</td>
+				</tr>
+				<tr>
 					<td><STRONG>Endianness</STRONG></td>
 					<td>Determines the byte endianness of the transmitted packet. Supports little-endian and big-endian.</td>
 				</tr>
@@ -137,7 +141,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				</tr>
 				<tr>
 					<td><STRONG>Transmit Bytes</STRONG></td>
-					<td>Takes an initial value of 0. Determines the number of bytes to transmit out on the UDP socket. This channel should never have a value larger than the <i>Buffer Size</i> property. Packets will not be transmitted until this value does not equal 0.</td>
+					<td>Takes an initial value of 0. Determines the number of bytes to transmit out on the UDP socket. This channel should never have a value larger than the <i>Buffer Size</i> property. Packets will not be transmitted until this value does not equal 0 or is less-than-or-equal-to the <i>Buffer Size</i> property.</td>
 				</tr>
 				<tr>
 					<td><STRONG>Buffer</STRONG></td>
