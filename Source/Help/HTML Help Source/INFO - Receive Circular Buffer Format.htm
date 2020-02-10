@@ -35,7 +35,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		
 		<h2>Circular Buffer</h2>
 		<p>
-			The standard Circular Buffer option is used to cyclically buffer inbound packets, adding them to buffer from start to end. When the end of the buffer is encountered, The packets get start overwriting entries at the beginning of the buffer. This method is suggested when packets have their own delimiters present.
+			The standard Circular Buffer option is used to cyclically buffer inbound packets, adding them to buffer from start to end. When the end of the buffer is encountered, The packets get start overwriting entries at the beginning of the buffer. This option is suggested when packets have their own delimiters present.
 			<h3>Format:</h3>
 			<table>
 				<tr>
@@ -67,7 +67,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</p>
 		<h2>Circular Buffer + Size</h2>
 		<p>
-			The size Circular Buffer option is used to retain the size of each payload received. Each received payload is pre-empted with a size value. This option works largely in the same way as the Circular Buffer option.
+			The size Circular Buffer option is used to retain the size of each payload received. Each received payload is pre-empted with a size value. This option works largely in the same way as the Circular Buffer option. This option is suggested when inbound packets lack meaningful formatting, as the additional in-memory delimiters can greatly assist with buffer traversal.
 			<h3>Format:</h3>
 			<table>
 				<tr>
