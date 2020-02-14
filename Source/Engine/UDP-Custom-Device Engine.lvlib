@@ -61,6 +61,8 @@
 				<Item Name="Init Bfr Rx - Data.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Data.vi"/>
 				<Item Name="Init Bfr Rx - Create Buffer.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer.vi"/>
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
+				<Item Name="Init Bfr Rx - Create Channels.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Channels.vi"/>
+				<Item Name="Init Bfr Rx - Create Buffer Options.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer Options.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
@@ -87,6 +89,20 @@
 					<Item Name="Run Bfr Rx - Sized Detect Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Detect Rollover.vi"/>
 					<Item Name="Run Bfr Rx - Sized Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Handle Rollover.vi"/>
 					<Item Name="Run Bfr Rx - Sized Write Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Write Buffer.vi"/>
+				</Item>
+				<Item Name="Internal Cache" Type="Folder">
+					<Item Name="Run Bfr Rx - Cached - Add to Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Add to Cache.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Check Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Check Cache.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Copy Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Copy Cache.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Copy Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Copy Flush Add.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Flush Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Flush Cache.vi"/>
+				</Item>
+				<Item Name="Internal Cache + Size" Type="Folder">
+					<Item Name="Run Bfr Rx - CachedSize - Add to Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Add to Cache.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Check Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Check Cache.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Copy Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Copy Cache.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Copy Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Copy Flush Add.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Flush Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Flush Cache.vi"/>
 				</Item>
 				<Item Name="Thread Types" Type="Folder">
 					<Item Name="Run Bfr Rx - Timed RT.vi" Type="VI" URL="../Run/Buffered Receive/Thread Types/Run Bfr Rx - Timed RT.vi"/>
@@ -148,13 +164,21 @@
 			<Item Name="UDP Tx Process.vi" Type="VI" URL="../Run/UDP Tx Process.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder">
+			<Item Name="Buffered Receive" Type="Folder">
+				<Item Name="Shutdown Bfr Rx - Cleanup Buffer Options.vi" Type="VI" URL="../Shut Down/Buffered Receive/Shutdown Bfr Rx - Cleanup Buffer Options.vi"/>
+			</Item>
+			<Item Name="Buffered Transmit" Type="Folder"/>
+			<Item Name="Receive" Type="Folder"/>
+			<Item Name="Transmit" Type="Folder"/>
 			<Item Name="Shutdown - Close Duplex.vi" Type="VI" URL="../Shut Down/Shutdown - Close Duplex.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered Receive" Type="Folder">
 			<Item Name="Engine - Buffered Rx Buffer Option Support.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Buffer Option Support.ctl"/>
+			<Item Name="Engine - Buffered Rx Cached Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Cached Buffer.ctl"/>
 			<Item Name="Engine - Buffered Rx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Channel Refs.ctl"/>
+			<Item Name="Engine - Buffered Rx Circular Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Circular Buffer.ctl"/>
 			<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
 		</Item>
 		<Item Name="Buffered Transmit" Type="Folder">
