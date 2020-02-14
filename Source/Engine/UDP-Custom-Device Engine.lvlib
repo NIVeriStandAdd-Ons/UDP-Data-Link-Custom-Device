@@ -76,20 +76,6 @@
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Buffered Receive" Type="Folder">
-				<Item Name="Block Cache" Type="Folder">
-					<Item Name="Run Bfr Rx - Cached - Add to Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Add to Cache.vi"/>
-					<Item Name="Run Bfr Rx - Cached - Check Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Check Cache.vi"/>
-					<Item Name="Run Bfr Rx - Cached - Copy Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Copy Cache.vi"/>
-					<Item Name="Run Bfr Rx - Cached - Copy Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Copy Flush Add.vi"/>
-					<Item Name="Run Bfr Rx - Cached - Flush Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Flush Cache.vi"/>
-				</Item>
-				<Item Name="Block Cache + Size" Type="Folder">
-					<Item Name="Run Bfr Rx - CachedSize - Add to Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Add to Cache.vi"/>
-					<Item Name="Run Bfr Rx - CachedSize - Check Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Check Cache.vi"/>
-					<Item Name="Run Bfr Rx - CachedSize - Copy Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Copy Cache.vi"/>
-					<Item Name="Run Bfr Rx - CachedSize - Copy Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Copy Flush Add.vi"/>
-					<Item Name="Run Bfr Rx - CachedSize - Flush Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Flush Cache.vi"/>
-				</Item>
 				<Item Name="Circular Buffer" Type="Folder">
 					<Item Name="Run Bfr Rx - Handle Offset.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Offset.vi"/>
 					<Item Name="Run Bfr Rx - Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Rollover.vi"/>
@@ -103,6 +89,20 @@
 					<Item Name="Run Bfr Rx - Sized Detect Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Detect Rollover.vi"/>
 					<Item Name="Run Bfr Rx - Sized Handle Rollover.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Handle Rollover.vi"/>
 					<Item Name="Run Bfr Rx - Sized Write Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Circular Buffer and Size/Run Bfr Rx - Sized Write Buffer.vi"/>
+				</Item>
+				<Item Name="Internal Cache" Type="Folder">
+					<Item Name="Run Bfr Rx - Cached - Add to Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Add to Cache.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Check Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Check Cache.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Copy Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Copy Cache.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Copy Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Copy Flush Add.vi"/>
+					<Item Name="Run Bfr Rx - Cached - Flush Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - Cached - Flush Cache.vi"/>
+				</Item>
+				<Item Name="Internal Cache + Size" Type="Folder">
+					<Item Name="Run Bfr Rx - CachedSize - Add to Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Add to Cache.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Check Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Check Cache.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Copy Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Copy Cache.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Copy Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Copy Flush Add.vi"/>
+					<Item Name="Run Bfr Rx - CachedSize - Flush Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Flush Cache.vi"/>
 				</Item>
 				<Item Name="Thread Types" Type="Folder">
 					<Item Name="Run Bfr Rx - Timed RT.vi" Type="VI" URL="../Run/Buffered Receive/Thread Types/Run Bfr Rx - Timed RT.vi"/>
