@@ -29,13 +29,13 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h1>Receive Circular Buffer Format</h1> <!--REPLACE-->
 		<h2>Introduction</h2>
 		<p>
-			Using the Circular Buffer options in the <i>Buffered Receive Packet</i> can be very powerful, allowing lossless receipt of high-speed packets on a netowrk. However, using the Circular Buffer option requires a bit more care when reading the buffer. Additionally, several channels and features of a receive packet may no longer be functional, depending on the Circular Buffer option used.
+			Using the Circular Buffer options in the <i>Buffered Receive Packet</i> can be very powerful, allowing lossless receipt of high-speed packets on a network. However, using the Circular Buffer option requires a bit more care when reading the buffer. Additionally, several channels and features of a receive packet may no longer be functional, depending on the Circular Buffer option used.
 			<!--Global scheme of why this screen is important and how it relates to the general process of setting up the custom device.-->
 		</p>
 		
 		<h2>Circular Buffer</h2>
 		<p>
-			The standard Circular Buffer option is used to cyclically buffer inbound packets, adding them to buffer from start to end. When the end of the buffer is encountered, The packets get start overwriting entries at the beginning of the buffer. This method is suggested when packets have their own delimiters present.
+			The standard Circular Buffer option is used to cyclically buffer inbound packets, adding them to buffer from start to end. When the end of the buffer is encountered, The packets get start overwriting entries at the beginning of the buffer. This option is suggested when packets have their own delimiters present.
 			<h3>Format:</h3>
 			<table>
 				<tr>
@@ -67,7 +67,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		</p>
 		<h2>Circular Buffer + Size</h2>
 		<p>
-			The size Circular Buffer option is used to retain the size of each payload received. Each received payload is pre-empted with a size value. This option works largely in the same way as the Circular Buffer option.
+			The size Circular Buffer option is used to retain the size of each payload received. Each received payload is pre-empted with a size value. This option works largely in the same way as the Circular Buffer option. This option is suggested when inbound packets lack meaningful formatting, as the additional in-memory delimiters can greatly assist with buffer traversal.
 			<h3>Format:</h3>
 			<table>
 				<tr>
