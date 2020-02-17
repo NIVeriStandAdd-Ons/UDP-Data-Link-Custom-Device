@@ -177,10 +177,14 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered Receive" Type="Folder">
+			<Item Name="Options" Type="Folder">
+				<Item Name="Engine - Buffered Rx Active Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Active Buffer.ctl"/>
+				<Item Name="Engine - Buffered Rx Cached Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Cached Buffer.ctl"/>
+				<Item Name="Engine - Buffered Rx Circular Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Circular Buffer.ctl"/>
+				<Item Name="Engine - Buffered Rx Ping Pong Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Ping Pong Buffer.ctl"/>
+			</Item>
 			<Item Name="Engine - Buffered Rx Buffer Option Support.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Buffer Option Support.ctl"/>
-			<Item Name="Engine - Buffered Rx Cached Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Cached Buffer.ctl"/>
 			<Item Name="Engine - Buffered Rx Channel Refs.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Channel Refs.ctl"/>
-			<Item Name="Engine - Buffered Rx Circular Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Circular Buffer.ctl"/>
 			<Item Name="Engine - Buffered Rx Loop Data.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Loop Data.ctl"/>
 		</Item>
 		<Item Name="Buffered Transmit" Type="Folder">
