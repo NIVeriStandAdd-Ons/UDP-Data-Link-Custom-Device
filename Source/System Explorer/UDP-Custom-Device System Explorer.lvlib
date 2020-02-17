@@ -104,6 +104,7 @@
 					<Item Name="RxBfrPkt - Add Channels.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Add Channels.vi"/>
 					<Item Name="RxBfrPkt - Add Packet.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Add Packet.vi"/>
 					<Item Name="RxBfrPkt - Init Packet Page.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Init Packet Page.vi"/>
+					<Item Name="RxBfrPkt - Handle Ping Pong Buffer.vi" Type="VI" URL="../API/Packets/RxBufferedData/RxBfrPkt - Handle Ping Pong Buffer.vi"/>
 				</Item>
 				<Item Name="Transmit" Type="Folder">
 					<Item Name="TxPkt - Add Packet.vi" Type="VI" URL="../API/Packets/Transmit/TxPkt - Add Packet.vi"/>
