@@ -63,6 +63,7 @@
 				<Item Name="Init Bfr Rx - UDP Connection.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - UDP Connection.vi"/>
 				<Item Name="Init Bfr Rx - Create Channels.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Channels.vi"/>
 				<Item Name="Init Bfr Rx - Create Buffer Options.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Buffer Options.vi"/>
+				<Item Name="Init Bfr Rx - Create Option Channels.vi" Type="VI" URL="../Init/Buffered Receive/Init Bfr Rx - Create Option Channels.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
 				<Item Name="Init Bfr Tx - Data.vi" Type="VI" URL="../Init/Buffered Transmit/Init Bfr Tx - Data.vi"/>
@@ -112,6 +113,7 @@
 					<Item Name="Run Bfr Rx - Untimed.vi" Type="VI" URL="../Run/Buffered Receive/Thread Types/Run Bfr Rx - Untimed.vi"/>
 				</Item>
 				<Item Name="Run Bfr Rx - Check Valid Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Buffer.vi"/>
+				<Item Name="Run Bfr Rx - Check Valid Option Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Check Valid Option Buffer.vi"/>
 				<Item Name="Run Bfr Rx - Handle Data.vi" Type="VI" URL="../Run/Buffered Receive/Run Bfr Rx - Handle Data.vi"/>
 			</Item>
 			<Item Name="Buffered Transmit" Type="Folder">
@@ -177,6 +179,9 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered Receive" Type="Folder">
+			<Item Name="Option Channels" Type="Folder">
+				<Item Name="Engine - Buffered Rx Ping Pong Channels.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Ping Pong Channels.ctl"/>
+			</Item>
 			<Item Name="Options" Type="Folder">
 				<Item Name="Engine - Buffered Rx Active Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Active Buffer.ctl"/>
 				<Item Name="Engine - Buffered Rx Cached Buffer.ctl" Type="VI" URL="../Types/Engine - Buffered Rx Cached Buffer.ctl"/>
