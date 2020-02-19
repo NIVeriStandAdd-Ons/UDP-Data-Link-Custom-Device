@@ -105,8 +105,20 @@
 					<Item Name="Run Bfr Rx - CachedSize - Copy Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Copy Flush Add.vi"/>
 					<Item Name="Run Bfr Rx - CachedSize - Flush Cache.vi" Type="VI" URL="../Run/Buffered Receive/Block Cache and Size/Run Bfr Rx - CachedSize - Flush Cache.vi"/>
 				</Item>
-				<Item Name="Ping Pong" Type="Folder"/>
-				<Item Name="Ping Pong + Size" Type="Folder"/>
+				<Item Name="Ping Pong" Type="Folder">
+					<Item Name="Run Bfr Rx - PingPong - Add to Active.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPong - Add to Active.vi"/>
+					<Item Name="Run Bfr Rx - PingPong - Change Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPong - Change Buffer.vi"/>
+					<Item Name="Run Bfr Rx - PingPong - Change Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPong - Change Flush Add.vi"/>
+					<Item Name="Run Bfr Rx - PingPong - Check Active.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPong - Check Active.vi"/>
+					<Item Name="Run Bfr Rx - PingPong - Flush Active.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPong - Flush Active.vi"/>
+				</Item>
+				<Item Name="Ping Pong + Size" Type="Folder">
+					<Item Name="Run Bfr Rx - PingPongSized - Add to Active.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPongSized - Add to Active.vi"/>
+					<Item Name="Run Bfr Rx - PingPongSized - Change Buffer.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPongSized - Change Buffer.vi"/>
+					<Item Name="Run Bfr Rx - PingPongSized - Change Flush Add.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPongSized - Change Flush Add.vi"/>
+					<Item Name="Run Bfr Rx - PingPongSized - Check Active.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPongSized - Check Active.vi"/>
+					<Item Name="Run Bfr Rx - PingPongSized - Flush Active.vi" Type="VI" URL="../Run/Buffered Receive/Ping Pong and Size/Run Bfr Rx - PingPongSized - Flush Active.vi"/>
+				</Item>
 				<Item Name="Thread Types" Type="Folder">
 					<Item Name="Run Bfr Rx - Timed RT.vi" Type="VI" URL="../Run/Buffered Receive/Thread Types/Run Bfr Rx - Timed RT.vi"/>
 					<Item Name="Run Bfr Rx - Timed Windows.vi" Type="VI" URL="../Run/Buffered Receive/Thread Types/Run Bfr Rx - Timed Windows.vi"/>
