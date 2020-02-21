@@ -29,7 +29,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 		<h1>Receive Internal Cache Format</h1> <!--REPLACE-->
 		<h2>Introduction</h2>
 		<p>
-			The Internal Cache options in the <i>Buffer Receive Packet</i> are an alternative to the <i>Circular Buffer</i> options. The Internal Cache options also allow for lossless receipt of consecutive high-speed packets on a network, but instead only exposes those packets in bulk. Due to the bulk-transfer characteristics, data in the shared memory is generally more stable. This buffer option is suggested for systems where network data is tag-like in nature, where only the latest value of the data is important.<br><br>
+			The Internal Cache options in the <i>Buffer Receive Packet</i> are an another alternative receive buffering solution. The Internal Cache options allow for lossless receipt of consecutive high-speed packets on a network, but instead only exposes those packets in bulk. Due to the bulk-transfer characteristics, data in the shared memory is generally more stable. This buffer option is suggested for systems where network data is tag-like in nature, where only the latest value of the data is important.<br><br>
 			The following terminology is used commonly for this buffering option:<br>
 			<ul>
 				<li><b>Internal Cache:</b> A buffer defined internally for a packet that uses one of the Internal Cache options. Often referred to as the cache.</li>
@@ -123,7 +123,7 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<li>Packets are always placed adjacent to each other, delimited only by the size field of the next packet.</li>
 				<li>The <i>New Data</i> byte is always present at byte 0.</li>
 				<li>The <i>New Data</i> byte will always be set to 0xFF when the cache is copied to the Shared Buffer.</li>
-				<li>The <i>Packet Count</i> field will always be present at the second and third bytes of the cache</li>
+				<li>The <i>Packet Count</i> field will always be present at the second and third bytes of the cache.</li>
 				<li>The <i>Packet Count</i> field will increment every time a new packet is added to the cache.</li>
 				<li>The <i>Packet Count</i> will reset to 0 during a Flush.</li>
 				<li>On Overflow, the Internal Cache is always copied first, and then flushed.</li>

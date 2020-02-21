@@ -100,6 +100,9 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 						<a href="INFO - Receive Internal Cache Format.htm">Internal Cache Formatting</a><br>
 						<STRONG>Internal Cache:</STRONG> Received packets are placed sequentially in an internal buffer (cache) until the buffer would be full. The contents of the cache are then copied in bulk to the shared memory accessible to the rest of the Veristand application. The cache is then cleared and inbound packets are once again placed in the cache from the beginning.<br>
 						<STRONG>Internal Cache + Size:</STRONG> Functions the same as the <i>Internal Cache</i> option, but includes several additional delimiters and headers to assist with parsing and buffer traversal. Notably, each packet is stored in the cache with its size.<br>
+						<a href="INFO - Receive Ping Pong Format.htm">Ping Pong Formatting</a><br>
+						<STRONG>Ping Pong:</STRONG> Enables the use of a secondary buffer. Received packets are placed sequentially in an active buffer until the buffer would be full. The active buffer is then changed to the other buffer. Data in both buffers is accessible to the rest of the Veristand application. Data in the inactive buffer is cleared the moment it becomes active.<br>
+						<STRONG>Ping Pong + Size:</STRONG> Functions the same as the <i>Ping Pong</i> option, but includes several additional delimiters and headers to assist with parsing and buffer traversal. Notably, each packet is stored in the buffers with its size.<br>
 					</td>
 				</tr>
 				<tr>
@@ -134,6 +137,10 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<tr>
 					<td><STRONG>Port</STRONG></td>
 					<td>Outputs the port that this packet last received data from.</td>
+				</tr>
+				<tr>
+					<td><STRONG>Buffer_B</STRONG></td>
+					<td>The secondary buffer used by the Ping Pong option. Will not be present unless the Ping Pong <i>Buffer Option</i> is selected. Shares the same properties and functions as the <i>Buffer</i> channel.</td>
 				</tr>
 			</table>
 		</p>
