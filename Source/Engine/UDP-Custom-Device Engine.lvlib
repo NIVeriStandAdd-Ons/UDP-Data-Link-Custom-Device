@@ -188,6 +188,10 @@
 			<Item Name="Transmit" Type="Folder"/>
 			<Item Name="Shutdown - Close Duplex.vi" Type="VI" URL="../Shut Down/Shutdown - Close Duplex.vi"/>
 		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Util - Get All IP Addresses.vi" Type="VI" URL="../Utility/Util - Get All IP Addresses.vi"/>
+			<Item Name="Util - IP Address Available.vi" Type="VI" URL="../Utility/Util - IP Address Available.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Buffered Receive" Type="Folder">
